@@ -1,52 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Character Generator</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 </head>
-  <body onload="generate()">
-    <h1> Character Generator!</h1>
-	
-    <p>Species  <button onclick="ranArray(species)">Refresh</button></p>
-	
-    <a href="#" target="_blank" id="speciesLinkId"><div id="speciesDisplay"> </div></a>
-	
-	<p>Number of Colors!</p><p> <input type="number" id="colorNum" value = 1><button onclick="colorReset()">Gen Colors!</button></p>
-	<ui class="colorBoxContainer">
-	</ui>
-	<br><br><br><br>
-	<p>*Click on a color or bar to change it!</p>
-	
-    <p> Jobs! <button onclick="ranArray(job)">Refresh</button></p>	
-    <div class="jobDisplay" id="jobDisplay"></div><br>
-	
-	<div id="barContainer">
-    <p id="genderText"></p><div class="progressBar" id="gender1" onclick="newGender()"><div class="bar" id="gender2" ></div></div>
+<body>
+    <div id="container">
+        <div id="sidebar"></div>
 
-    <p id="hightText"></p><div class="progressBar" id="hight1" onclick="newHight()"><div class="bar" id="hight2" ></div></div>
-	
-	<p id="weightText"></p><div class="progressBar" id="weight1" onclick="newWeight()"><div class="bar" id="weight2"></div></div>
-	
-	
-    <p id="strengthText"></p><div class="progressBar" id="strength1" onclick="newStrength()"><div class="bar" id="strength2"></div></div>
-		
-    <p id="endowmentText"></p><div class="progressBar" id="endowment1" onclick="newEndowment()"><div class="bar" id="endowment2" ></div></div>
-	
-	
-	<div id="hairStyle">
-	<p> Hair Style! <button onclick="ranArray(hair)">Refresh</button></p>	
-    <div class="hairDisplay" id="hairDisplay"></div>
-	
-	<p id="hairText"></p><div class="progressBar" id="hair1" onclick="newHairLength()"><div class="bar" id="hair2" ></div></div>
-	</div>
-	</div>
-    <br>
-    <button onclick="generate()">Refresh All</button>
-    <script src="javascript.js"></script>
-    <script src="genJob.js"> </script>
-    <script src="genSpecies.js"> </script>
-    <script src="genHair.js"> </script>
-  </body>
+        <div id="content-container">
+            <div id="content">
+                <div class="card" id="race-card">
+                    <div class="card-title"><p>Race</p></div>
+                    <div class="card-content"><p>You are a(n) <a href="#" target="_blank">{0}</a>.</p></div>
+                    <button class="card-button" id="race-humanoid">Humanoid</button>
+                    <button class="card-button" id="race-animal">Animal</button>
+                </div>
+                <div class="card" id="gender-card">
+                    <div class="card-title"><p>Gender</p></div>
+                    <div class="card-content"><p>You express yourself as {0}% {1}.</p></div>
+                    <button class="card-button" id="gender-reroll">Reroll</button>
+                </div>
+                <div class="card" id="height-card">
+                    <div class="card-title"><p>Height</p></div>
+                    <div class="card-content"><p>You are {0}'{1}" tall.</p></div>
+                    <button class="card-button" id="height-reroll">Reroll</button>
+                </div>
+                <div class="card" id="weight-card">
+                    <div class="card-title"><p>Weight</p></div>
+                    <div class="card-content"><p>You weigh {0} lbs ({1} kg).</p></div>
+                    <button class="card-button" id="weight-reroll">Reroll</button>
+                </div>
+                <div class="card" id="strength-card">
+                    <div class="card-title"><p>Strength</p></div>
+                    <div class="card-content"><p>You are {0}% {1}.</p></div>
+                    <button class="card-button" id="strength-reroll">Reroll</button>
+                </div>
+                <div class="card" id="hair-card">
+                    <div class="card-title"><p>Hair</p></div>
+                    <div class="card-content"><p>Your hair is {0}'{1}" long and in a(n) <a href="#" target="_blank">{2}</a> style.</p></div>
+                    <button class="card-button" id="hair-style">Style</button>
+                    <button class="card-button" id="hair-length">Length</button>
+                </div>
+                <div class="card" id="endowment-card">
+                    <div class="card-title"><p>Endowment 😏</p></div>
+                    <div class="card-content"><p>You are {0}% {1}.</p></div>
+                    <button class="card-button" id="endowment-reroll">Reroll</button>
+                </div>
+                <div class="card" id="job-card">
+                    <div class="card-title"><p>Job</p></div>
+                    <div class="card-content"><p>You work as a(n) <a href="#" target="_blank">{0}</a>.</p></div>
+                    <button class="card-button" id="job-exclude">Exclude Furry</button>
+                    <button class="card-button" id="job-include">Include Furry</button>
+                </div>
+                <div class="card wide-card" id="color-scheme-card">
+                    <div class="card-title"><p>Color Scheme</p></div>
+                    <div class="card-content">
+                        <p><input id="color-box-count" type="number" min="1" value="1" placeholder="Color Count"/></p>
+                        <div id="color-box-container">
+                            <div class="color-box-display">
+                                <div class="color-box" id="color-box-1"></div>
+                                <p class="color-text" id="color-text-1">#000000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="card-button" id="color-scheme-reroll">Reroll</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/attributes.js"></script>
+    <script type="text/javascript" src="js/generate.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>

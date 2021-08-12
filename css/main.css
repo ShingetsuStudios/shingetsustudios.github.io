@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5pt;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 300;
+  letter-spacing: -1.5pt;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: -0.5pt;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0pt;
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0.25pt;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0pt;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.15pt;
+}
+
+.card {
+  background-color: white;
+  float: left;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 8px;
+}
+
+.card > div {
+  padding: 0 24px 16px 24px;
+}
+
+.card > div:first-of-type {
+  padding-top: 24px;
+}
+
+.card > div:last-of-type {
+  padding-bottom: 0;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5pt;
+}
+
+.card > div:not(.card-title) {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25pt;
+}
+
+.card-content > a {
+  color: #bf360c;
+}
+
+.card-button {
+  background: none;
+  border: none;
+  font: inherit;
+  text-transform: uppercase;
+  outline: inherit;
+  font-size: 14px;
+  letter-spacing: 0.5pt;
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 8px 16px;
+  padding: 8px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.card-button:first-of-type:not(:only-of-type) {
+  margin-right: 0;
+}
+
+.card-button:last-of-type:not(:only-of-type) {
+  margin-left: 0;
+}
+
+.card-button:enabled {
+  color: #bf360c;
+  cursor: pointer;
+}
+
+.card-button:disabled {
+  color: #A6A6A6;
+}
+
+.card-button:enabled:hover {
+  background-color: rgba(191, 54, 12, 0.1);
+}
+
+.card-button:enabled:focus {
+  background-color: rgba(191, 54, 12, 0.15);
+}
+
+.card-button:enabled:focus:not(:active) {
+  background-color: rgba(191, 54, 12, 0.1);
+}
+
+.card-button:enabled:not(:hover) {
+  background: none;
+}
+
+.card-button:enabled:focus:not(:hover) {
+  background: none;
+}
+
+.card-content input {
+  font: inherit;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #949494;
+  padding: 4px 0;
+  margin-bottom: 16px;
+}
+
+.wide-card {
+  clear: both;
+  width: calc(100% - 16px);
+  width: calc(100% - 8px * 2);
+}
+
+.wide-card > button {
+  float: left;
+}
+
+#color-box-container {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: -4px;
+}
+
+.color-box-display {
+  float: left;
+  margin: 4px;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  float: left;
+  display: block;
+  background-color: black;
+}
+
+.color-text {
+  font-family: monospace;
+  width: 60px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4pt;
+  clear: both;
+  float: left;
+}
+
+#container {
+  height: 100%;
+}
+
+#sidebar {
+  width: 300px;
+  height: 100%;
+  background-color: #ffe0b2;
+  overflow: auto;
+  position: fixed;
+}
+
+#content-container {
+  background-color: #eee;
+  overflow: auto;
+  margin-left: 300px;
+  height: 100%;
+}
+
+#content {
+  width: 80%;
+  overflow: auto;
+  margin: 40px auto;
+}
