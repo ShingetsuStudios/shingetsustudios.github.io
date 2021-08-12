@@ -1,0 +1,226 @@
+.mid img {
+  display   : block;
+  max-height: 100%;
+  max-width : 100%;
+}
+
+#navBar {
+  width           : fit-content;
+  background-color: #111;
+  padding         : 20px;
+}
+
+#navBar a:link {
+  color          : #b66c2f;
+  text-decoration: none;
+}
+
+#navBar a:visited {
+  color          : #3e8e41;
+  text-decoration: none;
+}
+.characterIcon {
+  padding: 10px;
+}
+.characterList {
+  background-color : Transparent;
+  background-repeat: no-repeat;
+  border           : none;
+  cursor           : pointer;
+  overflow         : hidden;
+  outline          : none;
+  color            : white;
+}
+
+.characterIcon {
+  border          : none !important;
+  background-color: #23272a;
+  color           : #ccc;
+  font-size       : 0.9rem;
+  border-radius   : 2px;
+  text-align      : center;
+}
+
+
+.dropbtn {
+  background-color: #985f1e;
+  color           : white;
+  padding         : 16px;
+  font-size       : 16px;
+  border          : none;
+  z-index         : 2;
+}
+
+.dropdown {
+  position: relative;
+  z-index : 2;
+}
+
+.dropdown-content {
+  color           : white;
+  display         : none;
+  position        : absolute;
+  background-color: #454850;
+  color           : black;
+  min-width       : 160px;
+  box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index         : 2;
+  margin-left     : 150px;
+  margin-top      : -40px;
+}
+
+
+.dropdown-content p, .dropdown-content span {
+  color           : white;
+}
+
+.dropdown-content button {
+  background-color: #107013;
+  color           : rgb(236, 236, 236);
+  border: none;
+  margin: 2px;
+}
+
+.dropdown-content a {
+  color          : black;
+  padding        : 12px 16px;
+  text-decoration: none;
+  display        : block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.sidenav {
+  width           : fit-content;
+  position        : fixed;
+  z-index         : 1;
+  background-color: #111;
+}
+
+
+.sidenav a {
+  padding        : 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size      : 25px;
+  color          : #818181;
+  display        : block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left  : 10%;
+  /* Same as the width of the sidenav */
+  /*font-size  : 28px;*/
+  /* Increased text to enable scrolling */
+  padding      : 0px 10px;
+}
+
+/*#sideHead {
+  margin-left: 10%;
+  padding    : 0px 10px;
+}*/
+
+.iconButton {
+  padding         : 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border          : none;
+}
+
+div.gallery {
+  margin: 5px;
+  float : left;
+  width : 100px;
+}
+
+img.characterIcon:hover {
+  border: 1px solid #d8d8d8;
+}
+
+#characterSelect {
+  display  : inline-block;
+  flex-wrap: wrap;
+}
+
+.characterIcon {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width : 100%;
+  height: auto;
+}
+
+.button {
+  display            : inline-block;
+  font-size          : 0.8em;
+  margin             : 0.2em;
+  padding            : 0.5em;
+  border-radius      : 0.5em;
+  cursor             : pointer;
+  -webkit-user-select: none;
+  -moz-user-select   : none;
+  -ms-user-select    : none;
+  user-select        : none;
+  background-color   : #d29a38;
+  color              : #000;
+  border             : 0;
+}
+
+pre {
+  height     : auto;
+  overflow   : auto;
+  word-break : normal !important;
+  word-wrap  : normal !important;
+  white-space: pre !important;
+}
+
+html {
+  font-family : Arial, sans-serif;
+  /* max-width: 500px; */
+
+}
+
+td {
+  vertical-align: baseline;
+}
+
+body {
+  color          : #bbb;
+  background     : #222 url(data:image/png;base64,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) repeat scroll left top !important;
+  font-family    : Times New Roman, sans-serif;
+  scrollbar-color: #475b6b #27272700;
+}
+
+input {
+  color           : #bbb;
+  outline         : none;
+  border          : 1px solid #cdcdcd;
+  border-color    : rgba(0, 0, 0, 0.15);
+  background-color: #444;
+  font-size       : 0.9em;
+  text-align      : center;
+}
+
+::-webkit-scrollbar {
+  width : 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475b6b;
+}
