@@ -1,5 +1,7 @@
-var selectedCharacters = [36, 37, 39, 35]
+var selectedCharacters = []
 $(document).ready(function () {
+
+    selectedCharacters = ($('#ids').text().split(', '))
     //$('#test').html(JSON.stringify(character, null, 2))
 
     $('.topnav').html('<div class="folder">')
@@ -8,9 +10,9 @@ $(document).ready(function () {
     }
     $('.topnav').append('</div>')
     renderProfile(selectedCharacters[0])
-    $('#cs-'+selectedCharacters[0]).addClass('active')
+    $('#cs-' + selectedCharacters[0]).addClass('active')
 
-    $('.cs').on('click', function() {
+    $('.cs').on('click', function () {
         renderProfile(Number($(this).attr('id').replace('cs-', '')))
     })
 
@@ -37,7 +39,7 @@ $(document).ready(function () {
 function renderProfile(n) {
     $(".main").empty()
     $('.active').removeClass('active')
-    $('#cs-'+n).addClass('active')
+    $('#cs-' + n).addClass('active')
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table class= "characterIcon" style="float: right; width: 22em; border-spacing: 2px;">
     <tbody><tr><th colspan="2">
