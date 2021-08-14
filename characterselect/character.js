@@ -977,20 +977,20 @@ var character = [
     "alignment": "True Neutral"
   },
   {
-    "name": "Aasimar Cleric",
-    "firstName": "Aasimar",
+    "name": "Thaiasi 'Thai' _____",
+    "firstName": "Thai",
     "id": 25,
     "icon": "icons/25.png",
     "art": "art/25.png",
     "backstory": {
-      "Quote": ["---", ""],
+      "Quote": ["Please, the Lord of Luck, may you bless these fine folk. May you collect and strain down the threads of destiny, so that they can be rained down with nothing but good fortune. I beseach you, Lord Colander", " - Thai, giving a 'blessing' to someone."],
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
       "General Abilities": [""],
-      "Bio": [""],
+      "Bio": ["Thaiasi's parents struggled for years to have a child. To Have their own bundle of joy. Desperate, they prayed. Please, give them the privalage to have a child to raise themselves. Please let them nurture a little bundle of joy. And their prayer's were answered.", "Thaiasi was a mirical, both in the fact that neither of his parents were fertile, and that he is an aasimar. An angel born of his parents desires. The first years of his life were good. He was just a normal child, just.. with a strange skin tone and golden freckles.", "It wasn't until the middle of his childhood, where the local church tried to get involved. An aasimar child was a thing to protect, to nuture, and they wanted to help. His parents weren't sure. Later, another church tried to get involved, but this one was less.. understanding to the parents wishes. A cult, desiring to make the child fall to darkness, tried to steal him. Or, to what Thaiasi can remember, tried to <i>buy</i> him. He ran that day, and he never looked back.", "He managed to survive on the streets, tainted forever with a distain for religion. Ironically, most assumed this gorgeous, angelic boy had some sort of divine tie. He grew tired of the constant explainings, and instead.. embraced it, in a way. What better revenge to the priests that ruined his simple family life and the parents who 'let' it happen than to <i>impersonate</i> being a priest. A god of Fortune. Yes, that is who he would 'worship'. He spent time designing, creating a fake holy symbol, having it blessed in holy water, developing the symbology and terms he'd need to sell it.", "In this time, unknown to him, a god of trickery watched, for this was something <i>fucking halarious</i> to the god. They didn't care of followers, they cared for chaos and entertainment. So why not grant him power? Why not encourage this amazing behavior? Thai thought his aasimar blood had 'awoken', granting him some form of celestial sorcerery, and he was okay with that. His path to 'spread' the name of his 'lord' was made, and he'd lie, cheat, fuck, and swindle who ever he wanted to on the way."],
       "Important People": [
-        { "": [""] }
+        { "His parents": ["Thai feels betrayed by them, thinking they attempted to sell him for his uniqueness. He used to love them, to look up to them, but now only looks back with distain. He's never found out what happened to them, if they live or are dead, and he's not planning to do so."] }, { "His god": ["Thaiasi says his god is the 'Force of Luck itself', but in reality it's a trickery god playing along with the charade."] }
       ]
     },
     "stats": {
@@ -998,9 +998,9 @@ var character = [
       "age": 0,
       "height": "",
       "weight": 0,
-      "skin": "",
-      "eye": "",
-      "hair": ""
+      "skin": "An unnatural tan",
+      "eye": "Golden Yellow",
+      "hair": "Curly brown, gets darker as it gets longer"
     },
     "class": [
       "Cleric"
@@ -1011,7 +1011,7 @@ var character = [
     "race": "Aasimar",
     "abilities": "",
     "role": ["Support", "Healing", "Stealth"],
-    "pronouns": "He/Him",
+    "pronouns": "They/Him",
     "alignment": "Chaotic Neutral"
   },
   {
@@ -1403,24 +1403,24 @@ var character = [
     "icon": "icons/36.png",
     "art": "art/36.png",
     "backstory": {
-      "Quote": ["---", ""],
-      "Physical Description": [""],
-      "Personality": [""],
-      "Homes": [""],
-      "General Abilities": [""],
-      "Bio": [""],
+      "Quote": ["I give you a fucking -10/10 on the Tucker Kobold scale of being fucking useful.", "- Kaiex the Indomitable"],
+      "Physical Description": ["Kaiex is a small teal kobold with faintly reddish spots, and a desaturated pink underbelly. His eyes are orangeish red, he boney spines along his chin, at the top of his snoot, and two horns that curl backwards. He wears a golden, twisted band around one of his horns. Kaiex is tall, for a kobold, and most of his weight is muscle."],
+      "Personality": ["Kaiex is a little crude, but well meaning. He's pushed his body far past what most people thought was the kobold's natural limits, all incase someone somehow got past the lines of defense. He wanted to be strong, to protect. He guarded hunting parties, he trained and trained, and he's shown promise as a fighter. He has alot of pride, but not blindingly so. Deep down, after being seperated from his clan, he's insecure. He was beaten, sure.. by a dragon, but still. He hides the lack of his tail, afraid that he'll lose respect that 'Kaiex the Indomitable' was almost killed. (By a dragon)"],
+      "Homes": ["<b>Kobold Warren</b> - Kaiex comes from a special warren of kobolds. Where most kobolds are dumb and subservant and desperate, this warren found an area so perfect to let them not only survive, but florish. It had magically created food, it was highly defensible, and it didn't seem like anyone knew where it was. Without the constant threat of survival, the natural ingenuity of kobolds came out in full force. They had time to study, to create, to invent. The concept of 'Tucker's Kobolds' is basically their bible. Craftsmen, Artificers, Sorcerers, even some wizards and other types of casters florished. They were encouraged to explore what every they were interested in so they could contribute something new to the warren."],
+      "General Abilities": ["<b>Kobold</b> - As a kobold, Kaiex is small, fast, and able to fight dirty. He has a battle cry that empowers those around him with the ferosity of a dragon, and has a very tiny spark of dragon magic within him.", "<b>Craftsman</b> - As with most of his tribe, Kaiex has learned how to create almost nonsensical inventions by blending magic and technology together. While other members of his tribe focus on defense or traps or the like, Kaiex is focused fully on offense.", "<b>Clockworker</b> - The front lines can be a lonely place. What better way to propertly fight than have people behind you helping? Kaiex, having studied blueprints and technology, has created two small robotic raptors to assist in his combat. Each one can be fitted with one of his weapons. They're powered by a modified soul gem within them, allowing Kaiex to control them with his hand or weapon movements."],
+      "Bio": ["Kaiex has always had a warrior's spirit. Unlike most kobolds, he enjoys a good strong brawl. The bigger the sword, the better. Raised within a warren that took over an old forgotten lab of a certain artificer. He was a quick learner in certain aspects, taking to working with his little claws well. With everyone helping each other, Kaiex got to explore all kinds of crafts. Without a true spark of magic, he focused on weapons. Big, strong, powerful weapons, with dreams of making weapons that no kobold had ever wielded. He trained, he pushed himself. He trained his body and his mind, becoming strong physically, and intellectually.", "Things were as close to perfect as Kaiex knew. Until the day a dragon managed to trigger every single trap. He leapt to battle, boomerang sword in hand, and did what he had to to keep his tribe safe. He fought as well as he could, but the dragon sent him flying through one of their escape tunnels, causing it to collapse atop of him. He woke up later, managing to have pulled himself out of the rubble, mostly. His tail had been crushed, and pinched off, leaving him with only a nub. The sounds of combat didn't carry through the collapsed tunnel, leaving him with only his thoughts of what <i>could</i> have happened. Had they all died? Had he failed? N..No! Maybe the dragon stole them.. Or they drove the dragon off. He'd have to find his way back.", "(Un)luckily for Kaiex, he managed to find his way up to the surface instead. He'd.. just explore for a bit, get stronger, then he'll find a way back down. To save his clan."],
       "Important People": [
-        { "": [""] }
+        { "His tribe": ["Kaiex is 'the strongest' of his tribe, and takes the 'responcibility' of such seriously. He was part of the physical defense force of their warren, willing to fight any creature that tried to take their home from them. To him, each and every member is an important family member. Sure, Kobolds die. But Kaiex does everything in  his power to keep as many of his tribemates alive, or he'll die trying."] }
       ]
     },
     "stats": {
       "birthday": "",
       "age": 5,
-      "height": "",
-      "weight": 0,
-      "skin": "",
-      "eye": "",
-      "hair": ""
+      "height": "2'8''",
+      "weight": 32,
+      "skin": "Teal scales, off red spots",
+      "eye": "Orangish-Red",
+      "hair": "None"
     },
     "class": [
       "Craftsman"

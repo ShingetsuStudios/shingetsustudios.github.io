@@ -115,7 +115,7 @@ function renderProfile(n) {
     bAppend = ""
     for (var key in character[n].backstory) {
         if (key === "Important People") {
-            bAppend += "<h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
+            bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
             for (i = 0; i < character[n].backstory[key].length; i++) {
 
                 for (var keys in character[n].backstory[key][i]) {
@@ -130,7 +130,7 @@ function renderProfile(n) {
             //bAppend += "<p><i>" + character[n].backstory[key].join('</p><p>') + '</p>'
         } else {
 
-            bAppend += "<h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3><p>" + character[n].backstory[key].join('</p><p>') + '</p>'
+            bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3><p>" + character[n].backstory[key].join('</p><p>') + '</p>'
         }
         if (key === "Quote") {
 

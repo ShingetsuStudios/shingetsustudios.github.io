@@ -43,7 +43,7 @@ function renderProfile(n) {
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table class= "characterIcon" style="float: right; width: 22em; border-spacing: 2px;">
     <tbody><tr><th colspan="2">
-    <h2>` + character[n].name + `</h2></th></tr>
+    <h2>` + character[n].name + `</h2><hr></th></tr>
     <tr><td colspan="2"><img id= "`+ character[n].id + `img" class="tokenImg" src="` + character[n].icon + `" width= "300px;"></td></tr>
     <tr><td colspan="2">Class: `+ character[n].class.join(', ') + `</td></tr>
     <tr><td colspan="2">Subclass: `+ character[n].subclass.join(', ') + `</td></tr>
@@ -62,7 +62,7 @@ function renderProfile(n) {
     bAppend = ""
     for (var key in character[n].backstory) {
         if (key === "Important People") {
-            bAppend += "<h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
+            bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
             for (i = 0; i < character[n].backstory[key].length; i++) {
 
                 for (var keys in character[n].backstory[key][i]) {
@@ -77,7 +77,7 @@ function renderProfile(n) {
             //bAppend += "<p><i>" + character[n].backstory[key].join('</p><p>') + '</p>'
         } else {
 
-            bAppend += "<h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3><p>" + character[n].backstory[key].join('</p><p>') + '</p>'
+            bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3><p>" + character[n].backstory[key].join('</p><p>') + '</p>'
         }
         if (key === "Quote") {
 
