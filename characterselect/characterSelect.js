@@ -10,6 +10,17 @@ role = role.sort(function (a, b) {
 var job = ['Artificer', 'Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk', 'Paladin', "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard", "Alchemist", "Captain", "Craftsman", "Gunslinger", "Investigator", "Martyr", "Necromancer", "Warden", "Warmage", "Witch", "Channeler", "Binder", "Gadgeteer", "Summoner"]
 $(document).ready(function () {
 
+    if (window.location.hash != null || window.location.hash != undefined) {
+        console.log("Hash exists")
+        console.log(window.location.hash)
+        for (p = 0; p < character.length; p++) {
+            if (window.location.hash == '#'+character[p].firstName) {
+                console.log(p + ": " + character[p].firstName + " " + character[p].id)
+                renderProfile(character[p].id)
+            }
+        }
+    }
+
     $('#roleSelect').append('<button id="roleAll">All</button>')
     for (i = 1; i < role.length + 1; i++) {
         var r = role[i - 1]
@@ -92,6 +103,7 @@ $(document).ready(function () {
 })
 
 function renderProfile(n) {
+    window.location.hash = character[n].firstName
     $(".main").empty()
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table class= "characterIcon" style="float: right; width: 22em; border-spacing: 2px;">
@@ -103,7 +115,7 @@ function renderProfile(n) {
     <tr><td colspan="2">Race: `+ character[n].race + `</td></tr>
     <tr><td colspan="2">Alignment: `+ character[n].alignment + `</td></tr>
     <tr><td colspan="2">Age: `+ character[n].stats.age + `</td></tr>
-    <tr><td colspan="2">Height/Weight: `+ character[n].stats.height + `/ `+ character[n].stats.weight + `lbs</td></tr>
+    <tr><td colspan="2">Height/Weight: `+ character[n].stats.height + `/ ` + character[n].stats.weight + `lbs</td></tr>
     <tr><td colspan="2">Pronouns: `+ character[n].pronouns + `</td></tr>
     </tbody></table>
     </div><div class='mid'>
