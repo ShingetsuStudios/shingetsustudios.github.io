@@ -53,7 +53,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -129,7 +129,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -246,7 +246,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -363,7 +363,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -439,7 +439,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -524,7 +524,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -562,7 +562,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -600,7 +600,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -638,7 +638,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -676,7 +676,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -756,7 +756,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -794,7 +794,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -832,7 +832,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -870,7 +870,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -908,7 +908,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -987,7 +987,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": ["Thaiasi's parents struggled for years to have a child. To Have their own bundle of joy. Desperate, they prayed. Please, give them the privalage to have a child to raise themselves. Please let them nurture a little bundle of joy. And their prayer's were answered.", "Thaiasi was a mirical, both in the fact that neither of his parents were fertile, and that he is an aasimar. An angel born of his parents desires. The first years of his life were good. He was just a normal child, just.. with a strange skin tone and golden freckles.", "It wasn't until the middle of his childhood, where the local church tried to get involved. An aasimar child was a thing to protect, to nuture, and they wanted to help. His parents weren't sure. Later, another church tried to get involved, but this one was less.. understanding to the parents wishes. A cult, desiring to make the child fall to darkness, tried to steal him. Or, to what Thaiasi can remember, tried to <i>buy</i> him. He ran that day, and he never looked back.", "He managed to survive on the streets, tainted forever with a distain for religion. Ironically, most assumed this gorgeous, angelic boy had some sort of divine tie. He grew tired of the constant explainings, and instead.. embraced it, in a way. What better revenge to the priests that ruined his simple family life and the parents who 'let' it happen than to <i>impersonate</i> being a priest. A god of Fortune. Yes, that is who he would 'worship'. He spent time designing, creating a fake holy symbol, having it blessed in holy water, developing the symbology and terms he'd need to sell it.", "In this time, unknown to him, a god of trickery watched, for this was something <i>fucking halarious</i> to the god. They didn't care of followers, they cared for chaos and entertainment. So why not grant him power? Why not encourage this amazing behavior? Thai thought his aasimar blood had 'awoken', granting him some form of celestial sorcerery, and he was okay with that. His path to 'spread' the name of his 'lord' was made, and he'd lie, cheat, fuck, and swindle who ever he wanted to on the way."],
       "Important People": [
         { "His parents": ["Thai feels betrayed by them, thinking they attempted to sell him for his uniqueness. He used to love them, to look up to them, but now only looks back with distain. He's never found out what happened to them, if they live or are dead, and he's not planning to do so."] }, { "His god": ["Thaiasi says his god is the 'Force of Luck itself', but in reality it's a trickery god playing along with the charade."] }
@@ -1025,7 +1025,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1063,7 +1063,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1101,7 +1101,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1140,7 +1140,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1255,7 +1255,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1293,7 +1293,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1331,7 +1331,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1369,7 +1369,7 @@ var character = [
       "Physical Description": [""],
       "Personality": [""],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
         { "": [""] }
@@ -1489,13 +1489,13 @@ var character = [
     "art": "art/38.png",
     "backstory": {
       "Quote": ["---", ""],
-      "Physical Description": [""],
-      "Personality": [""],
+      "Physical Description": ["Kaitao is a big, strong, dad bod having shark, covered in scars, wearing a red vest. He has thick netting and ropes around his body, and he wields a spear. He has that intimidating 'biker' vibe. He talks slowly, his voice a little raspy, a consequence of not having water in his gills."],
+      "Personality": ["Despite his intimidating look, he's actually caring. He's protective of those that he's close to. He's content to be at peace, and violence is a last resort."],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b>Sahaugin</b> - As a 'shark kin', Kaitao is big, strong, and hardy. He's a fast swimmer, and has a strong jaw.", "<b>Ranger</b> - ", "<b></b> - "],
       "Bio": [""],
       "Important People": [
-        { "": [""] }
+        { "Mother": ["His mother is a general in a Sahaugin army, proud to serve no matter what the mission is. At first she was proud of her son raising through the ranks, but now sees him as a 'waste of potential' and a traitor after he defected. She tends towards the evil side of the spectrum."] }
 
       ]
     },
@@ -1597,22 +1597,24 @@ var character = [
     "alignment": "Neutral"
   },
   {
-    "name": "Dragonborn Captain",
-    "firstName": "Captain",
+    "name": "Arytiss Maektrix",
+    "firstName": "Arytiss",
     "id": 41,
     "icon": "icons/41.png",
     "art": "art/41.png",
     "backstory": {
       "Quote": ["---", ""],
-      "Physical Description": [""],
-      "Personality": [""],
+      "Physical Description": ["A golden dragonborn, he takes after his father's side visually, although he is actually chromatic and inheirets his mother's abilities."],
+      "Personality": ["The Arytiss di Earenk, Champion of Tomorrow."],
       "Homes": [""],
-      "General Abilities": [""],
+      "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
+        { "Grand Uncle Jhankdi": ["He's grown up with stories of his ancestors, including Jhankdi. He looks at the world with.. disgust? that it's 'abandoned' Jhankdi's ideals of a better tomorrow."]},
+        { "Grand Father Erfalyeem": [""]},
         { "Dragon Parent": ["One of his parents is a full on dragon, and he was mostly raised by them."] },
         { "Retainers": ["3 Kobolds that assist him in non combat things. Are kinda bumbling, but he will die for them."] },
-        { "Kobold Retainer": ["His 'squire', his right hand, and the one he trusts the most."] }
+        { "Kobold Cohort": ["His 'squire', his right hand, and the one he trusts the most. Potentially follows a sect of Falaughnir."] }
       ]
     },
     "stats": {
@@ -1634,6 +1636,44 @@ var character = [
     "abilities": "",
     "role": ["Support", "Utility"],
     "pronouns": "He/Him",
+    "alignment": "Neutral? A dash of good?"
+  },
+  {
+    "name": "Punk Paladin",
+    "firstName": "Punkadin",
+    "id": 42,
+    "icon": "icons/42.png",
+    "art": "art/42.png",
+    "backstory": {
+      "Quote": ["---", ""],
+      "Physical Description": ["Uses a baseballbat to smite. Is Cyberpunk, with out the cyber."],
+      "Personality": [""],
+      "Homes": [""],
+      "General Abilities": ["<b></b> - "],
+      "Bio": [""],
+      "Important People": [
+        { "": [""] }
+      ]
+    },
+    "stats": {
+      "birthday": "",
+      "age": 0,
+      "height": "",
+      "weight": 0,
+      "skin": "",
+      "eye": "",
+      "hair": ""
+    },
+    "class": [
+      "Paladin"
+    ],
+    "subclass": [
+      "Conquest"
+    ],
+    "race": "",
+    "abilities": "",
+    "role": ["Dps", "Tank"],
+    "pronouns": "He/Him",
     "alignment": "Neutral?"
-  }
+  },
 ]
