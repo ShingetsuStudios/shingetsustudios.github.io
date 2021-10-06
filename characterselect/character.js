@@ -36,6 +36,7 @@ var character = [
       "Hunter",
       "Assassin"
     ],
+    "background": "",
     "race": "Skunk",
     "abilities": "",
     "role": ["Dps", "Stealth"],
@@ -74,6 +75,7 @@ var character = [
     "subclass": [
       "Scrap"
     ],
+    "background": "",
     "race": "Wolf, Near Human",
     "abilities": "",
     "role": ["Crafting", "Dps", "Tank"],
@@ -112,6 +114,7 @@ var character = [
     "subclass": [
       "Eidolist"
     ],
+    "background": "",
     "race": "Kitsune",
     "abilities": "",
     "role": ["Dps", "Support", "Social"],
@@ -150,6 +153,7 @@ var character = [
     "subclass": [
       "Lore"
     ],
+    "background": "",
     "race": "Tanuki",
     "abilities": "",
     "role": ["Support", "Utility", "Social", "Control"],
@@ -189,6 +193,7 @@ var character = [
     "subclass": [
       "Open Palm"
     ],
+    "background": "",
     "race": "Red Panda, Tabaxi",
     "abilities": "",
     "role": ["Dps", "Stealth"],
@@ -229,6 +234,7 @@ var character = [
     "subclass": [
       "Alchemist"
     ],
+    "background": "",
     "race": "Tabaxi",
     "abilities": "",
     "role": ["Support", "Healing", "Crafting"],
@@ -267,6 +273,7 @@ var character = [
     "subclass": [
       "Acrobat"
     ],
+    "background": "",
     "race": "Skunk",
     "abilities": "",
     "role": ["Dps", "Stealth"],
@@ -308,6 +315,7 @@ var character = [
       "None?",
       "Brute"
     ],
+    "background": "",
     "race": "Otter",
     "abilities": "",
     "role": ["Dps"],
@@ -346,6 +354,7 @@ var character = [
     "subclass": [
       "Glamour"
     ],
+    "background": "",
     "race": "Weasel",
     "abilities": "",
     "role": ["Support", "Healing", "Social"],
@@ -384,6 +393,7 @@ var character = [
     "subclass": [
       "Wild Magic"
     ],
+    "background": "",
     "race": "Tabaxi",
     "abilities": "",
     "role": ["Dps", "Social"],
@@ -422,6 +432,7 @@ var character = [
     "subclass": [
       "Necromancy"
     ],
+    "background": "",
     "race": "Lizardfolk",
     "abilities": "",
     "role": ["Utility", "Dps", "Support"],
@@ -460,6 +471,7 @@ var character = [
     "subclass": [
       "4 Elements"
     ],
+    "background": "",
     "race": "Arrakocra",
     "abilities": "",
     "role": ["Dps", "Stealth"],
@@ -507,6 +519,7 @@ var character = [
     "subclass": [
       "Forge"
     ],
+    "background": "",
     "race": "Silver Dragonborn",
     "abilities": "",
     "role": ["Healing", "Support", "Tank", "Crafting"],
@@ -545,6 +558,7 @@ var character = [
     "subclass": [
       "Moon"
     ],
+    "background": "",
     "race": "Opposum",
     "abilities": "",
     "role": ["Tank", "Support", "Healing"],
@@ -583,6 +597,7 @@ var character = [
     "subclass": [
       "---"
     ],
+    "background": "",
     "race": "Kangaroo",
     "abilities": "",
     "role": ["Tank"],
@@ -621,6 +636,7 @@ var character = [
     "subclass": [
       "---"
     ],
+    "background": "",
     "race": "Gnoll",
     "abilities": "",
     "role": ["Tank", "Dps"],
@@ -659,6 +675,7 @@ var character = [
     "subclass": [
       "Hexblade"
     ],
+    "background": "",
     "race": "Badger, Half-Elf",
     "abilities": "",
     "role": ["Dps", "Tank", "Social"],
@@ -697,6 +714,7 @@ var character = [
     "subclass": [
       "Disaster"
     ],
+    "background": "",
     "race": "Moose, Half-Orc",
     "abilities": "",
     "role": ["Tank"],
@@ -739,6 +757,7 @@ var character = [
       "Draconic",
       "Fiend"
     ],
+    "background": "",
     "race": "Dragonborn, Half-Elf, Half-Dragon",
     "abilities": "",
     "role": ["Dps", "Utility", "Social"],
@@ -777,6 +796,7 @@ var character = [
     "subclass": [
       "Illusion"
     ],
+    "background": "",
     "race": "Kenku",
     "abilities": "",
     "role": ["Utility", "Support", "Stealth", "Control"],
@@ -815,6 +835,7 @@ var character = [
     "subclass": [
       "Kensei"
     ],
+    "background": "",
     "race": "Tiefling",
     "abilities": "",
     "role": ["Dps"],
@@ -853,6 +874,7 @@ var character = [
     "subclass": [
       "Fragrance"
     ],
+    "background": "",
     "race": "Kobold",
     "abilities": "",
     "role": ["Support", "Debuff"],
@@ -891,6 +913,7 @@ var character = [
     "subclass": [
       "Artilierist?"
     ],
+    "background": "",
     "race": "Bunnyfolk",
     "abilities": "",
     "role": [],
@@ -929,6 +952,7 @@ var character = [
     "subclass": [
       "Lancer"
     ],
+    "background": "",
     "race": "Warforged",
     "abilities": "",
     "role": ["Dps"],
@@ -970,6 +994,7 @@ var character = [
     "subclass": [
       "Frozen Heart"
     ],
+    "background": "",
     "race": "Tabaxi",
     "abilities": "",
     "role": ["Dps"],
@@ -1008,6 +1033,7 @@ var character = [
     "subclass": [
       "Trickery"
     ],
+    "background": "",
     "race": "Aasimar",
     "abilities": "",
     "role": ["Support", "Healing", "Stealth"],
@@ -1046,6 +1072,7 @@ var character = [
     "subclass": [
       "---"
     ],
+    "background": "",
     "race": "Skunk",
     "abilities": "",
     "role": ["Utility"],
@@ -1084,6 +1111,7 @@ var character = [
     "subclass": [
       "---"
     ],
+    "background": "",
     "race": "Gryphon, Aarakocra",
     "abilities": "",
     "role": [],
@@ -1122,6 +1150,7 @@ var character = [
     "subclass": [
       "Scofflaw"
     ],
+    "background": "",
     "race": "Vulpin",
     "abilities": "",
     "role": ["Dps", "Tank", "Social"],
@@ -1161,6 +1190,7 @@ var character = [
     "subclass": [
       "Beast"
     ],
+    "background": "",
     "race": "Shifter",
     "abilities": "",
     "role": ["Tank", "Dps"],
@@ -1200,6 +1230,7 @@ var character = [
     "subclass": [
       "---"
     ],
+    "background": "",
     "race": "Horse",
     "abilities": "",
     "role": ["Dps", "Tank"],
@@ -1238,6 +1269,7 @@ var character = [
     "subclass": [
       "Mirrorkin"
     ],
+    "background": "",
     "race": "Tabaxi/Leonin?, Changeling",
     "abilities": "",
     "role": [],
@@ -1276,6 +1308,7 @@ var character = [
     "subclass": [
       "Eloquence"
     ],
+    "background": "",
     "race": "Painted Dog",
     "abilities": "",
     "role": ["Support", "Healing", "Social"],
@@ -1314,6 +1347,7 @@ var character = [
     "subclass": [
       "Detective"
     ],
+    "background": "",
     "race": "Maned Wolf",
     "abilities": "",
     "role": ["Support", "Utility"],
@@ -1352,6 +1386,7 @@ var character = [
     "subclass": [
       "---"
     ],
+    "background": "",
     "race": "Bear",
     "abilities": "",
     "role": [],
@@ -1390,6 +1425,7 @@ var character = [
     "subclass": [
       "Wyrm"
     ],
+    "background": "",
     "race": "Green Dragonborn",
     "abilities": "",
     "role": ["Support", "Tank", "Healing"],
@@ -1428,6 +1464,7 @@ var character = [
     "subclass": [
       "Clockwork"
     ],
+    "background": "",
     "race": "Kobold",
     "abilities": "",
     "role": ["Crafting", "Tank", "Dps"],
@@ -1475,6 +1512,7 @@ var character = [
     "subclass": [
       "Legacy"
     ],
+    "background": "",
     "race": "Human",
     "abilities": "",
     "role": ["Dps", "Tank", "Social"],
@@ -1514,6 +1552,7 @@ var character = [
     "subclass": [
       "Bloodwrath Guardian", "Beastborne"
     ],
+    "background": "",
     "race": "Sahaugin",
     "abilities": "",
     "role": ["Tank", "Dps"],
@@ -1529,12 +1568,24 @@ var character = [
     "backstory": {
       "Quote": ["---", ""],
       "Physical Description": [""],
-      "Personality": ["Barnaby is a rather focused soul. He wants success, and sometimes he does not so good things to get success. He's 'logical', usually to a fault, and isn't always the most caring of people. His morals adapt to the people he's around.", "Remmy, on the other hand, is more passonate and excitable. He enjoys the finer things in life, and just wants to experience things. Have fun. Maybe blow some stuff up. He's a flirt, but he's also more caring of the two."],
+      "Personality": [
+        "Barnaby is a rather focused soul. He wants success, and sometimes he does not so good things to get success. He's 'logical', usually to a fault, and isn't always the most caring of people. His morals adapt to the people he's around.", "Remmy, on the other hand, is more passonate and excitable. He enjoys the finer things in life, and just wants to experience things. Have fun. Maybe blow some stuff up. He's a flirt, but he's also more caring of the two.",
+        "They have rules for their shared body, mostly requiring both souls concent to do anything that would cause physical harm or changes to their body. Sadly for Remmy, while Remmy is gay, Barnaby is Ace. Relationships are hard, but Remmy's understanding. It doesn't stop him from at least trying to have romance."
+      ],
       "Homes": [""],
-      "General Abilities": ["<b>Dual Soul</b> - Barnaby was going to have a twin, but in the womb their cells mixed into one body. Somehow, this made a body with two souls within it, Barnaby and Remmy. They both have their quirks, but they're able to communicate with each other, letting who ever is sat in the 'back seat' to give advice and think out problems.. or be annoying.", "<b>Alchemy</b> - Both souls have a fundamental curiosity in how the world works, and what you can make with them. While Barnaby was the first to develop this intrigue, Remmy quite loves the feeling of blowing something up. They can brew potions, explosives, and various other alchemical items.", "<b>Poisonieer</b> - While Remmy isn't as interested in poisons, Barnaby is quite enamored with various toxins and the like. As he's the one who does most of their real studying, it's lead their poisons to be way more devestating than normal."],
-      "Bio": [""],
+      "General Abilities": [
+        "<b>Dual Soul</b> - Barnaby was going to have a twin, but in the womb their cells mixed into one body. Somehow, this made a body with two souls within it, Barnaby and Remmy. They both have their quirks, but they're able to communicate with each other, letting who ever is sat in the 'back seat' to give advice and think out problems.. or be annoying.",
+        "<b>Alchemy</b> - Both souls have a fundamental curiosity in how the world works, and what you can make with them. While Barnaby was the first to develop this intrigue, Remmy quite loves the feeling of blowing something up. They can brew potions, explosives, and various other alchemical items.",
+        "<b>Poisonieer</b> - While Remmy isn't as interested in poisons, Barnaby is quite enamored with various toxins and the like. As he's the one who does most of their real studying, it's lead their poisons to be way more devestating than normal."],
+      "Bio": [
+        "His parents were expecting twins. They were excited to have two little bundles of joy, yet when the 'big day' came, they only had one. Barnaby was born an only child, and seemed pretty normal, even if he looked so strangely unique. It wasn't until he got older that his parents noticed a strange behavior. Somedays he'd be quiet and reserved, other days he'd be loud and playful. It wasn't until he was around 6, when Barnaby went exploring in their attic and found remannts of his old baby things. What confused him is that there were some things embroidered with the name 'Remmington' or 'Remmy', as well as his own. A part of him couldn't drop it, he just had to know. So he asked. His parents reluctantly explained it as best as they could to such a small child, and something just clicked within him. Remmy.",
+        "Much to his parents horror, the next day he swore up and down that he was Remmy! That was his name, and the little fawn caused all kinds of trouble over it. At first, they thought their swift punishments worked, the next day their fawn would be back to normal, but it never went away fully. A few years passed, Barnaby and Remmy becoming more and more their own distict personalities. His parents latest tactic was a scare. They had a priest use zone of truth to try and force him to drop the charade. The only problem was that Remmy was fully telling the truth. He saw Barnaby as his brother, his name was Remmy, and Barnaby was inside him. Exasperated, they approached a professor of a wizard college.",
+        "Several deep magical scans were done, both on his body and mind. It wasn't until someone thought to try testing his soul, that they got results. Instead of a single soul, his body contained two. Theories started, more tests happened, and an opprituinty opened up to them. The chance to 'study' at one of the top Magical Colleges in the land. Without true magical potential, it was honestly a way for those studying them to keep the growing fawn close, but his parents saw it as a chance for something great. At 13, he started his true studies, sitting in on various classes. Mostly history, and other non magical topics. Potion brewing became a place to explore and experiment, without the need of magic getting in the way.",
+        "His first year revealed that he was rather smart for his age, and he had a massive tallent for alchemical tinkering. While the days Remmy was in front weren't his best academically, even Remmy was shown to have the capacity to be highly intelligent. It was impossible for the growing boy to not stand out, and other students didn't appreciate him standing out so much. One day the tension became too much, and someone challenged him to an official duel. Normally, it would be magic only, but with Remmy whispering in ideas for Barnaby to push for, a contract was drawn up with the exact rules for their duel. It included 'any skill that was taught in the institution.', and was agreed upon and signed. The next day, Remmy fronted, coming in with a bag of premade bombs, and utterly dominated the battle infront of most of the school. After that, Barnaby and Remmy were free to officially join the Alchemy tract, and were seen as fellow students.",
+        "They started to plow through their degrees. Barnaby focusing on more on medicinal effects, while Remmy developed their bomb system to be more flexible. Barnaby is currently working on his doctorate, something that Remmy has gone on record saying that he doesn't want to get in the way or be involved with, as much as possible."],
       "Important People": [
-        { "Remmy Ray Swarvash": ["His 'twin', Remmy is the secondary soul that lives within Barnaby's shared body. Where Barnaby is more calculating, indifferent, and curious, Remmy is excitable, passonate, and prone to loving the thrill of blowing something up."] }
+        { "Remmington Ray Swarvash": ["His 'twin', Remmy is the secondary soul that lives within Barnaby's shared body. Where Barnaby is more calculating, indifferent, and curious, Remmy is excitable, passonate, and prone to loving the thrill of blowing something up."] },
+        { "Rival": ["He's made a rival of a wizard, mostlikely transmutation focused, for that fun difference of their philosopher's stones."] }
       ]
     },
     "stats": {
@@ -1552,6 +1603,7 @@ var character = [
     "subclass": [
       "Venomsmith?"
     ],
+    "background": "",
     "race": "Deer",
     "abilities": "",
     "role": ["Dps", "Utility"],
@@ -1590,6 +1642,7 @@ var character = [
     "subclass": [
       "Somnomancy"
     ],
+    "background": "",
     "race": "Raggetty Gepettin",
     "abilities": "",
     "role": ["Utility", "Support", "Control"],
@@ -1610,8 +1663,8 @@ var character = [
       "General Abilities": ["<b></b> - "],
       "Bio": [""],
       "Important People": [
-        { "Grand Uncle Jhankdi": ["He's grown up with stories of his ancestors, including Jhankdi. He looks at the world with.. disgust? that it's 'abandoned' Jhankdi's ideals of a better tomorrow."]},
-        { "Grand Father Erfalyeem": [""]},
+        { "Grand Uncle Jhankdi": ["He's grown up with stories of his ancestors, including Jhankdi. He looks at the world with.. disgust? that it's 'abandoned' Jhankdi's ideals of a better tomorrow."] },
+        { "Grand Father Erfalyeem": [""] },
         { "Dragon Parent": ["One of his parents is a full on dragon, and he was mostly raised by them."] },
         { "Retainers": ["3 Kobolds that assist him in non combat things. Are kinda bumbling, but he will die for them."] },
         { "Kobold Cohort": ["His 'squire', his right hand, and the one he trusts the most. Potentially follows a sect of Falaughnir."] }
@@ -1632,6 +1685,7 @@ var character = [
     "subclass": [
       "Ram or Dragon?"
     ],
+    "background": "",
     "race": "Dragonborn (Chromatic)",
     "abilities": "",
     "role": ["Support", "Utility"],
@@ -1670,6 +1724,7 @@ var character = [
     "subclass": [
       "Conquest"
     ],
+    "background": "",
     "race": "",
     "abilities": "",
     "role": ["Dps", "Tank"],
