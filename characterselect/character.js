@@ -17,6 +17,12 @@ var character = [
         { "Mother": [""] },
         { "Farix": [""] },
         { "Tiberius Vahn Kahn": [""] },
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": ["What ever Vahn Kahn says, for now."],
+          "<u>Major</u>": ["Get his family away from the tiger before something bad happens to them, even if it costs him everything else."]
+        }
       ]
     },
     "stats": {
@@ -36,7 +42,7 @@ var character = [
       "Hunter",
       "Assassin"
     ],
-    "background": "",
+    "background": "Criminal",
     "race": "Skunk",
     "abilities": "",
     "role": ["Dps", "Stealth"],
@@ -58,6 +64,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -97,6 +109,12 @@ var character = [
       "Bio": ["<b>The Early Years</b>", "Banya was born of love between to kitsunes of differing clans. His Mother and Father ignored the tradition, choosing love over everything. Yet his mother's clan refused to keep her child, as per tradition. Instead, he was raised in his father's clan. (His father willingly gave up his spot in the clan in hopes of his child having a happy life?) Banya had all his needs met, but only at the bare minimum. He never had anyone show him emotional connections other than disdain. He grew up confused, and spent most of his time studying.", "<b>Teens</b>", "As he grew, he really started to notice how different he was. All the other members of the clan had reddish orange fur and brown markings. Everyone treated him differently. Teachers refused to praise him for his hard work, even when he was at the top of the class. He had a 'family', but it was assigned by the clan, and only in that the were required to take care of his basic needs.  Banya spent more and more time studying. Feelings towards Banya started to sour even more after his enhanced development", "<b>The Journey</b>", "At the age of 14, Banya was finally free. He was sent out on the traditional 7 year journey to learn and improve oneself. The faint flicker of hope drove him forward to travel all throughout Vazoa. He didn't really connect with others around him, but he spent a good year traveling, learning, and enjoying freedom. He was in awe with the military's power and regalness. That first year of traveling was the first time he experienced a variety of things. He finally had a taste at what living could be like.", "<b>Exile</b>", "But that wasn't to last.", "Just after his 15th birthday (which he spent alone in a library reading.), he was ambushed by a small group from his clan. He tried to defend himself, but Banya has never been all that strong. He was left battered and bruised to die in the ditch. They spat at him, slung slurs, and shattered what little hope he had been building up over the last year. He crawled away and nursed himself back to health, then went to the guards. The great might of the Vazoan military would see this injustice and back him up. They had to. He had seen what happens to those who break the law, and he had no one else to turn to.", "Except the guards drew their blades as soon as they saw him. He was accused of theft and attempted murder of a high ranking official in town and was to be executed immediately. Agast, Banya tried to explain his innocence as he slowly backed away from the people he thought would be his saviors. But the guards let it slip that a group of helpful kitsunes warned them about the menace that plagued their clan.", "Banya broke. He bolted as fast as he could, dodging the guards as best as he could. He ran straight into the very group, the ones that beat him. That stole his spell book. That burned away his hope. And they beat him more. He was desperate. Wanting to survive over everything else. So he casted out his line to anyone listening. Give him the power to survive, no matter the cost. The magic he had burned away as out popped.. a large fuck off dragon. Derg grabbed Banya, flew off, and got him on a boat already leaving.. "],
       "Important People": [
         { "Derg": ["The Fey dragon who came to his aid, Derg has been by Banya's side since."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -136,6 +154,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -176,6 +200,12 @@ var character = [
       "Important People": [
         { "Almaz Razanor": ["Rescued the kitten when he was young, Hong raised him."] },
         { "Attus": ["Childhood 'friend' turned ally. Even if he's always drunk."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -217,6 +247,12 @@ var character = [
         { "Va'Tal Razanor": ["Father, Tiger, Fighter."] },
         { "Dizarra Razanor": ["Mother, Jaguar, Alchemist"] },
         { "Hong Se Wah": ["'Adopted' Paternal Figure, Monk. Raised Almaz after the 'incident'"] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -256,6 +292,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -296,6 +338,12 @@ var character = [
       "Bio": ["-Grew up on 'The Dam', son to the local high smith.", "-Was viewed as 'out there' as a child, but his talents in combat and his drive for honor made him well liked.", "-One day the ship went to shore for supplies. Kyneric was a little over 17. He explored the town in awe. The Dam rarely comes ashore.", "-He finds his way to a tavern, and he ends up 'a little' drunk. He's high on life and a giggly mess.", "-A high ranking noble comes down with a small platoon, wanting to 'drive off' the 'attacking vikings' from the 'helpless town'", "-Chieftain tries his best to keep the peace, until Kyneric stumbles out. Challenges the noble to a duel", "-Kyneric promptly kicks his ass, using only sticks he found off the ground. In his drunken stupor, he didn't say 'go'.", "-Gives the Noble a second shot, giving him a free hit with a true blade before hand. Kyneric still kicks his ass. With sticks.", "-Chieftain is upset, snaps Kyneric out of his honor crazed battle mind. Kyneric willingly goes with the noble to 'face his crimes.'", "-At the keep, Noble's father is confused over the complication, Kyneric offers another duel. Two of his strongest knights against him, for the 'fate' of his clan. Battle happens, Kyneric is too fast and squirmy for em.", "-The owner of the keep applauds, lets Kyneric go and starts to scold his son for almost causing a war. Kyneric tries to find his way back, but is surprised that there's so much ground!", "-By the time he makes it back to the town, the Dam's long gone. He asks a towns person to tell his tale for him if they ever come back, and then gives them a smile. 'If my home's floated away, then I best go bring back as many tales of greatness as I can.'"],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -337,6 +385,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -376,6 +430,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -415,6 +475,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -454,6 +520,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -502,6 +574,12 @@ var character = [
         { "Nintre Irral": ["Father, Shifter Changeling. Circle of Sheppard Druid. His father was convinced that his mother ate him when he was born, therefor he refused to be apart of anything she did. Used to be a very good man, but time has worn on him."] },
         { "Mataius Vehaforcaex of Bahamut": ["Jhankdi's 'little' brother, a prismatic dragon. It's a 'thing'."] },
         { "Kiva of Drah": ["Kiva was the first dragonborn Jhankdi ever met, and she took him under her 'wing'. She refered to him as 'drinking buddy!', even if Jhankdi mostly babysat her while she was drunk."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -541,6 +619,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -580,6 +664,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -619,6 +709,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -658,6 +754,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -697,6 +799,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -738,6 +846,12 @@ var character = [
         { "Alaric": ["Father, Human Male - Anthropologist specializing in Elvish Culture", `A human who devoted his life to researching the histories, culture, and everything else about elves. During his travels, he met the elf who he claimed was "The most divine creature he ever saw."`, "After they wed, they moved into a lovely small village, had a child, and his wife quickly became dull to living as a human, and left. He struggled to raise Tysshyr by himself, deciding to give his child the most elven experience as possible.", "He eventually succumbed to an illness, leaving Tysshyr for all accounts, an orphan."] },
         { "Dassyra": ["Mother, Elven Female - Tysshyr doesn't know much about his mother. He knows that she was apparently the most gorgeous elf his father ever saw. She fell in love with him because of the fascination he had with her. After moving in with him and having a child, she quickly grew tired of living as 'lesser' and left. Tysshyr might know what she looks like, but it's been years since he's seen a picture of her.", "Tysshyr's Blue Dragon Heritage comes from her side? Is she a dragon? A sorcerer? Who knows."] },
         { "Skinaszkdro'xnir": ["Dro for short, is an Ancient Brass Dragon who enjoys learning new things, and collecting interesting trinkets and information. He has many caves he calls home, usually moving around when he feels bored, but he has one secret place he keeps his actual hoard of wealth and powerful objects. ", "He is a curious creature, who typically travels under the guise of some bronzed skin humanoid, or at times a Brass dragonborn modeled after his own likeness. His violet eyes are persistent throughout his forms, unless he purposely changes form to something outside his norm. ", "Dro has spent his long life observing 'mortals', but was always weary of them. He had grown used to settling down somewhere, only to have a few brave knights or adventuring groups attempt to root out the 'evil dragon' who someone found. Typically he luls them into a sleep with his breath, then uses magic to convince them of a dream. He's never had to 'put down' a humanoid who wandered into his cave, and he's quite happy with himself that he's been able to be so gentle with the tiny people. ", "He enjoys teasing Tysshyr light heartedly. He claims that the half elf's blush and smile are one of the greatest treasures in his possession. Dro is more than likely Pansexual, caring not for parts, but more for the experiences and pleasures. There was an awkward story of helping Tysshyr discover his own sexuality, and dragon shapeshifting into various forms. He found out he was gay when the sexxy dragonborn turned into a big breasted elven woman and his boner completely died. X3", "Dro is protective, but he wants what's best for his little 'gem'. He's supportive, and will beam happily when he finds out Tysshyr succeeded at something. He really hopes his boy can meet new friends and come out of his shell.", "Dro is a devout worshiper of the Platinum Dragon. It's possible that he has higher connections that he's never told even Tysshyr, and that might be how he brought him back to life."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -779,6 +893,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -818,6 +938,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -857,6 +983,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -896,6 +1028,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -935,6 +1073,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": ["Aquire Directive."],
+          "<u>Major</u>": ["Complete Directive."]
+        }
       ]
     },
     "stats": {
@@ -977,6 +1121,12 @@ var character = [
         { "Kiraya Frigfara": ["Mother. Was the one to really raise Owazi. Tailor. Taught Owazi how to sew and the like. They'd travel together when they could, she wanted to make sure her son could take care of himself. Deceased? Ja'Owazi was separated and not sure what really happened. The small, smart voice in the back of his head thinks she's dead, but he hasn't really accepted that yet. Hince 'seperated'."] },
         { "Sylphanis Vasandoral": ["Half elf Bard. One of the boys Ja'Owazi crushed on during his journey, and the one his mom finally caught him crushing on. They traveled for a week or so together where his crush only grew, then they had to split up. From the Elven part of the Federation. Dreamed of making it big playing music, performing, and living life to the fullest. Told Ja'Owazi if he was ever in the 'neighborhood' to look him up."] },
         { "Quiviel": ["Tiefling, Neutral Evil Explorer. [All tiefling fire abilities replaced with cold]. He found Ja'Owazi unconcious in the snow after gaining his powers. Is one of the few people that can touch Ja'Owazi without immediate pain and discomfort, which let him get close to the cat. They're in a sorta open relationship, as they travel in different areas and live different lives. It was Quiviel's idea to monetize Ja'Owazi's powers. He's definitely the brains out of the two, but that's not saying much."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1016,6 +1166,12 @@ var character = [
       "Bio": ["Thaiasi's parents struggled for years to have a child. To Have their own bundle of joy. Desperate, they prayed. Please, give them the privalage to have a child to raise themselves. Please let them nurture a little bundle of joy. And their prayer's were answered.", "Thaiasi was a mirical, both in the fact that neither of his parents were fertile, and that he is an aasimar. An angel born of his parents desires. The first years of his life were good. He was just a normal child, just.. with a strange skin tone and golden freckles.", "It wasn't until the middle of his childhood, where the local church tried to get involved. An aasimar child was a thing to protect, to nuture, and they wanted to help. His parents weren't sure. Later, another church tried to get involved, but this one was less.. understanding to the parents wishes. A cult, desiring to make the child fall to darkness, tried to steal him. Or, to what Thaiasi can remember, tried to <i>buy</i> him. He ran that day, and he never looked back.", "He managed to survive on the streets, tainted forever with a distain for religion. Ironically, most assumed this gorgeous, angelic boy had some sort of divine tie. He grew tired of the constant explainings, and instead.. embraced it, in a way. What better revenge to the priests that ruined his simple family life and the parents who 'let' it happen than to <i>impersonate</i> being a priest. A god of Fortune. Yes, that is who he would 'worship'. He spent time designing, creating a fake holy symbol, having it blessed in holy water, developing the symbology and terms he'd need to sell it.", "In this time, unknown to him, a god of trickery watched, for this was something <i>fucking halarious</i> to the god. They didn't care of followers, they cared for chaos and entertainment. So why not grant him power? Why not encourage this amazing behavior? Thai thought his aasimar blood had 'awoken', granting him some form of celestial sorcerery, and he was okay with that. His path to 'spread' the name of his 'lord' was made, and he'd lie, cheat, fuck, and swindle who ever he wanted to on the way."],
       "Important People": [
         { "His parents": ["Thai feels betrayed by them, thinking they attempted to sell him for his uniqueness. He used to love them, to look up to them, but now only looks back with distain. He's never found out what happened to them, if they live or are dead, and he's not planning to do so."] }, { "His god": ["Thaiasi says his god is the 'Force of Luck itself', but in reality it's a trickery god playing along with the charade."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1055,6 +1211,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1094,6 +1256,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1133,6 +1301,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1173,6 +1347,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1213,6 +1393,12 @@ var character = [
       "Important People": [
         { "'Master'": ["Heepo's 'owner', bought him by paying off their family's debt. Paid to have Heepo turned into a feral beast for his own gains and ammusement."] },
         { "Father": ["Saw his sons tallent, bet on him like a common 'race' horse. Made big bucks, until he lost it all in Heepo's accident. Sold his son off into indentured servatude without a second thought."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1252,6 +1438,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1291,6 +1483,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1330,6 +1528,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1369,6 +1573,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1408,6 +1618,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": ["Continue my research. To Enhance my own draconic essence."],
+          "<u>Major</u>": ["Become a true dragon, or the closest thing possible."]
+        }
       ]
     },
     "stats": {
@@ -1447,6 +1663,12 @@ var character = [
       "Bio": ["Kaiex has always had a warrior's spirit. Unlike most kobolds, he enjoys a good strong brawl. The bigger the sword, the better. Raised within a warren that took over an old forgotten lab of a certain artificer. He was a quick learner in certain aspects, taking to working with his little claws well. With everyone helping each other, Kaiex got to explore all kinds of crafts. Without a true spark of magic, he focused on weapons. Big, strong, powerful weapons, with dreams of making weapons that no kobold had ever wielded. He trained, he pushed himself. He trained his body and his mind, becoming strong physically, and intellectually.", "Things were as close to perfect as Kaiex knew. Until the day a dragon managed to trigger every single trap. He leapt to battle, boomerang sword in hand, and did what he had to to keep his tribe safe. He fought as well as he could, but the dragon sent him flying through one of their escape tunnels, causing it to collapse atop of him. He woke up later, managing to have pulled himself out of the rubble, mostly. His tail had been crushed, and pinched off, leaving him with only a nub. The sounds of combat didn't carry through the collapsed tunnel, leaving him with only his thoughts of what <i>could</i> have happened. Had they all died? Had he failed? N..No! Maybe the dragon stole them.. Or they drove the dragon off. He'd have to find his way back.", "(Un)luckily for Kaiex, he managed to find his way up to the surface instead. He'd.. just explore for a bit, get stronger, then he'll find a way back down. To save his clan."],
       "Important People": [
         { "His tribe": ["Kaiex is 'the strongest' of his tribe, and takes the 'responcibility' of such seriously. He was part of the physical defense force of their warren, willing to fight any creature that tried to take their home from them. To him, each and every member is an important family member. Sure, Kobolds die. But Kaiex does everything in  his power to keep as many of his tribemates alive, or he'll die trying."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": ["Get. Weapons. BIG. WEAPONS."],
+          "<u>Major</u>": ["Kill the dragon who caused this mess. Make them into some sick gear, then KICK ASS."]
+        }
       ]
     },
     "stats": {
@@ -1494,6 +1716,12 @@ var character = [
         { "Theodoric Voss Van Rueter": ["(19, M) Neutral Laborer Masonry/Construction, Friendly, Alive and Well, kinda indifferent to everything."] },
         { "Paidri Voss Van Reuter": ["Neutral Entertainer, Hostile, Alive and Quite Successful.", "Paidri is the current 'heir' of the house, and takes after his father more than anyother of their siblings."] },
         { "Tarak Bladestream": ["(41, M) Half-Orc Neutral Soldier, Friendly, Alive and Famous", "Tarak currently serves as a bodyguard to Alyssandra, and is the father of Varg. He trains the guard, and is generally friendly with the whole family. It's not known how Jeremias feels about him."] }
+      ], 
+      "Goals": [
+        {
+          "<u>Minor</u>": ["Stay safe. Dear god, stay safe. Everything is terrifying and who can he even trust right now??"],
+          "<u>sMajor</u>": ["Find a way to.. deal with this 'curse'. Maybe things will go back to how they used to... heh..."]
+        }
       ]
 
     },
@@ -1535,6 +1763,12 @@ var character = [
       "Important People": [
         { "Mother": ["His mother is a general in a Sahaugin army, proud to serve no matter what the mission is. At first she was proud of her son raising through the ranks, but now sees him as a 'waste of potential' and a traitor after he defected. She tends towards the evil side of the spectrum."] }
 
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1586,6 +1820,12 @@ var character = [
       "Important People": [
         { "Remmington Ray Swarvash": ["His 'twin', Remmy is the secondary soul that lives within Barnaby's shared body. Where Barnaby is more calculating, indifferent, and curious, Remmy is excitable, passonate, and prone to loving the thrill of blowing something up."] },
         { "Rival": ["He's made a rival of a wizard, mostlikely transmutation focused, for that fun difference of their philosopher's stones."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": ["Barnaby wants to finish his schooling. Dr. Barnaby Ray Swarvash has a great sound to it, after all~", "Barnaby got into medicine as an option to attempt to allow him and his brother to have seperate bodies. So they can have their own lives. Remmy doens't care as much about it, more wanting someone to spend his life with. He sees his 'position' as luck both favoring him and being a little cruel. He supports Barnaby's attempts, he's just kinda given up hope about it, content to be in the 'passengers seat' of Barnaby's life."]
+        }
       ]
     },
     "stats": {
@@ -1603,7 +1843,7 @@ var character = [
     "subclass": [
       "Venomsmith?"
     ],
-    "background": "",
+    "background": "Sage/Charlatin",
     "race": "Deer",
     "abilities": "",
     "role": ["Dps", "Utility"],
@@ -1625,6 +1865,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1668,6 +1914,12 @@ var character = [
         { "Dragon Parent": ["One of his parents is a full on dragon, and he was mostly raised by them."] },
         { "Retainers": ["3 Kobolds that assist him in non combat things. Are kinda bumbling, but he will die for them."] },
         { "Kobold Cohort": ["His 'squire', his right hand, and the one he trusts the most. Potentially follows a sect of Falaughnir."] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {
@@ -1707,6 +1959,12 @@ var character = [
       "Bio": [""],
       "Important People": [
         { "": [""] }
+      ],
+      "Goals": [
+        {
+          "<u>Minor</u>": [],
+          "<u>Major</u>": []
+        }
       ]
     },
     "stats": {

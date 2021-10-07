@@ -47,6 +47,7 @@ function renderProfile(n) {
     <tr><td colspan="2"><img id= "`+ character[n].id + `img" class="tokenImg" src="` + character[n].icon + `" width= "300px;"></td></tr>
     <tr><td colspan="2">Class: `+ character[n].class.join(', ') + `</td></tr>
     <tr><td colspan="2">Subclass: `+ character[n].subclass.join(', ') + `</td></tr>
+    <tr><td colspan="2">Background: `+ character[n].background + `</td></tr>
     <tr><td colspan="2">Race: `+ character[n].race + `</td></tr>
     <tr><td colspan="2">Alignment: `+ character[n].alignment + `</td></tr>
     <tr><td colspan="2">Age: `+ character[n].stats.age + `</td></tr>
@@ -61,7 +62,7 @@ function renderProfile(n) {
     navbar = "<div id='navBar'>"
     bAppend = ""
     for (var key in character[n].backstory) {
-        if (key === "Important People") {
+        if (key === "Important People"|| key === "Goals") {
             bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
             for (i = 0; i < character[n].backstory[key].length; i++) {
 

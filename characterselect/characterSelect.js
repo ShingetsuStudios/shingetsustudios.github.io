@@ -11,11 +11,11 @@ var job = ['Artificer', 'Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk
 $(document).ready(function () {
 
     if (window.location.hash != null || window.location.hash != undefined) {
-        console.log("Hash exists")
-        console.log(window.location.hash)
+        //console.log("Hash exists")
+        //console.log(window.location.hash)
         for (p = 0; p < character.length; p++) {
-            if (window.location.hash == '#'+character[p].firstName) {
-                console.log(p + ": " + character[p].firstName + " " + character[p].id)
+            if (window.location.hash == '#' + character[p].firstName) {
+                //console.log(p + ": " + character[p].firstName + " " + character[p].id)
                 renderProfile(character[p].id)
             }
         }
@@ -112,6 +112,7 @@ function renderProfile(n) {
     <tr><td colspan="2"><img id= "`+ character[n].id + `img" class="tokenImg" src="` + character[n].icon + `" width= "300px;"></td></tr>
     <tr><td colspan="2">Class: `+ character[n].class.join(', ') + `</td></tr>
     <tr><td colspan="2">Subclass: `+ character[n].subclass.join(', ') + `</td></tr>
+    <tr><td colspan="2">Background: `+ character[n].background + `</td></tr>
     <tr><td colspan="2">Race: `+ character[n].race + `</td></tr>
     <tr><td colspan="2">Alignment: `+ character[n].alignment + `</td></tr>
     <tr><td colspan="2">Age: `+ character[n].stats.age + `</td></tr>
@@ -126,7 +127,7 @@ function renderProfile(n) {
     navbar = "<div id='navBar'>"
     bAppend = ""
     for (var key in character[n].backstory) {
-        if (key === "Important People") {
+        if (key === "Important People" || key === "Goals") {
             bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
             for (i = 0; i < character[n].backstory[key].length; i++) {
 
@@ -140,6 +141,8 @@ function renderProfile(n) {
             bAppend += '<i>"' + character[n].backstory[key].slice(0, character[n].backstory[key].length - 1) + '"</i><br>'
             bAppend += character[n].backstory[key].slice(character[n].backstory[key].length - 1)
             //bAppend += "<p><i>" + character[n].backstory[key].join('</p><p>') + '</p>'
+
+
         } else {
 
             bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3><p>" + character[n].backstory[key].join('</p><p>') + '</p>'
