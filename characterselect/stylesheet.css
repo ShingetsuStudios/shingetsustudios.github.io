@@ -1,3 +1,32 @@
+#ImpPeop {
+  background-color : orange;
+  background-repeat: no-repeat;
+  border           : none;
+  cursor           : pointer;
+  overflow         : hidden;
+  outline          : none;
+  color            : rgb(24, 24, 24);
+}
+
+input .ImpPerson {
+  width: 100px;
+}
+
+#gen textarea {
+  width: 560px;
+  height: 64px;
+  background-color: #444;
+  color: #bbb;
+  outline         : none;
+  border          : 1px solid #cdcdcd;
+  border-color    : rgba(0, 0, 0, 0.15);
+}
+
+#gen .input {
+  width: 560px;
+  text-align: left;
+}
+
 .mid img {
   display   : block;
   max-height: 100%;
@@ -19,9 +48,11 @@
   color          : #3e8e41;
   text-decoration: none;
 }
+
 .characterIcon {
   padding: 10px;
 }
+
 .characterList {
   background-color : Transparent;
   background-repeat: no-repeat;
@@ -67,18 +98,22 @@
   z-index         : 2;
   margin-left     : 150px;
   margin-top      : -40px;
+  position: fixed;
+  left: auto;
+  top: auto;
 }
 
 
-.dropdown-content p, .dropdown-content span {
-  color           : white;
+.dropdown-content p,
+.dropdown-content span {
+  color: white;
 }
 
 .dropdown-content button {
   background-color: #107013;
   color           : rgb(236, 236, 236);
-  border: none;
-  margin: 2px;
+  border          : none;
+  margin          : 2px;
 }
 
 .dropdown-content a {
@@ -106,6 +141,10 @@
   position        : fixed;
   z-index         : 1;
   background-color: #111;
+  overflow: visible;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
 }
 
 

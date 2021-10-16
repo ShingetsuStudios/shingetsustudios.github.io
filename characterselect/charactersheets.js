@@ -41,7 +41,7 @@ function renderProfile(n) {
     $('.active').removeClass('active')
     $('#cs-' + n).addClass('active')
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
-    toAppend = `<div ><table class= "characterIcon" style="float: right; width: 22em; border-spacing: 2px;">
+    toAppend = `<div ><table id= "characterIcon" style="float: right; width: 22em; border-spacing: 2px; text-align: center; position: fixed; right: 0px;">
     <tbody><tr><th colspan="2">
     <h2>` + character[n].name + `</h2><hr></th></tr>
     <tr><td colspan="2"><img id= "`+ character[n].id + `img" class="tokenImg" src="` + character[n].icon + `" width= "300px;"></td></tr>
@@ -53,12 +53,13 @@ function renderProfile(n) {
     <tr><td colspan="2">Age: `+ character[n].stats.age + `</td></tr>
     <tr><td colspan="2">Height/Weight: `+ character[n].stats.height + `/ ` + character[n].stats.weight + `lbs</td></tr>
     <tr><td colspan="2">Pronouns: `+ character[n].pronouns + `</td></tr>
+    <tr><td colspan="2">Orientation: `+ character[n].orientation + `</td></tr>
     </tbody></table>
     </div><div class='mid'>
     </div>`
     //</div><div class = "mid"></div>`
     $(".main").append(toAppend)
-    $('.mid').css({ 'margin-right': $('.characterIcon').width() })
+    $('.mid').css({ 'margin-right': $('#characterIcon').width() })
     navbar = "<div id='navBar'>"
     bAppend = ""
     for (var key in character[n].backstory) {
