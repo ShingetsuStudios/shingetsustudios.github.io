@@ -8,57 +8,33 @@ role = role.sort(function (a, b) {
     return 0;
 })
 
-var template =
-{
-    "name": "Name",
-    "firstName": "First Name",
-    "id": 0,
-    "icon": "icons/n.png",
-    "art": "art/n.png",
-    "backstory": {
-        "Quote": ["---", ""],
-        "Physical Description": [""],
-        "Personality": [""],
-        "Homes": [""],
-        "General Abilities": ["<b></b> - "],
-        "Bio": [""],
-        "Important People": [
-            { "": [""] }
-        ],
-        "Goals": [
-            {
-                "<u>Minor</u>": [],
-                "<u>Major</u>": []
-            }
-        ]
-    },
-    "stats": {
-        "birthday": "",
-        "age": 0,
-        "height": "",
-        "weight": 0,
-        "skin": "",
-        "eye": "",
-        "hair": ""
-    },
-    "class": [
-        "Class"
-    ],
-    "subclass": [
-        "SClass"
-    ],
-    "background": "",
-    "race": "race",
-    "abilities": "",
-    "role": ["Dps", "Social"],
-    "orientation": "",
-    "pronouns": "He/Him",
-    "alignment": "Neutral"
-}
-var job = ['Artificer', 'Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk', 'Paladin', "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard", "Alchemist", "Captain", "Craftsman", "Gunslinger", "Investigator", "Martyr", "Necromancer", "Warden", "Warmage", "Witch", "Channeler", "Binder", "Gadgeteer", "Summoner"]
+var job = ['Artificer', 'Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk', 'Paladin', "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard", "Alchemist", "Captain", "Craftsman", "Gunslinger", "Investigator", "Martyr", "Necromancer", "Warden", "Warmage", "Witch", "Binder", "Channeler", "Gadgeteer", "Summoner"]
+
+var mode = "build"
+var id = 0
+
 $(document).ready(function () {
 
-    renderListView()
+	if (window.location.hash != null || window.location.hash != undefined) {
+        //console.log("Hash exists")
+        //console.log(window.location.hash)
+		var key = window.location.hash
+		var hashFilt = character.filter(k => k.id == Number(key.replace('#', '')))
+		//console.log(hashFilt[0].firstName)
+		id = hashFilt[0].id
+        //for (p = 0; p < character.length; p++) {
+            if (window.location.hash == '#' + hashFilt[0].id) {
+                //console.log(p + ": " + character[p].firstName + " " + character[p].id)
+				if (mode == "build") {
+					renderBuilder(hashFilt[0].id)
+				} else if (mode == "view") {
+					renderProfile(hashFilt[0].id)
+				}
+            //}
+        }
+    }
+
+    renderListView(mode)
 
     $('#newCharacter').on('click', function () {
         renderBuilder("new")
@@ -66,17 +42,31 @@ $(document).ready(function () {
     $('#copyCode').on('click', function () {
         copyToClipboard(character)
     })
-    $('#addCharacter').on('click', function () {
-        parseToJson()
+    $('#modeChange').on('click', function () {
+        if (mode == "build") {
+			mode = "view"
+			renderProfile(id)
+		} else if (mode == "view") {
+			mode = "build"
+			renderBuilder(id)
+		}
+		renderListView(mode)
     })
     $('.main').on('click', '#ImpPeop', function () {
         //console.log("true")
         $('#importPeople').append('<input type="text" class="ImpPerson value=""> <textarea class="ImpPersonDesc"></textarea>')
     })
+	$('.main').on('change', '#gen', function() {
+		parseToJson()
+	})
 
 })
 
 function renderProfile(n) {
+    window.location.hash = n
+	if (id != n) {
+		id = n
+	}
     $(".main").empty()
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table id= "characterIcon" style="float: right; width: 22em; border-spacing: 2px; text-align: center; position: fixed; right: 0px;">
@@ -132,9 +122,8 @@ function renderProfile(n) {
 }
 
 function renderBuilder(n) {
-    if (typeof (n) === "number") {
-        //console.log(character[n].name)
-    } else if (n === "new") {
+$('.main').empty()
+    if (n === "new") {
         character.push(
             {
                 "name": "New",
@@ -179,17 +168,24 @@ function renderBuilder(n) {
                             "<u>Major</u>": []
                         }
                     ]
-                }
+                },
+				"Notes": [""]
 
             }
         )
-        n = character.length
-        renderListView()
+        n = character.length-1
+        renderListView(mode)
     }
 
-    $('.main').empty()
+    
     $('.main').css({ "margin-left": $('#sidebar').width() })
     $('.main').append("<table id='gen'>")
+	console.log(n)
+	window.location.hash = n
+	
+	if (id != n) {
+		id = n
+	}
     for (var key in character[n]) {
         buildBuilder(key, n)
     }
@@ -197,7 +193,9 @@ function renderBuilder(n) {
 }
 
 function buildBuilder(key, n) {
-    if (key === "id" || key === "icon" || key === "art") {
+	if (key === "Notes") {
+		$('#gen').append('<tr><td><b>'+SentanceCase(key)+ ':</b></td><td> <textarea id="GenNotes" class="input">'+character[n][key].join('\n')+'</textarea></td></tr>')
+	}else if (key === "id" || key === "icon" || key === "art") {
         $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <span id=' + key + '>' + character[n][key] + '<br></tr>')
     } else if (typeof (character[n][key]) === "number") {
         $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="number" id=Gen' + key + ' value="' + character[n][key] + '"></tr>')
@@ -206,49 +204,48 @@ function buildBuilder(key, n) {
     } else if (character[n][key].constructor.name == "Array") {
         $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="string" class = "input" id=Gen' + key + ' value="' + character[n][key].join(', ') + '"></tr>')
     } else if (typeof (character[n][key]) === "object") {
-        if (key === "backstory") {
-            $('#gen').append('<tr><td><br> </td><td>Backstory</td></tr>')
+         if (key === "stats") {
+            $('#gen').append('<tr><td><br> </td><td><b><u>Stats</b></u></td></tr>')
+            for (sKey in character[n][key]) {
+                //console.log(character[n][key][sKey])
+                //$('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td>'+character[n][key][sKey]+'</td></tr>')
+                if (typeof (character[n][key][sKey]) === "number" || typeof (character[n][key][sKey]) === "string") {
+                    $('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td> <input type="' + typeof (character[n][key][sKey]) + '" class = "input" id=Gen' + sKey + ' value="' + character[n][key][sKey] + '"></td></tr>')
+                }
+            }
+        } else if (key === "backstory") {
+            $('#gen').append('<tr><td><br> </td><td><b><u>Backstory</u></b></td></tr>')
             //$('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> </tr>')
 
             $('#gen').append('<tr><td><b>Quote:</b></td><td><input type="text" id="GenQuote"  class = "input" value="' + character[n][key].Quote[0] + '"><br><input type="text" id="GenQuoter" value="' + character[n][key].Quote[1] + '"></tr>')
 
-            $('#gen').append('<tr><td><b>Physical Description:</b></td><td><textarea id="GenDesc">' + character[n][key]["Physical Description"].join('\n') + '</textarea> </tr>')
+            $('#gen').append('<tr><td><b>Physical Description:</b></td><td><textarea id="GenDesc">' + character[n][key]["Physical Description"].join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>Personality:</b></td><td><textarea id="GenPers">' + character[n][key].Personality.join('\n') + '</textarea> </tr>')
+            $('#gen').append('<tr><td><b>Personality:</b></td><td><textarea id="GenPers">' + character[n][key].Personality.join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>Homes:</b></td><td><textarea id="GenHomes">' + character[n][key].Homes.join('\n') + '</textarea> </tr>')
+            $('#gen').append('<tr><td><b>Homes:</b></td><td><textarea id="GenHomes">' + character[n][key].Homes.join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>General Abilities:</b></td><td><textarea id="GenAbil">' + character[n][key]["General Abilities"].join('\n') + '</textarea> </tr>')
+            $('#gen').append('<tr><td><b>General Abilities:</b></td><td><textarea id="GenAbil">' + character[n][key]["General Abilities"].join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>Bio:</b></td><td><textarea id="GenBio">' + character[n][key].Bio.join('\n') + '</textarea> </tr>')
+            $('#gen').append('<tr><td><b>Bio:</b></td><td><textarea id="GenBio">' + character[n][key].Bio.join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>Important People:</b></td><td><button id="ImpPeop">New Person</button><br> <div id="importPeople"></div></tr>')
+            $('#gen').append('<tr><td><b>Important People:</b></td><td><button id="ImpPeop">New Person</button><br> <div id="importPeople"></div></td></tr>')
             for (p = 0; p < character[n][key]["Important People"].length; p++) {
                 var tempArray = Object.keys(character[n][key]["Important People"][p])
                 $('#importPeople').append('<input type="text" class="ImpPerson" value="' + tempArray[0] + '"><br> <textarea class="ImpPersonDesc">' + character[n][key]["Important People"][p][tempArray[0]] + '</textarea><br>')
                 //console.log(tempArray[0])
             }
 
-            $('#gen').append('<tr><td><b>Goals:</b></td><td>Minor:<br><textarea id="GenMiGoal">' + character[n][key].Goals[0]["<u>Minor</u>"].join('\n') + '</textarea><br>Major<br><textarea id="GenMaGoal">' + character[n][key].Goals[0]["<u>Major</u>"].join('\n') + '</textarea> </tr>')
-        } else if (key === "stats") {
-            $('#gen').append('<tr><td><br> </td><td>Stats</td></tr>')
-            for (sKey in character[n][key]) {
-                //console.log(character[n][key][sKey])
-                //$('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td>'+character[n][key][sKey]+'</td></tr>')
-                if (typeof (character[n][key][sKey]) === "number" || typeof (character[n][key][sKey]) === "string") {
-                    $('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td> <input type="' + typeof (character[n][key][sKey]) + '" class = "input" id=Gen' + sKey + ' value="' + character[n][key][sKey] + '"></tr>')
-                }
-            }
-        }
+            $('#gen').append('<tr><td><b>Goals:</b></td><td>Minor:<br><textarea id="GenMiGoal">' + character[n][key].Goals[0]["<u>Minor</u>"].join('\n') + '</textarea><br>Major<br><textarea id="GenMaGoal">' + character[n][key].Goals[0]["<u>Major</u>"].join('\n') + '</textarea> </td></tr>')
+		}
     } else {
-        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> "' + character[n][key] + '"</tr>')
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> "' + character[n][key] + '"</td></tr>')
         //console.log(key + " : " + typeof (character[n][key]))
 
     }
 }
 
 function parseToJson() {
-    var id = Number($('#id').html().replace('<br>', ''))
     var iP = []
     var iPer = []
 
@@ -268,6 +265,14 @@ function parseToJson() {
         "id": id,
         "icon": "icons/" + id + ".png",
         "art": "art/" + id + ".png",
+        "class": $('#Genclass').val().split(', '),
+        "subclass": $('#Gensubclass').val().split(', '),
+        "background": $('#Genbackground').val(),
+        "race": $('#Genrace').val(),
+        "role": $('#Genrole').val().split(', '),
+        "orientation": $('#Genorientation').val(),
+        "pronouns": $('#Genpronouns').val(),
+        "alignment": $('#Genalignment').val(),
         "backstory": {
             "Quote": [$('#GenQuote').val(), $('#GenQuoter').val()],
             "Physical Description": $('#GenDesc').val().split('\n'),
@@ -287,31 +292,34 @@ function parseToJson() {
             "birthday": $('#Genbirthday').val(),
             "age": $('#Genage').val(),
             "height": $('#Genheight').val(),
-            "weight": $('#Genweight').val(),
+            "weight": Number($('#Genweight').val()),
             "skin": $('#Genskin').val(),
             "eye": $('#Geneye').val(),
             "hair": $('#Genhair').val()
         },
-        "class": $('#Genclass').val().split(', '),
-        "subclass": $('#Gensubclass').val().split(', '),
-        "background": $('#Genbackground').val(),
-        "race": $('#Genrace').val(),
-        "role": $('#Genrole').val().split(', '),
-        "orientation": $('#Genorientation').val(),
-        "pronouns": $('#Genpronouns').val(),
-        "alignment": $('#Genalignment').val()
+		"Notes": $('#GenNotes').val().split('\n')
 
     }
     console.log(tempJSON)
-    character[id] = tempJSON
-    renderListView()
+	
+	var sorted = Object.keys(tempJSON)
+	sorted.push(sorted.splice(sorted.indexOf("backstory"), 1)[0]);
+	sorted.push(sorted.splice(sorted.indexOf("Notes"), 1)[0]);
+
+	var tempOBJ = {}
+	for (i=0; i<sorted.length; i++) {
+		tempOBJ[sorted[i]] = tempJSON[sorted[i]]
+	}
+
+    character[id] = tempOBJ
+    renderListView(mode)
 }
 
 function SentanceCase(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-function renderListView() {
+function renderListView(m) {
     $('#characterSelect').empty()
     var filtChar = character.filter(function (item) {
         for (var key in filtKey) {
@@ -328,9 +336,15 @@ function renderListView() {
         return true
     })
     var appendText = ""
+	var onClick = ""
+        if (m == "build") {
+			onClick = "renderBuilder"
+		} else if (m == "view") {
+			onClick = "renderProfile"
+		}
     for (i = 0; i < filtChar.length; i++) {
         var num = filtChar[i].id + 1
-        appendText += '<button class="characterList" onclick="renderBuilder(' + filtChar[i].id + ')">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
+        appendText += '<button class="characterList" onclick="'+onClick+'(' + filtChar[i].id + ')">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
 
     }
     $('#info').html("   Count: " + character.length + " characters")

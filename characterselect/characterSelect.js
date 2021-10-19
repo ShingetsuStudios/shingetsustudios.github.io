@@ -154,7 +154,9 @@ function renderProfile(n) {
             navbar += "<a href='#" + key.replace(' ', '-') + "'>" + key + "</a><br>"
         }
     }
-    bAppend += `<img src="` + character[n].art + `">`
+    bAppend += "<hr><h3 id='Notes'>Notes</h3><p>" + character[n].Notes.join('</p><p>') + "</p></b></h3>"
+	navbar += "<a href='#Notes'>Notes</a><br>"
+	bAppend += `<img src="` + character[n].art + `">`
     $('.mid').append(navbar + "</div><br>" + bAppend)
 }
 
