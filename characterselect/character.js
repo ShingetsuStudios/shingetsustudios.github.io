@@ -3164,6 +3164,10 @@ var character = [
       "id":39,
       "icon":"icons/39.png",
       "art":"art/39.png",
+      "icons":[
+         "icons/39.png",
+         "icons/39b.png"
+      ],
       "backstory":{
          "Quote":[
             "---",
