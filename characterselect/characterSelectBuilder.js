@@ -15,26 +15,44 @@ var id = 0
 
 $(document).ready(function () {
 
-	if (window.location.hash != null || window.location.hash != undefined) {
+    if (window.location.hash != null || window.location.hash != undefined) {
         //console.log("Hash exists")
         //console.log(window.location.hash)
-		var key = window.location.hash
-		var hashFilt = character.filter(k => k.id == Number(key.replace('#', '')))
-		//console.log(hashFilt[0].firstName)
-		id = hashFilt[0].id
+        var key = window.location.hash
+        var hashFilt = character.filter(k => k.id == Number(key.replace('#', '')))
+        //console.log(hashFilt[0].firstName)
+        id = hashFilt[0].id
         //for (p = 0; p < character.length; p++) {
-            if (window.location.hash == '#' + hashFilt[0].id) {
-                //console.log(p + ": " + character[p].firstName + " " + character[p].id)
-				if (mode == "build") {
-					renderBuilder(hashFilt[0].id)
-				} else if (mode == "view") {
-					renderProfile(hashFilt[0].id)
-				}
+        if (window.location.hash == '#' + hashFilt[0].id) {
+            //console.log(p + ": " + character[p].firstName + " " + character[p].id)
+            if (mode == "build") {
+                renderBuilder(hashFilt[0].id)
+            } else if (mode == "view") {
+                renderProfile(hashFilt[0].id)
+            }
             //}
         }
     }
 
     renderListView(mode)
+
+    $('.main').on('click', '.tokenImg', function () {
+        n = $(this).attr('id').replace('img', '')
+        if (character[n].icons != undefined || character[n].icons != null) {
+            src = ($(this).attr('src'))
+            l = character[n].icons.length
+            v = character[n].icons.indexOf(src)
+            v += 1
+            if (v >= l) {
+                v = 0
+            }
+
+            //console.log(src + " : " + l + " : " + v)
+            $(this).attr('src', character[n].icons[v])
+
+
+        }
+    })
 
     $('#newCharacter').on('click', function () {
         renderBuilder("new")
@@ -44,29 +62,65 @@ $(document).ready(function () {
     })
     $('#modeChange').on('click', function () {
         if (mode == "build") {
-			mode = "view"
-			renderProfile(id)
-		} else if (mode == "view") {
-			mode = "build"
-			renderBuilder(id)
-		}
-		renderListView(mode)
+            mode = "view"
+            renderProfile(id)
+        } else if (mode == "view") {
+            mode = "build"
+            renderBuilder(id)
+        }
+        renderListView(mode)
     })
     $('.main').on('click', '#ImpPeop', function () {
         //console.log("true")
         $('#importPeople').append('<input type="text" class="ImpPerson value=""> <textarea class="ImpPersonDesc"></textarea>')
     })
-	$('.main').on('change', '#gen', function() {
-		parseToJson()
-	})
+    $('.main').on('change', '#gen', function () {
+        parseToJson()
+    })
+    /*
+        for (i in character) {
+            var url = 'icons/' + character[i].firstName + '.png'
+            $.ajax({
+                url: url,
+                type: 'HEAD',
+                async: false,
+                error: function () {
+                    console.log('false')
+                    character[i].icon = "icons/Blank.png"
+                    //$('.main').append('<p>'+url+'</p>')
+                },
+                success: function () {
+                    character[i].icon = "icons/"+character[i].firstName+".png"
+                }
+            });
+        }
+    
+        for (i in character) {
+            
+            var url = 'art/' + character[i].firstName + '.png'
+            $.ajax({
+                url: url,
+                type: 'HEAD',
+                async: false,
+                error: function () {
+                    console.log('false')
+                    character[i].art = "art/Blank.png"
+                    //$('.main').append('<p>'+url+'</p>')
+                },
+                success: function () {
+                    character[i].art = "art/"+character[i].firstName+".png"
+                }
+            });
+        }
+    */
 
 })
 
 function renderProfile(n) {
     window.location.hash = n
-	if (id != n) {
-		id = n
-	}
+    if (id != n) {
+        id = n
+    }
     $(".main").empty()
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table id= "characterIcon" style="float: right; width: 22em; border-spacing: 2px; text-align: center; position: fixed; right: 0px;">
@@ -122,15 +176,16 @@ function renderProfile(n) {
 }
 
 function renderBuilder(n) {
-$('.main').empty()
+    $('.main').empty()
     if (n === "new") {
         character.push(
             {
                 "name": "New",
                 "firstName": "New",
                 "id": character.length,
-                "icon": "icons/" + character.length + ".png",
-                "art": "art/" + character.length + ".png",
+                "icon": "Blank.png",
+                "icons": [""],
+                "art": "Blank.png",
                 "class": [
                     ""
                 ],
@@ -164,28 +219,28 @@ $('.main').empty()
                     ],
                     "Goals": [
                         {
-                            "<u>Minor</u>": [],
-                            "<u>Major</u>": []
+                            "Minor": [],
+                            "Major": []
                         }
                     ]
                 },
-				"Notes": [""]
+                "Notes": [""]
 
             }
         )
-        n = character.length-1
+        n = character.length - 1
         renderListView(mode)
     }
 
-    
+
     $('.main').css({ "margin-left": $('#sidebar').width() })
     $('.main').append("<table id='gen'>")
-	console.log(n)
-	window.location.hash = n
-	
-	if (id != n) {
-		id = n
-	}
+    console.log(n)
+    window.location.hash = n
+
+    if (id != n) {
+        id = n
+    }
     for (var key in character[n]) {
         buildBuilder(key, n)
     }
@@ -193,9 +248,9 @@ $('.main').empty()
 }
 
 function buildBuilder(key, n) {
-	if (key === "Notes") {
-		$('#gen').append('<tr><td><b>'+SentanceCase(key)+ ':</b></td><td> <textarea id="GenNotes" class="input">'+character[n][key].join('\n')+'</textarea></td></tr>')
-	}else if (key === "id" || key === "icon" || key === "art") {
+    if (key === "Notes") {
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <textarea id="GenNotes" class="input">' + character[n][key].join('\n') + '</textarea></td></tr>')
+    } else if (key === "id") { // || key === "icon" || key === "art") {
         $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <span id=' + key + '>' + character[n][key] + '<br></tr>')
     } else if (typeof (character[n][key]) === "number") {
         $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="number" id=Gen' + key + ' value="' + character[n][key] + '"></tr>')
@@ -204,7 +259,7 @@ function buildBuilder(key, n) {
     } else if (character[n][key].constructor.name == "Array") {
         $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="string" class = "input" id=Gen' + key + ' value="' + character[n][key].join(', ') + '"></tr>')
     } else if (typeof (character[n][key]) === "object") {
-         if (key === "stats") {
+        if (key === "stats") {
             $('#gen').append('<tr><td><br> </td><td><b><u>Stats</b></u></td></tr>')
             for (sKey in character[n][key]) {
                 //console.log(character[n][key][sKey])
@@ -236,8 +291,8 @@ function buildBuilder(key, n) {
                 //console.log(tempArray[0])
             }
 
-            $('#gen').append('<tr><td><b>Goals:</b></td><td>Minor:<br><textarea id="GenMiGoal">' + character[n][key].Goals[0]["<u>Minor</u>"].join('\n') + '</textarea><br>Major<br><textarea id="GenMaGoal">' + character[n][key].Goals[0]["<u>Major</u>"].join('\n') + '</textarea> </td></tr>')
-		}
+            $('#gen').append('<tr><td><b>Goals:</b></td><td>Minor:<br><textarea id="GenMiGoal">' + character[n][key].Goals[0]["Minor"].join('\n') + '</textarea><br>Major<br><textarea id="GenMaGoal">' + character[n][key].Goals[0]["Major"].join('\n') + '</textarea> </td></tr>')
+        }
     } else {
         $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> "' + character[n][key] + '"</td></tr>')
         //console.log(key + " : " + typeof (character[n][key]))
@@ -263,8 +318,9 @@ function parseToJson() {
         "name": $('#Genname').val(),
         "firstName": $('#GenfirstName').val(),
         "id": id,
-        "icon": "icons/" + id + ".png",
-        "art": "art/" + id + ".png",
+        "icon": $('#Genicon').val(),
+        "icons": $('#Genicons').val() ? $('#Genicons').val().split(', ') : "",
+        "art": $('#Genart').val(),
         "class": $('#Genclass').val().split(', '),
         "subclass": $('#Gensubclass').val().split(', '),
         "background": $('#Genbackground').val(),
@@ -273,6 +329,15 @@ function parseToJson() {
         "orientation": $('#Genorientation').val(),
         "pronouns": $('#Genpronouns').val(),
         "alignment": $('#Genalignment').val(),
+        "stats": {
+            "birthday": $('#Genbirthday').val(),
+            "age": $('#Genage').val(),
+            "height": $('#Genheight').val(),
+            "weight": Number($('#Genweight').val()),
+            "skin": $('#Genskin').val(),
+            "eye": $('#Geneye').val(),
+            "hair": $('#Genhair').val()
+        },
         "backstory": {
             "Quote": [$('#GenQuote').val(), $('#GenQuoter').val()],
             "Physical Description": $('#GenDesc').val().split('\n'),
@@ -283,33 +348,24 @@ function parseToJson() {
             "Important People": iP,
             "Goals": [
                 {
-                    "<u>Minor</u>": $('#GenMiGoal').val().split('\n'),
-                    "<u>Major</u>": $('#GenMaGoal').val().split('\n')
+                    "Minor": $('#GenMiGoal').val().split('\n'),
+                    "Major": $('#GenMaGoal').val().split('\n')
                 }
             ]
         },
-        "stats": {
-            "birthday": $('#Genbirthday').val(),
-            "age": $('#Genage').val(),
-            "height": $('#Genheight').val(),
-            "weight": Number($('#Genweight').val()),
-            "skin": $('#Genskin').val(),
-            "eye": $('#Geneye').val(),
-            "hair": $('#Genhair').val()
-        },
-		"Notes": $('#GenNotes').val().split('\n')
+        "Notes": $('#GenNotes').val().split('\n')
 
     }
     console.log(tempJSON)
-	
-	var sorted = Object.keys(tempJSON)
-	sorted.push(sorted.splice(sorted.indexOf("backstory"), 1)[0]);
-	sorted.push(sorted.splice(sorted.indexOf("Notes"), 1)[0]);
 
-	var tempOBJ = {}
-	for (i=0; i<sorted.length; i++) {
-		tempOBJ[sorted[i]] = tempJSON[sorted[i]]
-	}
+    var sorted = Object.keys(tempJSON)
+    sorted.push(sorted.splice(sorted.indexOf("backstory"), 1)[0]);
+    sorted.push(sorted.splice(sorted.indexOf("Notes"), 1)[0]);
+
+    var tempOBJ = {}
+    for (i = 0; i < sorted.length; i++) {
+        tempOBJ[sorted[i]] = tempJSON[sorted[i]]
+    }
 
     character[id] = tempOBJ
     renderListView(mode)
@@ -336,15 +392,15 @@ function renderListView(m) {
         return true
     })
     var appendText = ""
-	var onClick = ""
-        if (m == "build") {
-			onClick = "renderBuilder"
-		} else if (m == "view") {
-			onClick = "renderProfile"
-		}
+    var onClick = ""
+    if (m == "build") {
+        onClick = "renderBuilder"
+    } else if (m == "view") {
+        onClick = "renderProfile"
+    }
     for (i = 0; i < filtChar.length; i++) {
         var num = filtChar[i].id + 1
-        appendText += '<button class="characterList" onclick="'+onClick+'(' + filtChar[i].id + ')">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
+        appendText += '<button class="characterList" onclick="' + onClick + '(' + filtChar[i].id + ')">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
 
     }
     $('#info').html("   Count: " + character.length + " characters")
@@ -353,7 +409,7 @@ function renderListView(m) {
 }
 
 function copyToClipboard(element) {
-    navigator.clipboard.writeText("var character = "+JSON.stringify(character)).then(() => {
+    navigator.clipboard.writeText("var character = " + JSON.stringify(character, null, 3)).then(() => {
         // on success
     }, (e) => {
         // on error
