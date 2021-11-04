@@ -4,8 +4,7 @@ var character = [
       "firstName": "Shingeki",
       "id": 0,
       "icon": "icons/Shin.png",
-      "icons": "",
-      "art": "Blank.png",
+      "art": "art/Shin.png",
       "class": [
          "Ranger",
          "Rogue"
@@ -94,10 +93,10 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   "What ever Vahn Kahn says, for now."
                ],
-               "Major": [
+               "<u>Major</u>": [
                   "Get his family away from the tiger before something bad happens to them, even if it costs him everything else."
                ]
             }
@@ -112,9 +111,6 @@ var character = [
       "firstName": "Malikai",
       "id": 1,
       "icon": "icons/Malikai.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Malikai.png",
       "class": [
          "Craftsman"
@@ -136,7 +132,7 @@ var character = [
          "birthday": "",
          "age": "24",
          "height": "5'4''",
-         "weight": 150,
+         "weight": "150",
          "skin": "black fur, white markings",
          "eye": "orange",
          "hair": "black"
@@ -144,7 +140,7 @@ var character = [
       "backstory": {
          "Quote": [
             "---",
-            "- Malikai"
+            ""
          ],
          "Physical Description": [
             "Malikai is a relatively strong looking black wolf with white ears, and brilliant orange eyes. One of his arms is a robotic prostetic. "
@@ -174,10 +170,10 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   "Be with his cat. uwu"
                ],
-               "Major": [
+               "<u>Major</u>": [
                   ""
                ]
             }
@@ -192,9 +188,6 @@ var character = [
       "firstName": "Banya",
       "id": 2,
       "icon": "icons/Banya.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Banya.png",
       "class": [
          "Summoner"
@@ -265,8 +258,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -278,11 +271,8 @@ var character = [
       "name": "Dimitri Yenko",
       "firstName": "Dimitri",
       "id": 3,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "icon": "icons/Dimitri.png",
+      "art": "art/Dimitri.png",
       "class": [
          "Bard"
       ],
@@ -338,8 +328,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -352,9 +342,6 @@ var character = [
       "firstName": "Hong",
       "id": 4,
       "icon": "icons/Hong.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Hong.png",
       "class": [
          "Monk"
@@ -435,8 +422,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -449,9 +436,6 @@ var character = [
       "firstName": "Almaz",
       "id": 5,
       "icon": "icons/Almaz.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Almaz.png",
       "class": [
          "Artificer"
@@ -543,8 +527,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -557,9 +541,6 @@ var character = [
       "firstName": "Kasshakku",
       "id": 6,
       "icon": "icons/Kasshakku.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Kasshakku.png",
       "class": [
          "Rogue"
@@ -614,8 +595,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -627,10 +608,7 @@ var character = [
       "name": "Kyneric Agnarus of Dam",
       "firstName": "Kyneric",
       "id": 7,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icon": "icons/Kyneric.png",
       "art": "art/Kyneric.png",
       "class": [
          "Barbarian",
@@ -699,8 +677,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -712,10 +690,7 @@ var character = [
       "name": "Leonidas Spartacus de Augustine",
       "firstName": "Leonidas",
       "id": 8,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icon": "icons/Leonidas.png",
       "art": "art/Leonidas.png",
       "class": [
          "Bard"
@@ -772,8 +747,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -785,10 +760,7 @@ var character = [
       "name": "Amadi Kayenbah",
       "firstName": "Amadi",
       "id": 9,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icon": "icons/Amadi.png",
       "art": "art/Amadi.png",
       "class": [
          "Sorcerer"
@@ -843,8 +815,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -857,9 +829,6 @@ var character = [
       "firstName": "Miqui",
       "id": 10,
       "icon": "icons/Miqui.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Miqui.png",
       "class": [
          "Wizard"
@@ -916,8 +885,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -930,9 +899,6 @@ var character = [
       "firstName": "Alexi",
       "id": 11,
       "icon": "icons/Alexi.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Alexi.png",
       "class": [
          "Monk"
@@ -987,8 +953,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1001,9 +967,6 @@ var character = [
       "firstName": "Jhankdi",
       "id": 12,
       "icon": "icons/Jhankdi.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Jhankdi.png",
       "class": [
          "Cleric"
@@ -1114,8 +1077,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1128,9 +1091,6 @@ var character = [
       "firstName": "Corpsey",
       "id": 13,
       "icon": "icons/Corpsey.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Corpsey.png",
       "class": [
          "Druid"
@@ -1186,8 +1146,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1199,11 +1159,8 @@ var character = [
       "name": "Kangaroo McShieldfighter",
       "firstName": "Kangaroo",
       "id": 14,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "icon": "icons/Kangaroo.png",
+      "art": "art/Kangaroo.png",
       "class": [
          "---"
       ],
@@ -1256,8 +1213,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1269,9 +1226,8 @@ var character = [
       "name": "Spit Drip",
       "firstName": "Spit Drip",
       "id": 15,
-      "icon": "icons/SpitDrip.png",
-      "icons": "",
-      "art": "art/SpitDrip.png",
+      "icon": "icons/Spit Drip.png",
+      "art": "art/Spit Drip.png",
       "class": [
          "Barbarian"
       ],
@@ -1289,7 +1245,7 @@ var character = [
       "alignment": "Neutral",
       "stats": {
          "birthday": "",
-         "age": "30",
+         "age": 30,
          "height": "",
          "weight": 0,
          "skin": "",
@@ -1325,12 +1281,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
-                  ""
-               ],
-               "Major": [
-                  ""
-               ]
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1342,10 +1294,7 @@ var character = [
       "name": "Mensharus Servictus-Victorius Arodauntus of House Bagruzelum",
       "firstName": "Mensharus",
       "id": 16,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icon": "icons/Mensharus.png",
       "art": "art/Mensharus.png",
       "class": [
          "Warlock"
@@ -1401,8 +1350,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1414,10 +1363,7 @@ var character = [
       "name": "Peeka",
       "firstName": "Peeka",
       "id": 17,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icon": "icons/Peeka.png",
       "art": "art/Peeka.png",
       "class": [
          "Barbarian"
@@ -1471,8 +1417,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1485,7 +1431,6 @@ var character = [
       "firstName": "Tysshyr",
       "id": 18,
       "icon": "icons/Tysshyr.png",
-      "icons": "",
       "art": "art/Tysshyr.png",
       "class": [
          "Sorcerer",
@@ -1507,7 +1452,7 @@ var character = [
       "alignment": "Neutral Good",
       "stats": {
          "birthday": "",
-         "age": "24",
+         "age": 24,
          "height": "5'6''",
          "weight": 150,
          "skin": "Pale",
@@ -1565,30 +1510,33 @@ var character = [
          "Important People": [
             {
                "Alaric": [
-                  "Father, Human Male - Anthropologist specializing in Elvish Culture,A human who devoted his life to researching the histories, culture, and everything else about elves. During his travels, he met the elf who he claimed was \"The most divine creature he ever saw.\",After they wed, they moved into a lovely small village, had a child, and his wife quickly became dull to living as a human, and left. He struggled to raise Tysshyr by himself, deciding to give his child the most elven experience as possible.,He eventually succumbed to an illness, leaving Tysshyr for all accounts, an orphan."
+                  "Father, Human Male - Anthropologist specializing in Elvish Culture",
+                  "A human who devoted his life to researching the histories, culture, and everything else about elves. During his travels, he met the elf who he claimed was \"The most divine creature he ever saw.\"",
+                  "After they wed, they moved into a lovely small village, had a child, and his wife quickly became dull to living as a human, and left. He struggled to raise Tysshyr by himself, deciding to give his child the most elven experience as possible.",
+                  "He eventually succumbed to an illness, leaving Tysshyr for all accounts, an orphan."
                ]
             },
             {
                "Dassyra": [
-                  "Mother, Elven Female - Tysshyr doesn't know much about his mother. He knows that she was apparently the most gorgeous elf his father ever saw. She fell in love with him because of the fascination he had with her. After moving in with him and having a child, she quickly grew tired of living as 'lesser' and left. Tysshyr might know what she looks like, but it's been years since he's seen a picture of her.,Tysshyr's Blue Dragon Heritage comes from her side? Is she a dragon? A sorcerer? Who knows."
+                  "Mother, Elven Female - Tysshyr doesn't know much about his mother. He knows that she was apparently the most gorgeous elf his father ever saw. She fell in love with him because of the fascination he had with her. After moving in with him and having a child, she quickly grew tired of living as 'lesser' and left. Tysshyr might know what she looks like, but it's been years since he's seen a picture of her.",
+                  "Tysshyr's Blue Dragon Heritage comes from her side? Is she a dragon? A sorcerer? Who knows."
                ]
             },
             {
                "Skinaszkdro'xnir": [
-                  "Dro for short, is an Ancient Brass Dragon who enjoys learning new things, and collecting interesting trinkets and information. He has many caves he calls home, usually moving around when he feels bored, but he has one secret place he keeps his actual hoard of wealth and powerful objects. ,He is a curious creature, who typically travels under the guise of some bronzed skin humanoid, or at times a Brass dragonborn modeled after his own likeness. His violet eyes are persistent throughout his forms, unless he purposely changes form to something outside his norm. ,Dro has spent his long life observing 'mortals', but was always weary of them. He had grown used to settling down somewhere, only to have a few brave knights or adventuring groups attempt to root out the 'evil dragon' who someone found. Typically he luls them into a sleep with his breath, then uses magic to convince them of a dream. He's never had to 'put down' a humanoid who wandered into his cave, and he's quite happy with himself that he's been able to be so gentle with the tiny people. ,He enjoys teasing Tysshyr light heartedly. He claims that the half elf's blush and smile are one of the greatest treasures in his possession. Dro is more than likely Pansexual, caring not for parts, but more for the experiences and pleasures. There was an awkward story of helping Tysshyr discover his own sexuality, and dragon shapeshifting into various forms. He found out he was gay when the sexxy dragonborn turned into a big breasted elven woman and his boner completely died. X3,Dro is protective, but he wants what's best for his little 'gem'. He's supportive, and will beam happily when he finds out Tysshyr succeeded at something. He really hopes his boy can meet new friends and come out of his shell.,Dro is a devout worshiper of the Platinum Dragon. It's possible that he has higher connections that he's never told even Tysshyr, and that might be how he brought him back to life."
+                  "Dro for short, is an Ancient Brass Dragon who enjoys learning new things, and collecting interesting trinkets and information. He has many caves he calls home, usually moving around when he feels bored, but he has one secret place he keeps his actual hoard of wealth and powerful objects. ",
+                  "He is a curious creature, who typically travels under the guise of some bronzed skin humanoid, or at times a Brass dragonborn modeled after his own likeness. His violet eyes are persistent throughout his forms, unless he purposely changes form to something outside his norm. ",
+                  "Dro has spent his long life observing 'mortals', but was always weary of them. He had grown used to settling down somewhere, only to have a few brave knights or adventuring groups attempt to root out the 'evil dragon' who someone found. Typically he luls them into a sleep with his breath, then uses magic to convince them of a dream. He's never had to 'put down' a humanoid who wandered into his cave, and he's quite happy with himself that he's been able to be so gentle with the tiny people. ",
+                  "He enjoys teasing Tysshyr light heartedly. He claims that the half elf's blush and smile are one of the greatest treasures in his possession. Dro is more than likely Pansexual, caring not for parts, but more for the experiences and pleasures. There was an awkward story of helping Tysshyr discover his own sexuality, and dragon shapeshifting into various forms. He found out he was gay when the sexxy dragonborn turned into a big breasted elven woman and his boner completely died. X3",
+                  "Dro is protective, but he wants what's best for his little 'gem'. He's supportive, and will beam happily when he finds out Tysshyr succeeded at something. He really hopes his boy can meet new friends and come out of his shell.",
+                  "Dro is a devout worshiper of the Platinum Dragon. It's possible that he has higher connections that he's never told even Tysshyr, and that might be how he brought him back to life."
                ]
             }
          ],
          "Goals": [
             {
-               "Minor": [
-                  "Be with Dro.",
-                  "Maybe not get fucked by Dro so much. Maybe. Hmmm.."
-               ],
-               "Major": [
-                  "Please someone stop me from becoming a monster.",
-                  "If not, maybe help me accept that I'm becoming a monster, or convince me that I'm not a monster?"
-               ]
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1600,10 +1548,7 @@ var character = [
       "name": "Banana",
       "firstName": "Banana",
       "id": 19,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icon": "icons/Banana.png",
       "art": "art/Banana.png",
       "class": [
          "Wizard"
@@ -1660,8 +1605,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1674,10 +1619,7 @@ var character = [
       "firstName": "Dionikos",
       "id": 20,
       "icon": "icons/Dionikos.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "art": "art/Dionikos.png",
       "class": [
          "Monk"
       ],
@@ -1730,8 +1672,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1744,9 +1686,6 @@ var character = [
       "firstName": "Mukmuk",
       "id": 21,
       "icon": "icons/Mukmuk.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Mukmuk.png",
       "class": [
          "Witch"
@@ -1801,8 +1740,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1815,8 +1754,7 @@ var character = [
       "firstName": "Koda",
       "id": 22,
       "icon": "icons/Koda.png",
-      "icons": "",
-      "art": "Blank.png",
+      "art": "art/Koda.png",
       "class": [
          "Artificer"
       ],
@@ -1824,16 +1762,14 @@ var character = [
          "Artilierist?"
       ],
       "background": "",
-      "race": "Bunnyfolk, Lightfoot Halfling",
-      "role": [
-         ""
-      ],
+      "race": "Bunnyfolk",
+      "role": [],
       "orientation": "",
       "pronouns": "He/Him",
       "alignment": "",
       "stats": {
          "birthday": "",
-         "age": "21",
+         "age": 21,
          "height": "",
          "weight": 0,
          "skin": "",
@@ -1869,12 +1805,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
-                  ""
-               ],
-               "Major": [
-                  ""
-               ]
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -1887,9 +1819,6 @@ var character = [
       "firstName": "Ambrogis",
       "id": 23,
       "icon": "icons/Ambrogis.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Ambrogis.png",
       "class": [
          "Warmage"
@@ -1943,10 +1872,10 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   "Aquire Directive."
                ],
-               "Major": [
+               "<u>Major</u>": [
                   "Complete Directive."
                ]
             }
@@ -1960,11 +1889,8 @@ var character = [
       "name": "Ja'Owazi Frigfara Mashaeir",
       "firstName": "Ja'Owazi",
       "id": 24,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "icon": "icons/Ja'Owazi.png",
+      "art": "art/Ja'Owazi.png",
       "class": [
          "Sorcerer"
       ],
@@ -2038,8 +1964,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2052,9 +1978,6 @@ var character = [
       "firstName": "Thai",
       "id": 25,
       "icon": "icons/Thai.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Thai.png",
       "class": [
          "Cleric"
@@ -2119,8 +2042,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2132,11 +2055,8 @@ var character = [
       "name": "Finnigan",
       "firstName": "Finn",
       "id": 26,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "icon": "icons/Finn.png",
+      "art": "art/Finn.png",
       "class": [
          "---"
       ],
@@ -2189,8 +2109,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2203,9 +2123,6 @@ var character = [
       "firstName": "Amora",
       "id": 27,
       "icon": "icons/Amora.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Amora.png",
       "class": [
          "---"
@@ -2257,8 +2174,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2271,9 +2188,6 @@ var character = [
       "firstName": "Edwyn",
       "id": 28,
       "icon": "icons/Edwyn.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Edwyn.png",
       "class": [
          "Fighter"
@@ -2329,8 +2243,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2339,15 +2253,15 @@ var character = [
       ]
    },
    {
-      "name": "Teohni Ly-al Lycurgus",
-      "firstName": "Teohni",
+      "name": "Tyohni Ly-al Lycurgus",
+      "firstName": "Tyohni",
       "id": 29,
-      "icon": "icons/Teohni.png",
+      "icon": "icons/Tyohni.png",
       "icons": [
-         "icons/Teohni.png",
-         "icons/Teohni-Were.png"
+         "icons/29.png",
+         "icons/29b.png"
       ],
-      "art": "art/Teohni.png",
+      "art": "art/Tyohni.png",
       "class": [
          "Barbarian"
       ],
@@ -2365,7 +2279,7 @@ var character = [
       "alignment": "Neutral Good",
       "stats": {
          "birthday": "",
-         "age": "23",
+         "age": 23,
          "height": "",
          "weight": 0,
          "skin": "",
@@ -2401,12 +2315,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
-                  ""
-               ],
-               "Major": [
-                  ""
-               ]
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2419,9 +2329,6 @@ var character = [
       "firstName": "Heepo",
       "id": 30,
       "icon": "icons/Heepo.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Heepo.png",
       "class": [
          "Monk"
@@ -2489,8 +2396,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2503,30 +2410,27 @@ var character = [
       "firstName": "Brooke",
       "id": 31,
       "icon": "icons/Brooke.png",
-      "icons": "",
-      "art": "Blank.png",
+      "art": "art/Brooke.png",
       "class": [
-         "Sorcerer or Witch"
+         "Sorcerer"
       ],
       "subclass": [
-         "Mirrorkin or Blue"
+         "Mirrorkin"
       ],
       "background": "",
       "race": "Tabaxi/Leonin?, Changeling",
-      "role": [
-         ""
-      ],
+      "role": [],
       "orientation": "",
       "pronouns": "He/Him",
       "alignment": "Chaotic Neutral",
       "stats": {
          "birthday": "",
-         "age": "5? visibly.",
+         "age": 0,
          "height": "",
          "weight": 0,
-         "skin": "Golden fur, brown speckles.",
-         "eye": "Sparkling Orange",
-         "hair": "Brown"
+         "skin": "",
+         "eye": "",
+         "hair": ""
       },
       "backstory": {
          "Quote": [
@@ -2547,10 +2451,7 @@ var character = [
             "<b>Mirrorkin Copy'cat'.</b> Brooke is able to mimic traits of people around him. He can steal spells that he's been effected by. He can copy traits of someone within 60 feet of him. Eventually, he can reflect spells cast on him, can mimic actions he's seen recently, and even create defenseive copies of himself."
          ],
          "Bio": [
-            "One day Brooke was found in the woods, hurt, unable to remember a thing. Just a small child. He was taken in, raised, and now is a seemingly well balanced child with a twinge of chaotic energy, as all children have. ",
-            "He has no idea he's a changling, or who he used to be.",
-            "",
-            "All I know about who he used to be is that he attempted to escape getting caught by shifting into a child and slamming right into a branch in the forest and boom. No memories."
+            ""
          ],
          "Important People": [
             {
@@ -2561,12 +2462,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
-                  ""
-               ],
-               "Major": [
-                  ""
-               ]
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2579,10 +2476,7 @@ var character = [
       "firstName": "Gadasi",
       "id": 32,
       "icon": "icons/Gadasi.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "art": "art/Gadasi.png",
       "class": [
          "Bard"
       ],
@@ -2637,8 +2531,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2651,9 +2545,6 @@ var character = [
       "firstName": "Luvro",
       "id": 33,
       "icon": "icons/Luvro.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Luvro.png",
       "class": [
          "Investigator"
@@ -2708,8 +2599,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2721,11 +2612,8 @@ var character = [
       "name": "Otso Kadubis Arkadios",
       "firstName": "Otso",
       "id": 34,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "icon": "icons/Otso.png",
+      "art": "art/Otso.png",
       "class": [
          "Channeler"
       ],
@@ -2776,8 +2664,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -2790,9 +2678,6 @@ var character = [
       "firstName": "Zhihao",
       "id": 35,
       "icon": "icons/Zhihao.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Zhihao.png",
       "class": [
          "Druid"
@@ -2848,10 +2733,10 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   "Continue my research. To Enhance my own draconic essence."
                ],
-               "Major": [
+               "<u>Major</u>": [
                   "Become a true dragon, or the closest thing possible."
                ]
             }
@@ -2866,9 +2751,6 @@ var character = [
       "firstName": "Kaiex",
       "id": 36,
       "icon": "icons/Kaiex.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Kaiex.png",
       "class": [
          "Craftsman"
@@ -2928,10 +2810,10 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   "Get. Weapons. BIG. WEAPONS."
                ],
-               "Major": [
+               "<u>Major</u>": [
                   "Kill the dragon who caused this mess. Make them into some sick gear, then KICK ASS."
                ]
             }
@@ -2947,7 +2829,8 @@ var character = [
       "id": 37,
       "icon": "icons/Matthias.png",
       "icons": [
-         ""
+         "icons/37.png",
+         "icons/37b.png"
       ],
       "art": "art/Matthias.png",
       "class": [
@@ -2968,7 +2851,7 @@ var character = [
       "alignment": "Neutral",
       "stats": {
          "birthday": "",
-         "age": "18",
+         "age": 18,
          "height": "5'0''",
          "weight": 0,
          "skin": "",
@@ -3010,7 +2893,9 @@ var character = [
             },
             {
                "Jeremias Voss Van Reuter": [
-                  "Father, Neutral Evil Politician, Hostile,Jeremias is a man who wanted more all his life. Left with only his father's small farm, he hungered for power.. Until he found it. A small, seemingly normal trinket that was marked with Draconic, simply spelling out 'Speak your Wish'. No magic coming from it, but he still gave it a try. He wished for power. For standing. To rule.,And, things started going his way. He rose up from a simple farmer to a low tier noble. That wasn't enough though, Jeremias wants more."
+                  "Father, Neutral Evil Politician, Hostile",
+                  "Jeremias is a man who wanted more all his life. Left with only his father's small farm, he hungered for power.. Until he found it. A small, seemingly normal trinket that was marked with Draconic, simply spelling out 'Speak your Wish'. No magic coming from it, but he still gave it a try. He wished for power. For standing. To rule.",
+                  "And, things started going his way. He rose up from a simple farmer to a low tier noble. That wasn't enough though, Jeremias wants more."
                ]
             },
             {
@@ -3035,21 +2920,23 @@ var character = [
             },
             {
                "Paidri Voss Van Reuter": [
-                  "Neutral Entertainer, Hostile, Alive and Quite Successful.,Paidri is the current 'heir' of the house, and takes after his father more than anyother of their siblings."
+                  "Neutral Entertainer, Hostile, Alive and Quite Successful.",
+                  "Paidri is the current 'heir' of the house, and takes after his father more than anyother of their siblings."
                ]
             },
             {
                "Tarak Bladestream": [
-                  "(41, M) Half-Orc Neutral Soldier, Friendly, Alive and Famous,Tarak currently serves as a bodyguard to Alyssandra, and is the father of Varg. He trains the guard, and is generally friendly with the whole family. It's not known how Jeremias feels about him."
+                  "(41, M) Half-Orc Neutral Soldier, Friendly, Alive and Famous",
+                  "Tarak currently serves as a bodyguard to Alyssandra, and is the father of Varg. He trains the guard, and is generally friendly with the whole family. It's not known how Jeremias feels about him."
                ]
             }
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   "Stay safe. Dear god, stay safe. Everything is terrifying and who can he even trust right now??"
                ],
-               "Major": [
+               "<u>sMajor</u>": [
                   "Find a way to.. deal with this 'curse'. Maybe things will go back to how they used to... heh..."
                ]
             }
@@ -3064,9 +2951,6 @@ var character = [
       "firstName": "Kaitao",
       "id": 38,
       "icon": "icons/Kaitao.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Kaitao.png",
       "class": [
          "Warden",
@@ -3125,8 +3009,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -3139,36 +3023,11 @@ var character = [
       "firstName": "Barnaby",
       "id": 39,
       "icon": "icons/Barnaby.png",
-      "icons": [
-         "icons/Barnaby.png",
-         "icons/Remmy.png"
-      ],
       "art": "art/Barnaby.png",
-      "class": [
-         "Alchemist"
+      "icons": [
+         "icons/39.png",
+         "icons/39b.png"
       ],
-      "subclass": [
-         "Venomsmith/Amorist"
-      ],
-      "background": "Sage/Charlatin",
-      "race": "Deer",
-      "role": [
-         "Dps",
-         "Utility",
-         "Social"
-      ],
-      "orientation": "Ace/Gay",
-      "pronouns": "He/Him",
-      "alignment": "Neutral Good/Chaotic Neutralish?",
-      "stats": {
-         "birthday": "May 28th/Greenspring Faire 3rd",
-         "age": "20",
-         "height": "6'",
-         "weight": "116",
-         "skin": "Brown/White Fur",
-         "eye": "Green/Red",
-         "hair": "So short that it basically doesn't exist?"
-      },
       "backstory": {
          "Quote": [
             "---",
@@ -3228,16 +3087,41 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   "Barnaby wants to continue his studying, above all else. He's only adventuring because of the experience to further his research and his brother's excitement at being somewhere that isn't college. ",
                   "Remmy is trying to get his family's financials set up so they never have to work a day in their lives, in case the worst happens. (The hypothetical situation where Remmy's actually a fragment of Barnaby's mind, and eventually fades back to where 'it' belongs. No, he isn't actually a fragment.)"
                ],
-               "Major": [
+               "<u>Major</u>": [
                   "Barnaby got into medicine as an option to attempt to allow him and his brother to have seperate bodies. So they can have their own lives. Remmy doens't care as much about it, more wanting someone to spend his life with. He sees his 'position' as luck both favoring him and being a little cruel. He supports Barnaby's attempts, he's just kinda given up hope about it, content to be in the 'passengers seat' of Barnaby's life."
                ]
             }
          ]
       },
+      "stats": {
+         "birthday": "May 28th/Greenspring Faire 3rd",
+         "age": "20",
+         "height": "6'",
+         "weight": "116",
+         "skin": "Brown/White Fur",
+         "eye": "Green/Red",
+         "hair": "So short that it basically doesn't exist?"
+      },
+      "class": [
+         "Alchemist"
+      ],
+      "subclass": [
+         "Venomsmith/Amorist"
+      ],
+      "background": "Sage/Charlatin",
+      "race": "Deer",
+      "role": [
+         "Dps",
+         "Utility",
+         "Social"
+      ],
+      "orientation": "Ace/Gay",
+      "pronouns": "He/Him",
+      "alignment": "Neutral Good/Chaotic Neutralish?",
       "Notes": [
          "Bomb casings are made out of plastic, filled with a reactive chemical. The true explosives are contained within gelled capsules. When shaken, the gel breaks down and mixes together. When exposed to air afterwards, BOOM. This was Remmy's idea. Glass is expensive, easily broken, and dangerous. Plastic is cheap, easy to make with their own abilities, and isn't dangerously sharp if broken. A simple additive in the plastic colors it or make it appear frosted."
       ]
@@ -3247,9 +3131,6 @@ var character = [
       "firstName": "Znoozy",
       "id": 40,
       "icon": "icons/Znoozy.png",
-      "icons": [
-         ""
-      ],
       "art": "art/Znoozy.png",
       "class": [
          "Wizard"
@@ -3307,8 +3188,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -3320,10 +3201,7 @@ var character = [
       "name": "Arytiss Maektrix",
       "firstName": "Arytiss",
       "id": 41,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icon": "icons/Arytiss.png",
       "art": "art/Arytiss.png",
       "class": [
          "Captain"
@@ -3398,8 +3276,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -3411,9 +3289,8 @@ var character = [
       "name": "Punk Paladin",
       "firstName": "Punkadin",
       "id": 42,
-      "icon": "Blank.png",
-      "icons": "",
-      "art": "Blank.png",
+      "icon": "icons/Punkadin.png",
+      "art": "art/Punkadin.png",
       "class": [
          "Paladin"
       ],
@@ -3421,7 +3298,7 @@ var character = [
          "Conquest"
       ],
       "background": "",
-      "race": "Harengon",
+      "race": "",
       "role": [
          "Dps",
          "Tank"
@@ -3431,7 +3308,7 @@ var character = [
       "alignment": "Neutral?",
       "stats": {
          "birthday": "",
-         "age": "0",
+         "age": 0,
          "height": "",
          "weight": 0,
          "skin": "",
@@ -3467,12 +3344,8 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
-                  ""
-               ],
-               "Major": [
-                  ""
-               ]
+               "<u>Minor</u>": [],
+               "<u>Major</u>": []
             }
          ]
       },
@@ -3484,9 +3357,8 @@ var character = [
       "name": "Reborn Martyr",
       "firstName": "Martyr",
       "id": 43,
-      "icon": "Blank.png",
-      "icons": "",
-      "art": "Blank.png",
+      "icon": "icons/Martyr.png",
+      "art": "art/Martyr.png",
       "class": [
          "Martyr"
       ],
@@ -3494,7 +3366,7 @@ var character = [
          "Reborn"
       ],
       "background": "Peasent?? Florist?",
-      "race": "Minotaur",
+      "race": "???",
       "role": [
          ""
       ],
@@ -3539,10 +3411,10 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [
+               "<u>Minor</u>": [
                   ""
                ],
-               "Major": [
+               "<u>Major</u>": [
                   "Releasing their god. They don't know it, but it'll kill them. Hell, they don't even know their god exists right now. "
                ]
             }
