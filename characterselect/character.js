@@ -1744,9 +1744,7 @@ var character = [
       "firstName": "Mukmuk",
       "id": 21,
       "icon": "icons/Mukmuk.png",
-      "icons": [
-         ""
-      ],
+      "icons": "",
       "art": "art/Mukmuk.png",
       "class": [
          "Witch"
@@ -1765,7 +1763,7 @@ var character = [
       "alignment": "??",
       "stats": {
          "birthday": "",
-         "age": 11,
+         "age": "11",
          "height": "",
          "weight": 0,
          "skin": "",
@@ -1774,14 +1772,14 @@ var character = [
       },
       "backstory": {
          "Quote": [
-            "---",
-            ""
+            "Mukmuk many service! For Dragon God!!",
+            "Mukmuk"
          ],
          "Physical Description": [
             ""
          ],
          "Personality": [
-            ""
+            "Mukmuk acts like a pretty 'average' dumb, excitable kobold. He exists for his 'god dragon'. He's actually pretty smart, just acts dumb so people lower their expectations."
          ],
          "Homes": [
             ""
@@ -1794,15 +1792,19 @@ var character = [
          ],
          "Important People": [
             {
-               "": [
-                  ""
+               "Dragon God": [
+                  "The black dragon who.. 'released' Mukmuk into the world. He found Mukmuk to be so excitable and annoying that he couldn't take it anymore. He thought Mukmuk would enjoy being killed by him too much, so instead sent him on a wild goose chase instead. Hoping to Tiamat that Mukmuk ever comes back."
                ]
             }
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
             }
          ]
       },
