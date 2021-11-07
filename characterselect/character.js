@@ -3486,7 +3486,7 @@ var character = [
       "name": "Reborn Martyr",
       "firstName": "Martyr",
       "id": 43,
-      "icon": "Blank.png",
+      "icon": "icons/Martyr.png",
       "icons": "",
       "art": "Blank.png",
       "class": [
@@ -3546,6 +3546,151 @@ var character = [
                ],
                "Major": [
                   "Releasing their god. They don't know it, but it'll kill them. Hell, they don't even know their god exists right now. "
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
+   },
+   {
+      "name": "Vampire Mouse",
+      "firstName": "Vamp",
+      "id": 44,
+      "icon": "Blank.png",
+      "icons": "",
+      "art": "Blank.png",
+      "class": [
+         "??? Necromancer??"
+      ],
+      "subclass": [
+         "Blood Ascendant?"
+      ],
+      "background": "??",
+      "race": "Dhampir/Mousefolk",
+      "role": [
+         ""
+      ],
+      "orientation": "",
+      "pronouns": "He/Him??",
+      "alignment": "??",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "",
+         "weight": 0,
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            "Albino mouse. Lithe, tall for a small creature, short for a medium? "
+         ],
+         "Personality": [
+            "Strangely confident. Surprise dom energy? maybe a tad bit sadistic at times. Doesn't fuck people he entralls, unless they consent to it beforehand. Very hard limit there. He'll let them die without a care, but he won't cross at least one line x3"
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            "Was turned into a vampire. Tries not to be a dick about it while also not having the best self control? He has a code though. Very loose, but a code.",
+            "He used to be timid, like you'd expect. Probably wore cute dorky glasses. A sculptor, he was commissioned to sculpt a bust of a noble. Said noble ended up being a vampire and enthralled him? Turned him? "
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
+   },
+   {
+      "name": "Marmalade",
+      "firstName": "Marmalade",
+      "id": 45,
+      "icon": "Blank.png",
+      "icons": "",
+      "art": "Blank.png",
+      "class": [
+         ""
+      ],
+      "subclass": [
+         ""
+      ],
+      "background": "",
+      "race": "Doggo",
+      "role": [
+         ""
+      ],
+      "orientation": "",
+      "pronouns": "",
+      "alignment": "",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "",
+         "weight": 0,
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            ""
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
                ]
             }
          ]
