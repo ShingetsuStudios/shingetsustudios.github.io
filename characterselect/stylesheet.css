@@ -1,3 +1,16 @@
+.auTitle {
+  background-color: #107013;
+  color           : rgb(0, 0, 0);
+  border          : none;
+  margin          : 2px;
+  padding         : 2px;
+  font-size: larger;
+}
+
+.auSelected{
+  background-color: #985f1e;
+}
+
 #ImpPeop {
   background-color : orange;
   background-repeat: no-repeat;
@@ -13,17 +26,17 @@ input .ImpPerson {
 }
 
 #gen textarea {
-  width: 560px;
-  height: 64px;
+  width           : 560px;
+  height          : 64px;
   background-color: #444;
-  color: #bbb;
+  color           : #bbb;
   outline         : none;
   border          : 1px solid #cdcdcd;
   border-color    : rgba(0, 0, 0, 0.15);
 }
 
 #gen .input {
-  width: 560px;
+  width     : 560px;
   text-align: left;
 }
 
@@ -98,9 +111,9 @@ input .ImpPerson {
   z-index         : 2;
   margin-left     : 150px;
   margin-top      : -40px;
-  position: fixed;
-  left: auto;
-  top: auto;
+  position        : fixed;
+  left            : auto;
+  top             : auto;
 }
 
 
@@ -141,10 +154,10 @@ input .ImpPerson {
   position        : fixed;
   z-index         : 1;
   background-color: #111;
-  overflow: visible;
-  overflow-y: scroll;
-  top: 0;
-  bottom: 0;
+  overflow        : visible;
+  overflow-y      : scroll;
+  top             : 0;
+  bottom          : 0;
 }
 
 

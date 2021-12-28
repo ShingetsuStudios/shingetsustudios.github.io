@@ -12,25 +12,29 @@ var job = ['Artificer', 'Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk
 
 var mode = "build"
 var id = 0
+var au = false
+var auName = "Default"
 
 $(document).ready(function () {
 
     if (window.location.hash != null || window.location.hash != undefined) {
-        //console.log("Hash exists")
-        //console.log(window.location.hash)
         var key = window.location.hash
-        var hashFilt = character.filter(k => k.id == Number(key.replace('#', '')))
-        //console.log(hashFilt[0].firstName)
+        var hashFilt = character.filter(k => k.id == Number(key.split('-')[0].replace(/[^0-9.]/g, '')))
+        console.log(hashFilt[0])
         id = hashFilt[0].id
-        //for (p = 0; p < character.length; p++) {
-        if (window.location.hash == '#' + hashFilt[0].id) {
-            //console.log(p + ": " + character[p].firstName + " " + character[p].id)
-            if (mode == "build") {
-                renderBuilder(hashFilt[0].id)
-            } else if (mode == "view") {
-                renderProfile(hashFilt[0].id)
+        if (key.includes('-')) {
+            var auKey = key.split('-')[1]
+            if (character[id].AU[auKey] != undefined) {
+                console.log(auKey)
+                au = true
+                auName = auKey
+                $('#auToggle').trigger('click')
             }
-            //}
+        }
+        if (mode == "build") {
+            renderBuilder(id)
+        } else if (mode == "view") {
+            renderProfile(id)
         }
     }
 
@@ -53,7 +57,13 @@ $(document).ready(function () {
 
         }
     })
-
+    $('#random').on('click', function () {
+        if (mode == "build") {
+            renderBuilder(Math.floor(Math.random() * (character.length - 1)) + 1)
+        } else if (mode == "view") {
+            renderProfile(Math.floor(Math.random() * (character.length - 1)) + 1)
+        }
+    })
     $('#newCharacter').on('click', function () {
         renderBuilder("new")
     })
@@ -64,78 +74,119 @@ $(document).ready(function () {
         if (mode == "build") {
             mode = "view"
             renderProfile(id)
+            $(this).html("Build")
         } else if (mode == "view") {
             mode = "build"
             renderBuilder(id)
+            $(this).html("Preview")
         }
         renderListView(mode)
     })
     $('.main').on('click', '#ImpPeop', function () {
         //console.log("true")
-        $('#importPeople').append('<input type="text" class="ImpPerson value=""> <textarea class="ImpPersonDesc"></textarea>')
+        let imp = $('.ImpPerson').length 
+        $('#importPeople').append('<div id="Important-People-'+imp+'"><input type="text" class="ImpPerson value=""><button id="Important-People-'+imp+'-Remove" class="Important-People-Remove" style="float: right;">Remove</button><br> <textarea class="ImpPersonDesc"></textarea></div>')
     })
     $('.main').on('change', '#gen', function () {
         parseToJson()
     })
-    /*
-        for (i in character) {
-            var url = 'icons/' + character[i].firstName + '.png'
-            $.ajax({
-                url: url,
-                type: 'HEAD',
-                async: false,
-                error: function () {
-                    console.log('false')
-                    character[i].icon = "icons/Blank.png"
-                    //$('.main').append('<p>'+url+'</p>')
-                },
-                success: function () {
-                    character[i].icon = "icons/"+character[i].firstName+".png"
+    $('.main').on('click', ".Important-People-Remove", function () {
+        character[id].backstory["Important People"].splice([Number($(this).attr("id").replace('-Remove', '').replace('Important-People-', ''))], 1)
+        $('#' + $(this).attr("id").replace('-Remove', '')).remove()
+    })
+    $('body').on('click', '.toggleButton', function () {
+        if ($(this).attr('id') == "auToggle") {
+            $('#toggleDefault').addClass("auSelected")
+            //$('#auToggled').empty()
+            $(this).toggleClass("toggledButton");
+            $('#auToggled').toggle()
+            $('#auAdd').toggle()
+
+            if ($(this).hasClass("toggledButton")) {
+                au = true
+            } else {
+                auName = "Default"
+                au = false
+
+
+            }
+        } else if ($(this).hasClass("auTitle")) {
+            var auNameSet = ($(this).html())
+            //console.log(auNameSet, auName, au)
+            if (auNameSet != "Default") {
+                au = true
+            }
+            auName = auNameSet
+            renderMode(id)
+            $('#toggle' + auNameSet).addClass('auSelected')
+            $('.auTitle').each(function () {
+                if ($(this).attr('id') != 'toggle' + auNameSet) {
+                    $(this).removeClass('auSelected')
                 }
-            });
+            })
+
+            if (auName != "Default") {
+                window.location.hash = id + '-' + auName
+            } else {
+                window.location.hash = id
+            }
+
+
         }
-    
-        for (i in character) {
-            
-            var url = 'art/' + character[i].firstName + '.png'
-            $.ajax({
-                url: url,
-                type: 'HEAD',
-                async: false,
-                error: function () {
-                    console.log('false')
-                    character[i].art = "art/Blank.png"
-                    //$('.main').append('<p>'+url+'</p>')
-                },
-                success: function () {
-                    character[i].art = "art/"+character[i].firstName+".png"
-                }
-            });
+    })
+    $('.main').on('click', '#auAdd', function () {
+
+        $('#' + $(this).attr('id') + "d").toggle()
+        var auNameSet = prompt("What AU are we exploring today?", "");
+        if (auNameSet != null && auNameSet != "") {
+            $('#auToggled').append('<button id="toggle' + auNameSet + '" class="toggleButton auTitle auSelected">' + auNameSet + '</button>')
+            au = true
+            auName = auNameSet
+            renderMode(id)
+            $('#toggle' + auNameSet).addClass('auSelected')
+
         }
-    */
+
+    })
+
 
 })
 
 function renderProfile(n) {
-    window.location.hash = n
+    if (window.location.hash.split('-')[0].replace(/[^0-9.]/g, '') != n) {
+        window.location.hash = n
+    }
     if (id != n) {
         id = n
     }
+    bAppend = ""
+    if (Object.keys(character[n].AU).length != 0) {
+        bAppend += "<button id='toggleDefault' class='toggleButton auTitle auSelected'>Default</button>"
+    }
+    if (au && auName != "Default" && character[n].AU[auName] != undefined) {
+        char = character[n].AU[auName]
+    } else {
+        char = character[n]
+    }
+    for (let u in character[n].AU) {
+        bAppend += '<button id="toggle' + u + '" class="toggleButton auTitle">' + u + '</button>'
+    }
+    bAppend += "<br><br>"
     $(".main").empty()
-    //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
+    //var toAppend = "<h2>" + char.name + "</h2><img src='" + char.art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table id= "characterIcon" style="float: right; width: 22em; border-spacing: 2px; text-align: center; position: fixed; right: 0px;">
     <tbody><tr><th colspan="2">
-    <h2>` + character[n].name + `</h2></th></tr>
-    <tr><td colspan="2"><img id= "`+ character[n].id + `img" class="tokenImg" src="` + character[n].icon + `" width= "300px;"></td></tr>
-    <tr><td colspan="2">Class: `+ character[n].class.join(', ') + `</td></tr>
-    <tr><td colspan="2">Subclass: `+ character[n].subclass.join(', ') + `</td></tr>
-    <tr><td colspan="2">Background: `+ character[n].background + `</td></tr>
-    <tr><td colspan="2">Race: `+ character[n].race + `</td></tr>
-    <tr><td colspan="2">Alignment: `+ character[n].alignment + `</td></tr>
-    <tr><td colspan="2">Age: `+ character[n].stats.age + `</td></tr>
-    <tr><td colspan="2">Height/Weight: `+ character[n].stats.height + `/ ` + character[n].stats.weight + `lbs</td></tr>
-    <tr><td colspan="2">Pronouns: `+ character[n].pronouns + `</td></tr>
-    <tr><td colspan="2">Orientation: `+ character[n].orientation + `</td></tr>
+    <h2>` + char.name + `</h2></th></tr>
+    <tr><td colspan="2"><img id= "`+ char.id + `img" class="tokenImg" src="` + char.icon + `" width= "300px;"></td></tr>
+    <tr><td colspan="2">Class: `+ char.class.join(', ') + `</td></tr>
+    <tr><td colspan="2">Subclass: `+ char.subclass.join(', ') + `</td></tr>
+    <tr><td colspan="2">Background: `+ char.background + `</td></tr>
+    <tr><td colspan="2">Race: `+ char.race + `</td></tr>
+    <tr><td colspan="2">Alignment: `+ char.alignment + `</td></tr>
+    <tr><td colspan="2">Age: `+ char.stats.age + `</td></tr>
+    <tr><td colspan="2">Height/Weight: `+ char.stats.height + `/ ` + char.stats.weight + `lbs</td></tr>
+    <tr><td colspan="2">Pronouns: `+ char.pronouns + `</td></tr>
+    <tr><td colspan="2">Orientation: `+ char.orientation + `</td></tr>
     </tbody></table>
     </div><div class='mid'>
     </div>`
@@ -143,27 +194,27 @@ function renderProfile(n) {
     $(".main").append(toAppend)
     $('.mid').css({ 'margin-right': $('#characterIcon').width() })
     navbar = "<div id='navBar'>"
-    bAppend = ""
-    for (var key in character[n].backstory) {
+
+    for (var key in char.backstory) {
         if (key === "Important People" || key === "Goals") {
             bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
-            for (i = 0; i < character[n].backstory[key].length; i++) {
+            for (i = 0; i < char.backstory[key].length; i++) {
 
-                for (var keys in character[n].backstory[key][i]) {
-                    bAppend += "<p><b>" + keys + "</b>: " + character[n].backstory[key][i][keys].join('</p><p>') + '</p>'//<br>'
+                for (var keys in char.backstory[key][i]) {
+                    bAppend += "<p><b>" + keys + "</b>: " + char.backstory[key][i][keys].join('</p><p>') + '</p>'//<br>'
                 }
             }
         } else if (key === "Quote") {
 
             bAppend += "<h3 style = 'display:none;' id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3>"
-            bAppend += '<i>"' + character[n].backstory[key].slice(0, character[n].backstory[key].length - 1) + '"</i><br>'
-            bAppend += character[n].backstory[key].slice(character[n].backstory[key].length - 1)
-            //bAppend += "<p><i>" + character[n].backstory[key].join('</p><p>') + '</p>'
+            bAppend += '<i>"' + char.backstory[key].slice(0, char.backstory[key].length - 1) + '"</i><br>'
+            bAppend += char.backstory[key].slice(char.backstory[key].length - 1)
+            //bAppend += "<p><i>" + char.backstory[key].join('</p><p>') + '</p>'
 
-
+            //} else if (key === "AU"){
         } else {
 
-            bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3><p>" + character[n].backstory[key].join('</p><p>') + '</p>'
+            bAppend += "<hr><h3 id='" + key.replace(' ', '-') + "'><b>" + key + "</b></h3><p>" + char.backstory[key].join('</p><p>') + '</p>'
         }
         if (key === "Quote") {
 
@@ -171,12 +222,28 @@ function renderProfile(n) {
             navbar += "<a href='#" + key.replace(' ', '-') + "'>" + key + "</a><br>"
         }
     }
-    bAppend += `<img src="` + character[n].art + `">`
-    $('.mid').append(navbar + "</div><br>" + bAppend)
+    bAppend += `<img src="` + char.art + `">`
+    $('.mid').append(/*navbar + "</div>*/  bAppend)
 }
 
 function renderBuilder(n) {
     $('.main').empty()
+
+
+    $('.main').css({ "margin-left": $('#sidebar').width() })
+    $('.main').append("<table id='gen'>")
+    //console.log(n)
+    if (window.location.hash.split('-')[0].replace(/[^0-9.]/g, '') != n) {
+        window.location.hash = n
+    }
+
+    if (id != n) {
+        id = n
+        auName = "Default"
+        au = false
+        $('#auToggle').trigger("click")
+    }
+
     if (n === "new") {
         character.push(
             {
@@ -231,71 +298,82 @@ function renderBuilder(n) {
         n = character.length - 1
         renderListView(mode)
     }
-
-
-    $('.main').css({ "margin-left": $('#sidebar').width() })
-    $('.main').append("<table id='gen'>")
-    console.log(n)
-    window.location.hash = n
-
-    if (id != n) {
-        id = n
+    if (au && character[id].AU[auName] == undefined && auName != "Default") {
+        let auTemp = Object.assign({}, character[id])
+        delete auTemp.AU
+        character[id].AU[auName] = auTemp
+        delete character[id].AU[auName].AU
     }
-    for (var key in character[n]) {
-        buildBuilder(key, n)
+    let display = "display:none;"
+    if (au) {
+        display = ""
+    }
+    $('#gen').append('<tr><td><button class="toggleButton" id="auToggle">AU</button><button id="auAdd" style="display:none;">Add AU</button></td><td id="auToggled" style="' + display + '"><button id="toggleDefault" class="toggleButton auTitle">Default</button></td></tr>')
+    for (let u in character[id].AU) {
+        $('#auToggled').append('<button id="toggle' + u + '" class="toggleButton auTitle">' + u + '</button>')
+    }
+    //console.log(auName)
+    if (au && auName != "Default") {
+        for (var key in character[n].AU[auName]) {
+            buildBuilder(key, character[n].AU[auName])
+        }
+    } else {
+        for (var key in character[n]) {
+            buildBuilder(key, character[n])
+        }
     }
     $('.main').append('</table>')
 }
 
-function buildBuilder(key, n) {
+function buildBuilder(key, char) {
     if (key === "Notes") {
-        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <textarea id="GenNotes" class="input">' + character[n][key].join('\n') + '</textarea></td></tr>')
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <textarea id="GenNotes" class="input">' + char[key].join('\n') + '</textarea></td></tr>')
     } else if (key === "id") { // || key === "icon" || key === "art") {
-        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <span id=' + key + '>' + character[n][key] + '<br></tr>')
-    } else if (typeof (character[n][key]) === "number") {
-        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="number" id=Gen' + key + ' value="' + character[n][key] + '"></tr>')
-    } else if (typeof (character[n][key]) === "string") {
-        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="string" class = "input" id=Gen' + key + ' value="' + character[n][key] + '"></tr>')
-    } else if (character[n][key].constructor.name == "Array") {
-        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="string" class = "input" id=Gen' + key + ' value="' + character[n][key].join(', ') + '"></tr>')
-    } else if (typeof (character[n][key]) === "object") {
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <span id=' + key + '>' + char[key] + '<br></tr>')
+    } else if (typeof (char[key]) === "number") {
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="number" id=Gen' + key + ' value="' + char[key] + '"></tr>')
+    } else if (typeof (char[key]) === "string") {
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="string" class = "input" id=Gen' + key + ' value="' + char[key] + '"></tr>')
+    } else if (char[key].constructor.name == "Array") {
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> <input type="string" class = "input" id=Gen' + key + ' value="' + char[key].join(', ') + '"></tr>')
+    } else if (typeof (char[key]) === "object") {
         if (key === "stats") {
             $('#gen').append('<tr><td><br> </td><td><b><u>Stats</b></u></td></tr>')
-            for (sKey in character[n][key]) {
-                //console.log(character[n][key][sKey])
-                //$('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td>'+character[n][key][sKey]+'</td></tr>')
-                if (typeof (character[n][key][sKey]) === "number" || typeof (character[n][key][sKey]) === "string") {
-                    $('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td> <input type="' + typeof (character[n][key][sKey]) + '" class = "input" id=Gen' + sKey + ' value="' + character[n][key][sKey] + '"></td></tr>')
+            for (sKey in char[key]) {
+                //console.log(char[key][sKey])
+                //$('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td>'+char[key][sKey]+'</td></tr>')
+                if (typeof (char[key][sKey]) === "number" || typeof (char[key][sKey]) === "string") {
+                    $('#gen').append('<tr><td><b>' + SentanceCase(sKey) + ':</b></td><td> <input type="' + typeof (char[key][sKey]) + '" class = "input" id=Gen' + sKey + ' value="' + char[key][sKey] + '"></td></tr>')
                 }
             }
         } else if (key === "backstory") {
             $('#gen').append('<tr><td><br> </td><td><b><u>Backstory</u></b></td></tr>')
             //$('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> </tr>')
 
-            $('#gen').append('<tr><td><b>Quote:</b></td><td><input type="text" id="GenQuote"  class = "input" value="' + character[n][key].Quote[0] + '"><br><input type="text" id="GenQuoter" value="' + character[n][key].Quote[1] + '"></tr>')
+            $('#gen').append('<tr><td><b>Quote:</b></td><td><input type="text" id="GenQuote"  class = "input" value="' + char[key].Quote[0] + '"><br><input type="text" id="GenQuoter" value="' + char[key].Quote[1] + '"></tr>')
 
-            $('#gen').append('<tr><td><b>Physical Description:</b></td><td><textarea id="GenDesc">' + character[n][key]["Physical Description"].join('\n') + '</textarea> </td></tr>')
+            $('#gen').append('<tr><td><b>Physical Description:</b></td><td><textarea id="GenDesc">' + char[key]["Physical Description"].join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>Personality:</b></td><td><textarea id="GenPers">' + character[n][key].Personality.join('\n') + '</textarea> </td></tr>')
+            $('#gen').append('<tr><td><b>Personality:</b></td><td><textarea id="GenPers">' + char[key].Personality.join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>Homes:</b></td><td><textarea id="GenHomes">' + character[n][key].Homes.join('\n') + '</textarea> </td></tr>')
+            $('#gen').append('<tr><td><b>Homes:</b></td><td><textarea id="GenHomes">' + char[key].Homes.join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>General Abilities:</b></td><td><textarea id="GenAbil">' + character[n][key]["General Abilities"].join('\n') + '</textarea> </td></tr>')
+            $('#gen').append('<tr><td><b>General Abilities:</b></td><td><textarea id="GenAbil">' + char[key]["General Abilities"].join('\n') + '</textarea> </td></tr>')
 
-            $('#gen').append('<tr><td><b>Bio:</b></td><td><textarea id="GenBio">' + character[n][key].Bio.join('\n') + '</textarea> </td></tr>')
+            $('#gen').append('<tr><td><b>Bio:</b></td><td><textarea id="GenBio">' + char[key].Bio.join('\n') + '</textarea> </td></tr>')
 
             $('#gen').append('<tr><td><b>Important People:</b></td><td><button id="ImpPeop">New Person</button><br> <div id="importPeople"></div></td></tr>')
-            for (p = 0; p < character[n][key]["Important People"].length; p++) {
-                var tempArray = Object.keys(character[n][key]["Important People"][p])
-                $('#importPeople').append('<input type="text" class="ImpPerson" value="' + tempArray[0] + '"><br> <textarea class="ImpPersonDesc">' + character[n][key]["Important People"][p][tempArray[0]] + '</textarea><br>')
+            for (p = 0; p < char[key]["Important People"].length; p++) {
+                var tempArray = Object.keys(char[key]["Important People"][p])
+                $('#importPeople').append('<div id="Important-People-' + p + '"><input type="text" class="ImpPerson" value="' + tempArray[0] + '"> <button id= "Important-People-' + p + '-Remove" class="Important-People-Remove" style="float: right;">Remove</button><br> <textarea class="ImpPersonDesc">' + char[key]["Important People"][p][tempArray[0]] + '</textarea><br></div>')
                 //console.log(tempArray[0])
             }
 
-            $('#gen').append('<tr><td><b>Goals:</b></td><td>Minor:<br><textarea id="GenMiGoal">' + character[n][key].Goals[0]["Minor"].join('\n') + '</textarea><br>Major<br><textarea id="GenMaGoal">' + character[n][key].Goals[0]["Major"].join('\n') + '</textarea> </td></tr>')
+            $('#gen').append('<tr><td><b>Goals:</b></td><td>Minor:<br><textarea id="GenMiGoal">' + char[key].Goals[0]["Minor"].join('\n') + '</textarea><br>Major<br><textarea id="GenMaGoal">' + char[key].Goals[0]["Major"].join('\n') + '</textarea> </td></tr>')
         }
     } else {
-        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> "' + character[n][key] + '"</td></tr>')
-        //console.log(key + " : " + typeof (character[n][key]))
+        $('#gen').append('<tr><td><b>' + SentanceCase(key) + ':</b></td><td> "' + char[key] + '"</td></tr>')
+        //console.log(key + " : " + typeof (char[key]))
 
     }
 }
@@ -353,10 +431,11 @@ function parseToJson() {
                 }
             ]
         },
-        "Notes": $('#GenNotes').val().split('\n')
+        "Notes": $('#GenNotes').val().split('\n'),
+        "AU": {}
 
     }
-    console.log(tempJSON)
+    //console.log(tempJSON)
 
     var sorted = Object.keys(tempJSON)
     sorted.push(sorted.splice(sorted.indexOf("backstory"), 1)[0]);
@@ -367,14 +446,28 @@ function parseToJson() {
         tempOBJ[sorted[i]] = tempJSON[sorted[i]]
     }
 
-    character[id] = tempOBJ
+    if (!au) {
+        character[id] = tempOBJ
+    } else {
+
+        delete tempOBJ.AU
+        character[id].AU[auName] = tempOBJ
+    }
+    console.log(tempOBJ)
     renderListView(mode)
 }
 
 function SentanceCase(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+function renderMode(m) {
+    if (mode == "build") {
+        renderBuilder(m)
+    } else if (mode == "view") {
+        renderProfile(m)
+    }
 
+}
 function renderListView(m) {
     $('#characterSelect').empty()
     var filtChar = character.filter(function (item) {
@@ -400,7 +493,7 @@ function renderListView(m) {
     }
     for (i = 0; i < filtChar.length; i++) {
         var num = filtChar[i].id + 1
-        appendText += '<button class="characterList" onclick="' + onClick + '(' + filtChar[i].id + ')">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
+        appendText += '<button class="characterList" onclick="' + onClick + '(' + filtChar[i].id + ');au=false;">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
 
     }
     $('#info').html("   Count: " + character.length + " characters")

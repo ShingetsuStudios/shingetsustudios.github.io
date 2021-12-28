@@ -105,7 +105,105 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {
+         "LA": {
+            "name": "Shingeki Kurokawa",
+            "firstName": "Shingeki",
+            "id": 0,
+            "icon": "icons/Shin.png",
+            "icons": "",
+            "art": "Blank.png",
+            "class": [
+               "Art Student"
+            ],
+            "subclass": [
+               ""
+            ],
+            "background": "",
+            "race": "Skunk, 1/4 Angelic, 1/2 Demonic",
+            "role": [
+               ""
+            ],
+            "orientation": "Gay",
+            "pronouns": "He/Him",
+            "alignment": "Chaotic Nuetral Good?",
+            "stats": {
+               "birthday": "August 14th",
+               "age": "18",
+               "height": "5'6",
+               "weight": 140,
+               "skin": "black fur, white stripes",
+               "eye": "orange",
+               "hair": "black and white"
+            },
+            "backstory": {
+               "Quote": [
+                  "",
+                  ""
+               ],
+               "Physical Description": [
+                  "Shin is a simple skunk, at least on the outside. Typically he wears a jacket of some kind over a simple colored shirt and pants. He's surprisingly plain, but that plays to his advantage."
+               ],
+               "Personality": [
+                  "Shin is usually a quiet, but not shy person. He won't engage in conversation without provoked, but he's not afraid to talk to people he's comfortable around. Through everything, Shin cares about people and tries not to make the already hard life in Lunar City harder than it has to be. Sure, he'll have his fun, but then people will get released without a scratch."
+               ],
+               "Homes": [
+                  "Mom's Place - Were his family is at, he can't stay there cause of his demonic side corrupting everything around him when not in check.",
+                  "Lunar Academe - Currently residing on the grounds with his adopted big brother Chim as his room mate. It's weird, seeing as Chim is a professor and he's a student, but oh well."
+               ],
+               "General Abilities": [
+                  "Like all creatures of Arcada, Shin has a core. His very essence. Unlike other creatures, Shin's core is an amalgamation of 3 seperate parts of himself. If rendered as a marble, it would be a quarter orange, a quarter gold, and the other half would be a dark, blood red. ",
+                  "",
+                  "Mortal - Shin is a mortal creature, if only (originally) half. He has free will, and can technically do what he wants. Shin's Major mortal magic is Artist. A very fluid and ill defined ability, Shin can manipulate things around him like making art itself. The limits haven't been fully discovered, but he's changed people by changing drawings he's made of them, converted people into art supplies, reshaped them like they were clay, and trapped people within conventional artforms. Just like art itself, Shin's abilities are limitless if utilized correctly.",
+                  "",
+                  "Angelic - Inherited from his mother, Shin is part angel. When pure enough, he can manifest his wings and halo, and extend a greater control of reality around him. His Major magic from his angelic side is Soul Magic, the ability to welcome someone within his own soul, as if it was an extra dimensional space. This serves as both a protection for Shin, in the event he gets claimed, as well as a protection for anyone he claims himself. If someone wants to leave, they'll eventually find themselves in bed, with no real negatives to the time they spent within Shin's soul. It was as if they woke up the next morning with no consequences. If someone so utterly desires to not leave, they are given their own little corner of the skunk's inner 'heaven', where they can safely 'dream' for as long as they want. Since this is a form of claiming, Shin can tap on the experiences, magic, powers, and forms of anyone within his soul.",
+                  "",
+                  "Demonic - The remnants of the demon that attempted to devour him merged within Shin's own personality grant him powers beyond his wildest dreams. While he could bend reality with his angelic side, he never had the desire to do much with it. It is impossible to put a name to this part of his magic, as the demon had already amalgamated the souls of its countless victims. There are several abilities that are believed to be thanks to the demonic portion of Shin. Strengthening, with or without the change of body mass, shape shifting to those he's claimed, corruptive scent, the ability to partially or fully melt into a corrupted ooze, scent based hypnosis, absorption, and quite possibly more. These are in addition to the natural powers of possessing demonic power.",
+                  "",
+                  "Half and Half - Thanks to the strange blend that Shin is, He's got the benefits of both being Angelic and Demonic. Angels can only be effected by magic of demons, gods, or aspects, and demons can only be effected by magic of angels, gods, or aspects, giving him an astounding level of defense to magic. He can willingly let magic effect him, but without his permission, a normal mortal can't do jack shit to him. "
+               ],
+               "Bio": [
+                  "First born child of Zayne and Glyde, Shin was born half angel. He was utterly pure, no desires to corrupt him. Only childhood innocence, even in his teen years. It wasn't until his 18th birthday, when he got invited to hang out to a bar with friends. He didn't drink, but got pulled away by this.. utterly attractive hound dog. The ace skunk couldn't place why he was so attracted to the older dog, other than he was told he should be. A make out session in the bathroom led to the skunk loosing his virginity, and the dog's true nature was revealed. Shin was pulled into him, the hellhound using his body as a puppet for.. Shin can't tell you how long. He claimed so many people, did so many depraved things, and was so utterly corrupt that he didn't know if he actually existed. If it wasn't for the protective magic his mother always weaved into him before he went out, he would have just been another soul in the hellhounds collection. Instead, when the demon tried to break his weakened soul down into nothing, the inverse happened. Shin awoke, the demon now merged into him so perfectly that it was just.. Shin."
+               ],
+               "Important People": [
+                  {
+                     "Glyde": [
+                        ""
+                     ]
+                  },
+                  {
+                     "Zayne": [
+                        ""
+                     ]
+                  },
+                  {
+                     "Kur": [
+                        ""
+                     ]
+                  },
+                  {
+                     "Chim": [
+                        ""
+                     ]
+                  }
+               ],
+               "Goals": [
+                  {
+                     "Minor": [
+                        ""
+                     ],
+                     "Major": [
+                        ""
+                     ]
+                  }
+               ]
+            },
+            "Notes": [
+               ""
+            ]
+         }
+      }
    },
    {
       "name": "Malikai Ze'ev",
@@ -185,7 +283,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Banya Seitatsu",
@@ -272,7 +371,98 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {
+         "Higawa": {
+            "name": "Banya Higawa",
+            "firstName": "Banya",
+            "id": 2,
+            "icon": "icons/Banya.png",
+            "icons": "",
+            "art": "art/Banya.png",
+            "class": [
+               "Wizard"
+            ],
+            "subclass": [
+               "Scribe"
+            ],
+            "background": "",
+            "race": "Kitsune",
+            "role": [
+               "Dps",
+               "Support",
+               "Utility"
+            ],
+            "orientation": "",
+            "pronouns": "He/Him",
+            "alignment": "Neutral Good",
+            "stats": {
+               "birthday": "",
+               "age": "16",
+               "height": "5'3''",
+               "weight": 125,
+               "skin": "orange and cream fur",
+               "eye": "electric blue",
+               "hair": "orange"
+            },
+            "backstory": {
+               "Quote": [
+                  "---",
+                  ""
+               ],
+               "Physical Description": [
+                  "Orange and cream fur. It's hard to tell if he's orange with cream accents or cream with orange accents. 3 tails at least, each with ghostly blue flames above them. He wears purple and teal silks, simple, yet elligant."
+               ],
+               "Personality": [
+                  "Hostile. Banya is neutral at the best of times, and a ball of anger at the worst of times. He doesn't understand a lot of customs due to being raised in a completely different environment. He doesn't really understand things like caring or love, having been shunned by his clans for merely existing for his entire life. He is also quite sheltered and secretly attention starved. Praise is a thing that he's always dreamed about, but rarely, if ever, received.",
+                  "He acts like he's better than everyone around him, partially due to the ingrained kitsune hierarchy, and the fact that his status as a 3 tailed kitsune dictates that those around him must give him respect. He doesn't understand eastern culture, politics, or traditions at all, and he rarely makes an attempt to.",
+                  "Simply put, Banya is someone who doesn't understand anything but anger and pain. Even those he trusts aren't shown the 'good' side of him."
+               ],
+               "Homes": [
+                  "Kitsune Clan - a very japanese style place. Serene pools, picture-esk hills, pagodas and other japanese archetecture. Full of kitsunes, all of which either dislike or don't care for Banya at all."
+               ],
+               "General Abilities": [
+                  "Summoner - Banya, as a Summoner has various things he can call to him when needed. Predominantly he summons his Eidolon, an outsider spirit given form from Banya's will and power.",
+                  "Kitsune Shape changing - Banya can assume a human form at will, but it always appears to be a humanoid version of himself. He is attempting to break this limitation",
+                  "Spellcasting - While he's not a fullcaster, Banya has access to certain spells before even wizards do to his specialization. He is predominantly a support caster, focused on buffing one creature.",
+                  " Enhanced Development - Due to his hybrid nature, Banya's natural kitsune power and stature increase dramatically quicker than a normal Kitsune. Most kItsune develop their second tail at 20, while Banya achieved 3 by the age of 15"
+               ],
+               "Bio": [
+                  "<b>The Early Years</b>",
+                  "Banya was born of love between to kitsunes of differing clans. His Mother and Father ignored the tradition, choosing love over everything. Yet his mother's clan refused to keep her child, as per tradition. Instead, he was raised in his father's clan. (His father willingly gave up his spot in the clan in hopes of his child having a happy life?) Banya had all his needs met, but only at the bare minimum. He never had anyone show him emotional connections other than disdain. He grew up confused, and spent most of his time studying.",
+                  "<b>Teens</b>",
+                  "As he grew, he really started to notice how different he was. All the other members of the clan had reddish orange fur and brown markings. Everyone treated him differently. Teachers refused to praise him for his hard work, even when he was at the top of the class. He had a 'family', but it was assigned by the clan, and only in that the were required to take care of his basic needs.  Banya spent more and more time studying. Feelings towards Banya started to sour even more after his enhanced development",
+                  "<b>The Journey</b>",
+                  "At the age of 14, Banya was finally free. He was sent out on the traditional 7 year journey to learn and improve oneself. The faint flicker of hope drove him forward to travel all throughout Vazoa. He didn't really connect with others around him, but he spent a good year traveling, learning, and enjoying freedom. He was in awe with the military's power and regalness. That first year of traveling was the first time he experienced a variety of things. He finally had a taste at what living could be like.",
+                  "<b>Exile</b>",
+                  "But that wasn't to last.",
+                  "Just after his 15th birthday (which he spent alone in a library reading.), he was ambushed by a small group from his clan. He tried to defend himself, but Banya has never been all that strong. He was left battered and bruised to die in the ditch. They spat at him, slung slurs, and shattered what little hope he had been building up over the last year. He crawled away and nursed himself back to health, then went to the guards. The great might of the Vazoan military would see this injustice and back him up. They had to. He had seen what happens to those who break the law, and he had no one else to turn to.",
+                  "Except the guards drew their blades as soon as they saw him. He was accused of theft and attempted murder of a high ranking official in town and was to be executed immediately. Agast, Banya tried to explain his innocence as he slowly backed away from the people he thought would be his saviors. But the guards let it slip that a group of helpful kitsunes warned them about the menace that plagued their clan.",
+                  "Banya broke. He bolted as fast as he could, dodging the guards as best as he could. He ran straight into the very group, the ones that beat him. That stole his spell book. That burned away his hope. And they beat him more. He was desperate. Wanting to survive over everything else. So he casted out his line to anyone listening. Give him the power to survive, no matter the cost. The magic he had burned away as out popped.. a large fuck off dragon. Derg grabbed Banya, flew off, and got him on a boat already leaving.. "
+               ],
+               "Important People": [
+                  {
+                     "Father": [
+                        "Higawa has a great relationship with his father, and tries to keep in touch as best as he can."
+                     ]
+                  }
+               ],
+               "Goals": [
+                  {
+                     "Minor": [
+                        ""
+                     ],
+                     "Major": [
+                        ""
+                     ]
+                  }
+               ]
+            },
+            "Notes": [
+               ""
+            ]
+         }
+      }
    },
    {
       "name": "Dimitri Yenko",
@@ -345,7 +535,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Hong se Wah",
@@ -442,7 +633,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Almaz Razanor",
@@ -550,7 +742,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Kasshakku Spilogale",
@@ -621,7 +814,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Kyneric Agnarus of Dam",
@@ -706,7 +900,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Leonidas Spartacus de Augustine",
@@ -779,7 +974,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Amadi Kayenbah",
@@ -850,7 +1046,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Miqui Nicmenitia",
@@ -923,7 +1120,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Alexi 'Fire Hawk' Kubari",
@@ -994,7 +1192,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Jhankdi Vehaforcaex of Bahamut",
@@ -1121,7 +1320,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Corpsey",
@@ -1193,7 +1393,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Kangaroo McShieldfighter",
@@ -1263,7 +1464,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Spit Drip",
@@ -1336,7 +1538,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Mensharus Servictus-Victorius Arodauntus of House Bagruzelum",
@@ -1408,7 +1611,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Peeka",
@@ -1478,7 +1682,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Tysshyr Pandrylealor",
@@ -1594,7 +1799,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Banana",
@@ -1667,7 +1873,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Dionikos Doron Epiktetos",
@@ -1737,7 +1944,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Mukmuk",
@@ -1810,7 +2018,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Koda",
@@ -1882,7 +2091,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Psychi Ambrogis",
@@ -1956,17 +2166,16 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Ja'Owazi Frigfara Mashaeir",
       "firstName": "Ja'Owazi",
       "id": 24,
-      "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "icon": "icons/JaOwazi.png",
+      "icons": "",
+      "art": "art/JaOwazi.png",
       "class": [
          "Sorcerer"
       ],
@@ -1983,7 +2192,7 @@ var character = [
       "alignment": "True Neutral",
       "stats": {
          "birthday": "",
-         "age": 20,
+         "age": "20",
          "height": "",
          "weight": 0,
          "skin": "",
@@ -2040,14 +2249,117 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
             }
          ]
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {
+         "1920s": {
+            "name": "Ja'Owazi Frigfara Mashaeir",
+            "firstName": "Ja'Owazi",
+            "id": 24,
+            "icon": "icons/jaowaziau.png",
+            "icons": "",
+            "art": "art/JaOwazi.png",
+            "class": [
+               "Rogue/Bard"
+            ],
+            "subclass": [
+               "Scout/Lore"
+            ],
+            "background": "Outlander",
+            "race": "Tabaxi",
+            "role": [
+               "Support",
+               "Utility",
+               "Social",
+               "Dps"
+            ],
+            "orientation": "One Hundred and Ten Percent Gay * 100",
+            "pronouns": "He/Him",
+            "alignment": "Chaotic Neutral",
+            "stats": {
+               "birthday": "",
+               "age": "23",
+               "height": "",
+               "weight": 0,
+               "skin": "",
+               "eye": "",
+               "hair": ""
+            },
+            "backstory": {
+               "Quote": [
+                  "---",
+                  ""
+               ],
+               "Physical Description": [
+                  "Very Fluffy. Light blue hair and eyes. Hair is Dyed. Natural hair color is cream., Has the standard snow leopard rosettes, with one in the middle of his forehead, almost third eye like. He wears a cut off shirt, a blue cape and a long scarf. Flowing blue pants with leather guards on his hands and feet."
+               ],
+               "Personality": [
+                  "Ja'Owazi is very personable. He is a very curious cat who enjoys to play music, play with his magic, cause a bit of chaos, and exercise his sharpshooting. He's become a confident gay boy who doesn't care much for what people have to say about how he dresses or acts, but he's still respectful and a 'mostly' good boy. Deep down he knows he's becoming a contract killer and worries about it, but he'll put on an incredible act being the ADHD cat he is~"
+               ],
+               "Homes": [
+                  "When not traveleing, he currently lives in his childhood home, although sometimes he spends nights in inns or pubs. Either so he and Sylphalis can have some alone time, or because his parents asked for some alone time."
+               ],
+               "General Abilities": [
+                  "Tabaxi: Ja'Owazi is a cat, and therefore can climb, nyoom fast, slash with his claws, and is naturally good at being aware of his surroundings and blending in.",
+                  "Rogue: Ja'Owazi is stealthy, leaning into his tabaxi heiratage and those excelent genes that he got from his parents. ",
+                  "Bard: After spending so much time around his boyfriend, he managed to pick up a few tricks. Magic didn't come easy to him, and he'll never be a full fledged caster. But gosh, is he proud of the magic he can do.",
+                  "Gun mage: His dad taught him some tricks, and he applied it in various ways, including embuing magic into his gunshots. He can jam weapons, fire silently, make his bullets explode, and other things. He's an excellent shot from long distances."
+               ],
+               "Bio": [
+                  "Born an only child, Owazi grew up with mostly just his mother. His father worked on a ship, leaving him absent for a good portion of his childhood. He loved both his parents and was an overall good child. He had friends, played, and had a happy childhood.",
+                  "His mother raised him with the idea of giving him every tool possible for his success. She had a bit of a challenge trying to get him to pay attention long enough and keep his interest in things.",
+                  "When he was 12, his father was scheduled to return from sea, but the ship never returned. They spent a year waiting for him to return, and after that.. they both were ready to find something else to focus on..",
+                  "Raised in the city of Gamdim of Northhold.",
+                  "Reason for going into the mountains. It's where his parents were married, and his mother thought he was old enough to see where it happened. She also wanted to see it to try and let go and mourn her husband, and it was a good reason to help Ja'Owazi learn to survive and grow."
+               ],
+               "Important People": [
+                  {
+                     "Dar'Assanji": [
+                        "Father, Worked on boats, went out to see when Ja'Owazi was 13, didn't come back. Eventually he was found on the isles and now he's back where he belongs. Papa used to do some shady things, and has been teaching his kitten some of the more 'advanced' tricks."
+                     ]
+                  },
+                  {
+                     "Kiraya Frigfara": [
+                        "Mother. Was the one to really raise Owazi. Tailor. Taught Owazi how to sew and the like. They'd travel together when they could, she wanted to make sure her son could take care of himself. They traveled together for a while, but now she's mostly settled back down at home. They still travel together at times."
+                     ]
+                  },
+                  {
+                     "Sylphanis Vasandoral": [
+                        "Half elf Bard. One of the boys Ja'Owazi crushed on during his journey, and the one his mom finally caught him crushing on. They traveled for a week or so together where his crush only grew, then they had to split up. From the Elven part of the Federation. Dreamed of making it big playing music, performing, and living life to the fullest. Told Ja'Owazi if he was ever in the 'neighborhood' to look him up.\nAnd after the mountain? Oh boy did he look him up. They started dating, and after years of dating.. Ja'Owazi Proposed <3"
+                     ]
+                  },
+                  {
+                     "Quiviel": [
+                        "Tiefling, Neutral Evil Explorer. [All tiefling fire abilities replaced with cold]. Unknown. Potentially the person who sunk Dar'Assanji's boat."
+                     ]
+                  }
+               ],
+               "Goals": [
+                  {
+                     "Minor": [
+                        "Have fun. Write music, make people feel things~"
+                     ],
+                     "Major": [
+                        "He's going to marry that stupid hot boye elf, and then maybe convince him that there's plenty of love to go around~"
+                     ]
+                  }
+               ]
+            },
+            "Notes": [
+               ""
+            ]
+         }
+      }
    },
    {
       "name": "Thaiasi 'Thai' _____",
@@ -2128,7 +2440,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Finnigan",
@@ -2198,7 +2511,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Amora Mayet Paydubastis",
@@ -2266,7 +2580,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Edwyn Jindrritch",
@@ -2338,7 +2653,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Teohni Ly-al Lycurgus",
@@ -2414,7 +2730,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Heepo Lytos",
@@ -2498,7 +2815,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Brooke Goldenmane",
@@ -2530,6 +2848,7 @@ var character = [
          "eye": "Sparkling Orange",
          "hair": "Brown"
       },
+      "AU": {},
       "backstory": {
          "Quote": [
             "---",
@@ -2573,7 +2892,8 @@ var character = [
          ]
       },
       "Notes": [
-         ""
+         "If you go witch, take pet rock as his familiar. Not only is it childish and dumb, but he can slip it into someone's pocket and cast touch spells without them knowing what the hell is going on.",
+         "Or be cute and give it to someone so you can spy on them :3c"
       ]
    },
    {
@@ -2646,7 +2966,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Luvro Scrivento",
@@ -2717,7 +3038,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Otso Kadubis Arkadios",
@@ -2785,7 +3107,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Zhihao DuLong",
@@ -2861,7 +3184,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Kaiex the Indomitable",
@@ -2941,7 +3265,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Matthias Voss Van Ruetin / Zachirah Pridefang",
@@ -3059,16 +3384,15 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Kaitao Torunn",
       "firstName": "Kaitao",
       "id": 38,
       "icon": "icons/Kaitao.png",
-      "icons": [
-         ""
-      ],
+      "icons": "",
       "art": "art/Kaitao.png",
       "class": [
          "Warden",
@@ -3078,27 +3402,28 @@ var character = [
          "Bloodwrath Guardian",
          "Beastborne"
       ],
-      "background": "",
+      "background": "Soldier/Knight?",
       "race": "Sahaugin",
       "role": [
          "Tank",
          "Dps"
       ],
-      "orientation": "",
+      "orientation": "Why would I make a straight character? x3",
       "pronouns": "He/Him",
       "alignment": "Neutral",
       "stats": {
          "birthday": "",
-         "age": 31,
+         "age": "31",
          "height": "6'5''",
          "weight": 296,
          "skin": "grey",
          "eye": "red",
          "hair": "none"
       },
+      "AU": {},
       "backstory": {
          "Quote": [
-            "---",
+            "",
             ""
          ],
          "Physical Description": [
@@ -3108,32 +3433,45 @@ var character = [
             "Despite his intimidating look, he's actually caring. He's protective of those that he's close to. He's content to be at peace, and violence is a last resort."
          ],
          "Homes": [
-            ""
+            "Undersea Kingdom of _____, former - Kaitao was born and raised under the waves, trained from an early age to fight for their military, and excelled at it until he asked himself <i>why</i> he fought."
          ],
          "General Abilities": [
             "<b>Sahaugin</b> - As a 'shark kin', Kaitao is big, strong, and hardy. He's a fast swimmer, and has a strong jaw.",
-            "<b>Ranger</b> - ",
-            "<b></b> - "
+            "<b>Warden</b> - He is a wall, a true tank. A glutton for punishment and pain.",
+            "<b>ManEater</b> - Do to his shark nature, instead of the typical grab and hold ways of warden, he's more furocious and aggro. He scores crits easier on marked targets, can push people away, and takes a full round to truely take damage.",
+            "<b>Ranger</b> - He's also skilled in survival, tracking, and hunting. Mostly in the water, but it caries over and he can learn. He even has a little bit of spell casting.",
+            "<b>Beast borne</b> His shark blood takes full force, causing him to go more and more feral the more damage he takes and deals."
          ],
          "Bio": [
-            ""
+            "He was raised mostly by a nanny, as his mother didn't have the time to deal with a whelp while attending her duties. She showed no interest in him until it his schooling started. Kaitao wasn't the highest achiever in school, but once it was shown that he inherited at least a portion of his mothers overwhelming strength, she started his physical training.",
+            "By the time he was old enough to join the guard, he was already a force to be reckoned with. His mother had focused all her attention on honing his instincts and blood lust to a sharpened blade. He had little time to ever consider what he'd want in his life, and for the most part was content being told what to do. Who to fight. What to kill. He started to earn recognition for his successes in the battlefield. He was tattooed with honor, letting his body show the marks of success that he's had in his time in the military. "
          ],
          "Important People": [
             {
                "Mother": [
-                  "His mother is a general in a Sahaugin army, proud to serve no matter what the mission is. At first she was proud of her son raising through the ranks, but now sees him as a 'waste of potential' and a traitor after he defected. She tends towards the evil side of the spectrum."
+                  "His mother is a general in a Sahaugin army, proud to serve no matter what the mission is. At first she was proud of her son raising through the ranks, but now sees him as a 'waste of potential' and a traitor after he defected. She tends towards the evil side of the spectrum.\nShe's a giant sharkmer, known by some as Megaladon, a title she enjoys."
+               ]
+            },
+            {
+               "Old Man": [
+                  "Within his first few years on land, he saved an old man from bandits on one of the roads. Bandits stabbed him to 'clean up' house, which sent Kaitao into a fury. He woke up to Kaitao sitting next to him, head in his hands, and not much of the bandits left hole. \nHe helped Kaitao learn how to calm himself down.. somehow?\nElvish? Not sure. Using Old man more as an identifier than an age."
                ]
             }
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "Minor": [
+                  "He wants to find out what he wants to do in life. He's good at fighting, and helping people is alot nicer than brutally killing what ever is in front of him."
+               ],
+               "Major": [
+                  ""
+               ]
             }
          ]
       },
       "Notes": [
-         ""
+         "Kaitao's a Docile drinker. He'll take shots or the like when he knows he has to keep the 'beast' down.",
+         "Kaitao also is a honored Patron of the Managery of the Empire, which gives him some social perks? is it the best 800 gold I've ever spent on a character? I'unno. We'll find out."
       ]
    },
    {
@@ -3242,7 +3580,8 @@ var character = [
       },
       "Notes": [
          "Bomb casings are made out of plastic, filled with a reactive chemical. The true explosives are contained within gelled capsules. When shaken, the gel breaks down and mixes together. When exposed to air afterwards, BOOM. This was Remmy's idea. Glass is expensive, easily broken, and dangerous. Plastic is cheap, easy to make with their own abilities, and isn't dangerously sharp if broken. A simple additive in the plastic colors it or make it appear frosted."
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Znoozy",
@@ -3316,7 +3655,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Arytiss Maektrix",
@@ -3407,7 +3747,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Punk Paladin",
@@ -3480,7 +3821,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Reborn Martyr",
@@ -3552,7 +3894,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Vampire Mouse",
@@ -3625,7 +3968,8 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    },
    {
       "name": "Marmalade",
@@ -3697,6 +4041,7 @@ var character = [
       },
       "Notes": [
          ""
-      ]
+      ],
+      "AU": {}
    }
 ]

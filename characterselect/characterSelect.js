@@ -14,7 +14,7 @@ $(document).ready(function () {
         //console.log("Hash exists")
         //console.log(window.location.hash)
         for (p = 0; p < character.length; p++) {
-            if (window.location.hash == '#' + character[p].firstName) {
+            if (window.location.hash == '#' + character[p].id) {
                 //console.log(p + ": " + character[p].firstName + " " + character[p].id)
                 renderProfile(character[p].id)
             }
@@ -103,7 +103,7 @@ $(document).ready(function () {
 })
 
 function renderProfile(n) {
-    window.location.hash = character[n].firstName
+    window.location.hash = character[n].id
     $(".main").empty()
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table id= "characterIcon" style="float: right; width: 22em; border-spacing: 2px; text-align: center; position: fixed; right: 0px;">
@@ -157,7 +157,7 @@ function renderProfile(n) {
     bAppend += "<hr><h3 id='Notes'>Notes</h3><p>" + character[n].Notes.join('</p><p>') + "</p></b></h3>"
 	navbar += "<a href='#Notes'>Notes</a><br>"
 	bAppend += `<img src="` + character[n].art + `">`
-    $('.mid').append(navbar + "</div><br>" + bAppend)
+    $('.mid').append(/*navbar + */"</div><br>" + bAppend)
 }
 
 function renderListView() {
@@ -182,7 +182,7 @@ function renderListView() {
         appendText += '<button class="characterList" onclick="renderProfile(' + filtChar[i].id + ')">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
 
     }
-    $('#info').html("   Count: " + character.length + " characters")
+    $('#info').html("   Count: " + character.length + ' characters<br><button id="random" onclick="renderProfile(Math.floor(Math.random() * (character.length - 1)) + 1)">Random Character</button>')
     $('#characterSelect').append(appendText)
 
 }
