@@ -1401,10 +1401,8 @@ var character = [
       "firstName": "Kangaroo",
       "id": 14,
       "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
-      "art": "Blank.png",
+      "icons": "",
+      "art": "kangaroo.png",
       "class": [
          "---"
       ],
@@ -1421,13 +1419,14 @@ var character = [
       "alignment": "Lawful",
       "stats": {
          "birthday": "",
-         "age": 0,
+         "age": "0",
          "height": "",
          "weight": 0,
          "skin": "",
          "eye": "",
          "hair": ""
       },
+      "AU": {},
       "backstory": {
          "Quote": [
             "---",
@@ -1457,15 +1456,18 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
             }
          ]
       },
       "Notes": [
          ""
-      ],
-      "AU": {}
+      ]
    },
    {
       "name": "Spit Drip",
@@ -4043,5 +4045,80 @@ var character = [
          ""
       ],
       "AU": {}
+   },
+   {
+      "name": "All Data of Humanity Documented",
+      "firstName": "A-D",
+      "id": 46,
+      "icon": "Blank.png",
+      "icons": "",
+      "art": "Blank.png",
+      "class": [
+         "Gadgeteer"
+      ],
+      "subclass": [
+         "Futurist"
+      ],
+      "background": "Star Pilot",
+      "race": "Vect",
+      "role": [
+         "Crafting",
+         "Support",
+         "Utility"
+      ],
+      "orientation": "???",
+      "pronouns": "They/Them/Whatever",
+      "alignment": "Neutral?",
+      "stats": {
+         "birthday": "EONS AND EONS AGO",
+         "age": "???",
+         "height": "",
+         "weight": 0,
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "Starjump Successful. Can we see some Pog in chat?",
+            "A-D"
+         ],
+         "Physical Description": [
+            ""
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            "Earth. A-D was from like. real actual earth. Sent out into space with a collection of basically the entire internet to preserve their culture. Is it still there? who knows? x3"
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
    }
 ]
