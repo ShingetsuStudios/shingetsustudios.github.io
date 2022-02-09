@@ -1402,7 +1402,7 @@ var character = [
       "id": 14,
       "icon": "Blank.png",
       "icons": "",
-      "art": "kangaroo.png",
+      "art": "art/kangaroo.jpg",
       "class": [
          "---"
       ],
