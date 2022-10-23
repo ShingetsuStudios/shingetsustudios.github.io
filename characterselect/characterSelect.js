@@ -1,6 +1,9 @@
 
 var filtKey = { "role": "", "class": "" }
 var role = ['Tank', "Dps", "Healing", "Support", "Stealth", "Social", "Crafting", "Utility", "Debuff", "Control"]
+var viewMode = "list"
+var artN = 0
+var id = 0
 
 role = role.sort(function (a, b) {
     if (a < b) { return -1; }
@@ -10,15 +13,22 @@ role = role.sort(function (a, b) {
 var job = ['Artificer', 'Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk', 'Paladin', "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard", "Alchemist", "Captain", "Craftsman", "Gunslinger", "Investigator", "Martyr", "Necromancer", "Warden", "Warmage", "Witch", "Channeler", "Binder", "Gadgeteer", "Summoner"]
 $(document).ready(function () {
 
+
     if (window.location.hash != null || window.location.hash != undefined) {
-        //console.log("Hash exists")
-        //console.log(window.location.hash)
-        for (p = 0; p < character.length; p++) {
-            if (window.location.hash == '#' + character[p].id) {
-                //console.log(p + ": " + character[p].firstName + " " + character[p].id)
-                renderProfile(character[p].id)
+        var key = window.location.hash
+        var hashFilt = character.filter(k => k.id == Number(key.split('-')[0].replace(/[^0-9.]/g, '')))
+        console.log(hashFilt[0])
+        id = hashFilt[0].id
+        /*if (key.includes('-')) {
+            var auKey = key.split('-')[1]
+            if (character[id].AU[auKey] != undefined) {
+                console.log(auKey)
+                au = true
+                auName = auKey
+                $('#auToggle').trigger('click')
             }
-        }
+        }*/
+        renderProfile(id)
     }
 
     $('#roleSelect').append('<button id="roleAll">All</button>')
@@ -74,6 +84,23 @@ $(document).ready(function () {
         renderListView()
         $('#jobFilt').html(" Unknown Class")
     })
+    $('#info').on('click', '#iconView', function () {
+        if (viewMode === "list") {
+            $(".main").empty()
+            window.location.hash = ""
+            viewMode = "icon"
+            let appendText = "<div style=' display: flex; flex-wrap: wrap'>"
+            for (i = 0; i < character.length; i++) { 
+                appendText += " <button class='characterList' onclick='renderProfile("+i+")'><img class='tokenImg' src='"+ character[i].icon+"' width='150px;'><br>"+character[i].firstName + " "
+            }
+            appendText += "</div>"
+            $('.main').append(appendText)
+        } else {
+            $(".main").empty()
+            viewMode = "list"
+            renderListView()
+        }
+    })
     renderListView()
 
     $('.main').on('click', '.tokenImg', function () {
@@ -100,10 +127,29 @@ $(document).ready(function () {
     })
 
     $('.main').css({ "margin-left": $('#sidebar').width() })
+    $('.main').on('click', '.imgbutton', function () {
+
+        if ($(this).attr("id") === "imgbuttonRight") {
+
+            artN = adjust(artN, 1, character[id].art)
+            $('#characterImg').attr('src', character[id].art[artN])
+        } else if ($(this).attr("id") === "imgbuttonLeft") {
+
+            artN = adjust(artN, -1, character[id].art)
+            $('#characterImg').attr('src', character[id].art[artN])
+        }
+    })
 })
 
 function renderProfile(n) {
-    window.location.hash = character[n].id
+    if (window.location.hash.split('-')[0].replace(/[^0-9.]/g, '') != n) {
+        window.location.hash = n
+    }
+    if (id != n) {
+        id = n
+    }
+    viewMode="list"
+    //window.location.hash = character[n].id
     $(".main").empty()
     //var toAppend = "<h2>" + character[n].name + "</h2><img src='" + character[n].art + "' style='width:auto; height:300px;'>"
     toAppend = `<div ><table id= "characterIcon" style="float: right; width: 22em; border-spacing: 2px; text-align: center; position: fixed; right: 0px;">
@@ -155,8 +201,12 @@ function renderProfile(n) {
         }
     }
     bAppend += "<hr><h3 id='Notes'>Notes</h3><p>" + character[n].Notes.join('</p><p>') + "</p></b></h3>"
-	navbar += "<a href='#Notes'>Notes</a><br>"
-	bAppend += `<img src="` + character[n].art + `">`
+    navbar += "<a href='#Notes'>Notes</a><br>"
+    if (character[id].art.length > 1) {
+        bAppend += `<div id='img'><div class='imgbutton' id='imgbuttonLeft'>&#8592;</div><div class='imgbutton' id='imgbuttonRight'>&#8594;</div><img id='characterImg' src='` + character[id].art[artN] + `'></div>`
+    } else {
+        bAppend += `<div id='img'><img src="` + character[id].art[0] + `"></div>`
+    }
     $('.mid').append(/*navbar + */"</div><br>" + bAppend)
 }
 
@@ -182,7 +232,21 @@ function renderListView() {
         appendText += '<button class="characterList" onclick="renderProfile(' + filtChar[i].id + ')">' + num + ": " + character[filtChar[i].id].firstName + '</button><br>'
 
     }
-    $('#info').html("   Count: " + character.length + ' characters<br><button id="random" onclick="renderProfile(Math.floor(Math.random() * (character.length - 1)) + 1)">Random Character</button>')
+    $('#info').html("   Count: " + character.length + ' characters<br><button id="random" onclick="renderProfile(Math.floor(Math.random() * (character.length - 1)) + 1)">Random Character</button><br><span id="iconView">Icon View</span>')
     $('#characterSelect').append(appendText)
 
+}
+
+function renderIconView() {
+    console.log("Test!")
+}
+
+function adjust(x, n, char) {
+    if ((x + n) < 0) {
+        return char.length + x + n
+    } else if ((x + n) >= char.length) {
+        return char.length - (x + n)
+    } else {
+        return x + n
+    }
 }

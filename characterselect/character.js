@@ -5,7 +5,9 @@ var character = [
       "id": 0,
       "icon": "icons/Shin.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Ranger",
          "Rogue"
@@ -213,7 +215,10 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Malikai.png",
+      "art": [
+         "art/Malikai.png",
+         "art/Malikai.jpg"
+      ],
       "class": [
          "Craftsman"
       ],
@@ -294,7 +299,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Banya.png",
+      "art": [
+         "art/Banya.png"
+      ],
       "class": [
          "Summoner"
       ],
@@ -472,7 +479,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Bard"
       ],
@@ -546,7 +555,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Hong.png",
+      "art": [
+         "art/Hong.png"
+      ],
       "class": [
          "Monk"
       ],
@@ -644,7 +655,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Almaz.png",
+      "art": [
+         "art/Almaz.png"
+      ],
       "class": [
          "Artificer"
       ],
@@ -753,7 +766,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Kasshakku.png",
+      "art": [
+         "art/Kasshakku.png"
+      ],
       "class": [
          "Rogue"
       ],
@@ -825,7 +840,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Kyneric.png",
+      "art": [
+         "art/Kyneric.png"
+      ],
       "class": [
          "Barbarian",
          "Fighter"
@@ -911,7 +928,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Leonidas.png",
+      "art": [
+         "art/Leonidas.png"
+      ],
       "class": [
          "Bard"
       ],
@@ -985,7 +1004,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Amadi.png",
+      "art": [
+         "art/Amadi.png"
+      ],
       "class": [
          "Sorcerer"
       ],
@@ -1057,7 +1078,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Miqui.png",
+      "art": [
+         "art/Miqui.png"
+      ],
       "class": [
          "Wizard"
       ],
@@ -1069,7 +1092,8 @@ var character = [
       "role": [
          "Utility",
          "Dps",
-         "Support"
+         "Support",
+         "Control"
       ],
       "orientation": "",
       "pronouns": "He/Him",
@@ -1131,7 +1155,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Alexi.png",
+      "art": [
+         "art/Alexi.png"
+      ],
       "class": [
          "Monk"
       ],
@@ -1203,7 +1229,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Jhankdi.png",
+      "art": [
+         "art/Jhankdi.png"
+      ],
       "class": [
          "Cleric"
       ],
@@ -1331,7 +1359,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Corpsey.png",
+      "art": [
+         "art/Corpsey.png"
+      ],
       "class": [
          "Druid"
       ],
@@ -1402,7 +1432,9 @@ var character = [
       "id": 14,
       "icon": "Blank.png",
       "icons": "",
-      "art": "art/kangaroo.jpg",
+      "art": [
+         "art/kangaroo.jpg"
+      ],
       "class": [
          "---"
       ],
@@ -1475,7 +1507,9 @@ var character = [
       "id": 15,
       "icon": "icons/SpitDrip.png",
       "icons": "",
-      "art": "art/SpitDrip.png",
+      "art": [
+         "art/SpitDrip.png"
+      ],
       "class": [
          "Barbarian"
       ],
@@ -1551,7 +1585,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Mensharus.png",
+      "art": [
+         "art/Mensharus.png"
+      ],
       "class": [
          "Warlock"
       ],
@@ -1624,7 +1660,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Peeka.png",
+      "art": [
+         "art/Peeka.png"
+      ],
       "class": [
          "Barbarian"
       ],
@@ -1693,7 +1731,9 @@ var character = [
       "id": 18,
       "icon": "icons/Tysshyr.png",
       "icons": "",
-      "art": "art/Tysshyr.png",
+      "art": [
+         "art/Tysshyr.png"
+      ],
       "class": [
          "Sorcerer",
          "Warlock"
@@ -1812,7 +1852,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Banana.png",
+      "art": [
+         "art/Banana.png"
+      ],
       "class": [
          "Wizard"
       ],
@@ -1886,7 +1928,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Monk"
       ],
@@ -1955,7 +1999,9 @@ var character = [
       "id": 21,
       "icon": "icons/Mukmuk.png",
       "icons": "",
-      "art": "art/Mukmuk.png",
+      "art": [
+         "art/Mukmuk.png"
+      ],
       "class": [
          "Witch"
       ],
@@ -2029,7 +2075,9 @@ var character = [
       "id": 22,
       "icon": "icons/Koda.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Artificer"
       ],
@@ -2104,7 +2152,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Ambrogis.png",
+      "art": [
+         "art/Ambrogis.png"
+      ],
       "class": [
          "Warmage"
       ],
@@ -2177,7 +2227,9 @@ var character = [
       "id": 24,
       "icon": "icons/JaOwazi.png",
       "icons": "",
-      "art": "art/JaOwazi.png",
+      "art": [
+         "art/JaOwazi.png"
+      ],
       "class": [
          "Sorcerer"
       ],
@@ -2371,7 +2423,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Thai.png",
+      "art": [
+         "art/Thai.png"
+      ],
       "class": [
          "Cleric"
       ],
@@ -2453,7 +2507,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "---"
       ],
@@ -2524,7 +2580,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Amora.png",
+      "art": [
+         "art/Amora.png"
+      ],
       "class": [
          "---"
       ],
@@ -2593,7 +2651,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Edwyn.png",
+      "art": [
+         "art/Edwyn.png"
+      ],
       "class": [
          "Fighter"
       ],
@@ -2667,7 +2727,9 @@ var character = [
          "icons/Teohni.png",
          "icons/Teohni-Were.png"
       ],
-      "art": "art/Teohni.png",
+      "art": [
+         "art/Teohni.png"
+      ],
       "class": [
          "Barbarian"
       ],
@@ -2743,7 +2805,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Heepo.png",
+      "art": [
+         "art/Heepo.png"
+      ],
       "class": [
          "Monk"
       ],
@@ -2826,12 +2890,14 @@ var character = [
       "id": 31,
       "icon": "icons/Brooke.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
-         "Sorcerer or Witch"
+         "Witch"
       ],
       "subclass": [
-         "Mirrorkin or Blue"
+         "Blue"
       ],
       "background": "",
       "race": "Tabaxi/Leonin?, Changeling",
@@ -2906,7 +2972,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Bard"
       ],
@@ -2979,7 +3047,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Luvro.png",
+      "art": [
+         "art/Luvro.png"
+      ],
       "class": [
          "Investigator"
       ],
@@ -3051,7 +3121,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Channeler"
       ],
@@ -3120,7 +3192,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Zhihao.png",
+      "art": [
+         "art/Zhihao.png"
+      ],
       "class": [
          "Druid"
       ],
@@ -3197,7 +3271,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Kaiex.png",
+      "art": [
+         "art/Kaiex.png"
+      ],
       "class": [
          "Craftsman"
       ],
@@ -3276,9 +3352,12 @@ var character = [
       "id": 37,
       "icon": "icons/Matthias.png",
       "icons": [
-         ""
+         "icons/Matthias.png",
+         "icons/Zachariah.png"
       ],
-      "art": "art/Matthias.png",
+      "art": [
+         "art/Matthias.png"
+      ],
       "class": [
          "Warlock"
       ],
@@ -3304,6 +3383,7 @@ var character = [
          "eye": "",
          "hair": ""
       },
+      "AU": {},
       "backstory": {
          "Quote": [
             "Look. I uh. Heh. I'm not anyone important. Or useful. Th..They're great adventures, I'm just.. A totally normal commoner passing through",
@@ -3386,8 +3466,7 @@ var character = [
       },
       "Notes": [
          ""
-      ],
-      "AU": {}
+      ]
    },
    {
       "name": "Kaitao Torunn",
@@ -3395,7 +3474,9 @@ var character = [
       "id": 38,
       "icon": "icons/Kaitao.png",
       "icons": "",
-      "art": "art/Kaitao.png",
+      "art": [
+         "art/Kaitao.png"
+      ],
       "class": [
          "Warden",
          "Ranger"
@@ -3485,7 +3566,9 @@ var character = [
          "icons/Barnaby.png",
          "icons/Remmy.png"
       ],
-      "art": "art/Barnaby.png",
+      "art": [
+         "art/Barnaby.png"
+      ],
       "class": [
          "Alchemist"
       ],
@@ -3593,7 +3676,9 @@ var character = [
       "icons": [
          ""
       ],
-      "art": "art/Znoozy.png",
+      "art": [
+         "art/Znoozy.png"
+      ],
       "class": [
          "Wizard"
       ],
@@ -3665,10 +3750,10 @@ var character = [
       "firstName": "Arytiss",
       "id": 41,
       "icon": "Blank.png",
-      "icons": [
-         ""
+      "icons": "",
+      "art": [
+         "art/Arytiss.png"
       ],
-      "art": "art/Arytiss.png",
       "class": [
          "Captain"
       ],
@@ -3686,13 +3771,14 @@ var character = [
       "alignment": "Neutral? A dash of good?",
       "stats": {
          "birthday": "",
-         "age": 0,
+         "age": "0",
          "height": "",
          "weight": 0,
          "skin": "Gold Scales",
          "eye": "",
          "hair": ""
       },
+      "AU": {},
       "backstory": {
          "Quote": [
             "---",
@@ -3702,7 +3788,9 @@ var character = [
             "A golden dragonborn, he takes after his father's side visually, although he is actually chromatic and inheirets his mother's abilities."
          ],
          "Personality": [
-            "The Arytiss di Earenk, Champion of Tomorrow."
+            "The Arytiss di Earenk, Champion of Tomorrow.",
+            "",
+            "Secretely sleeps while hugging his tail, maybe even biting it. It's a young dragon thing that he's a little embarassed about but it also offers him comfort so he's probably not going to stop. Just something to give the big strong commander a little bit of softness. "
          ],
          "Homes": [
             ""
@@ -3742,15 +3830,18 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
             }
          ]
       },
       "Notes": [
          ""
-      ],
-      "AU": {}
+      ]
    },
    {
       "name": "Punk Paladin",
@@ -3758,7 +3849,9 @@ var character = [
       "id": 42,
       "icon": "Blank.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "art/Punkadin.jpg"
+      ],
       "class": [
          "Paladin"
       ],
@@ -3789,7 +3882,7 @@ var character = [
             ""
          ],
          "Physical Description": [
-            "Uses a baseballbat to smite. Is Cyberpunk, with out the cyber."
+            "Uses a baseballbat to smite. Is Cyberpunk, with out the cyber. Big Casey Jones from TMNT energy??"
          ],
          "Personality": [
             ""
@@ -3832,7 +3925,9 @@ var character = [
       "id": 43,
       "icon": "icons/Martyr.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Martyr"
       ],
@@ -3905,9 +4000,11 @@ var character = [
       "id": 44,
       "icon": "Blank.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
-         "??? Necromancer??"
+         "Necromancer"
       ],
       "subclass": [
          "Blood Ascendant?"
@@ -3977,17 +4074,94 @@ var character = [
       "name": "Marmalade",
       "firstName": "Marmalade",
       "id": 45,
-      "icon": "Blank.png",
+      "icon": "icons/Marmalade.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
+         "Binder"
+      ],
+      "subclass": [
+         "Crimson Rite"
+      ],
+      "background": "Folk Hero",
+      "race": "Plasmoid, Goo Doggo",
+      "role": [
          ""
+      ],
+      "orientation": "",
+      "pronouns": "He/It",
+      "alignment": "Neutral?",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "3'10''",
+         "weight": 0,
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            "a gooey dog. He used to be a potter before what ever happened to him happened. He's not sure, he just knows he likes sculpting things. That head is a bit fragmented."
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
+   },
+   {
+      "name": "Kip-Yik",
+      "firstName": "Kip-Yik",
+      "id": 46,
+      "icon": "icons/Kipyik.png",
+      "icons": "",
+      "art": [
+         "art/KipYik.png"
+      ],
+      "class": [
+         "Inventor"
       ],
       "subclass": [
          ""
       ],
-      "background": "",
-      "race": "Doggo",
+      "background": "Construct Scientist",
+      "race": "Kobold",
       "role": [
          ""
       ],
@@ -4003,6 +4177,7 @@ var character = [
          "eye": "",
          "hair": ""
       },
+      "AU": {},
       "backstory": {
          "Quote": [
             "---",
@@ -4043,16 +4218,17 @@ var character = [
       },
       "Notes": [
          ""
-      ],
-      "AU": {}
+      ]
    },
    {
       "name": "All Data of Humanity Documented",
       "firstName": "A-D",
-      "id": 46,
+      "id": 47,
       "icon": "Blank.png",
       "icons": "",
-      "art": "Blank.png",
+      "art": [
+         "Blank.png"
+      ],
       "class": [
          "Gadgeteer"
       ],
@@ -4103,6 +4279,170 @@ var character = [
             {
                "": [
                   ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
+   },
+   {
+      "name": "PaoDan",
+      "firstName": "PaoDan",
+      "id": 48,
+      "icon": "icons/PaoDan.png",
+      "icons": "",
+      "art": [
+         "Blank.png"
+      ],
+      "class": [
+         "Barbarian"
+      ],
+      "subclass": [
+         "Giant"
+      ],
+      "background": "Ariealist",
+      "race": "Unbreakable Goblin (Pangolin)",
+      "role": [
+         "Tank",
+         "Dps"
+      ],
+      "orientation": "",
+      "pronouns": "He/Him",
+      "alignment": "??",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "2'10''",
+         "weight": 0,
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            ""
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "Mom": [
+                  "His mother was killed when he was young. She made the first bit of his scarf."
+               ]
+            },
+            {
+               "Dad": [
+                  "Falsely accused of killing his wife, before he was executed he told PaoDan to hide with his uncle. Nothing but love for his son."
+               ]
+            },
+            {
+               "Uncle": [
+                  "Took in PaoDan after the 'incident'. Works in the circus as muscle, and originally taught PaoDan to help out with that. After the cannon 'misfire', PaoDan became both muscled help and a performer, so he's been a bit more hands off."
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         "Flaws: ",
+         ""
+      ]
+   },
+   {
+      "name": "NightStalker Familiar Master",
+      "firstName": "Nighstalker",
+      "id": 49,
+      "icon": "icons/snake.png",
+      "icons": "",
+      "art": [
+         "icons/snake.png"
+      ],
+      "class": [
+         "Sorcerer/Witch"
+      ],
+      "subclass": [
+         "Spiritborn/Green"
+      ],
+      "background": "",
+      "race": "Yaun-ti (Abomination)",
+      "role": [
+         "Support",
+         "Debuff",
+         "Control"
+      ],
+      "orientation": "??",
+      "pronouns": "uhhh",
+      "alignment": "hmm",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "",
+         "weight": 0,
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            ""
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            "He was a simple animal, at least that he remembers, and was taken as a pet to a yaunti. Eventually, she decided to 'try' and elevate him for a reason, and this is the result."
+         ],
+         "Important People": [
+            {
+               "Mistress": [
+                  "The person that elevated him from a simple feral animal, he thinks. Unthinkingly loyal to her."
                ]
             }
          ],

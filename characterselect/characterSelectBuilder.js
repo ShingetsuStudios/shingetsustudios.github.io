@@ -14,6 +14,7 @@ var mode = "build"
 var id = 0
 var au = false
 var auName = "Default"
+var artN = 0
 
 $(document).ready(function () {
 
@@ -84,8 +85,8 @@ $(document).ready(function () {
     })
     $('.main').on('click', '#ImpPeop', function () {
         //console.log("true")
-        let imp = $('.ImpPerson').length 
-        $('#importPeople').append('<div id="Important-People-'+imp+'"><input type="text" class="ImpPerson value=""><button id="Important-People-'+imp+'-Remove" class="Important-People-Remove" style="float: right;">Remove</button><br> <textarea class="ImpPersonDesc"></textarea></div>')
+        let imp = $('.ImpPerson').length
+        $('#importPeople').append('<div id="Important-People-' + imp + '"><input type="text" class="ImpPerson value=""><button id="Important-People-' + imp + '-Remove" class="Important-People-Remove" style="float: right;">Remove</button><br> <textarea class="ImpPersonDesc"></textarea></div>')
     })
     $('.main').on('change', '#gen', function () {
         parseToJson()
@@ -147,6 +148,20 @@ $(document).ready(function () {
 
         }
 
+    })
+    $('.main').on('click', '.imgbutton', function () {
+
+        if ($(this).attr("id") === "imgbuttonRight") {
+
+            artN = adjust(artN, 1, character[id].art)
+            console.log(artN + ":" + adjust(artN, 1, character[id].art))
+            $('#characterImg').attr('src', character[id].art[artN])
+        } else if ($(this).attr("id") === "imgbuttonLeft") {
+
+            artN = adjust(artN, -1, character[id].art)
+            console.log(artN + ":" + adjust(artN, -1, character[id].art))
+            $('#characterImg').attr('src', character[id].art[artN])
+        }
     })
 
 
@@ -222,7 +237,11 @@ function renderProfile(n) {
             navbar += "<a href='#" + key.replace(' ', '-') + "'>" + key + "</a><br>"
         }
     }
-    bAppend += `<img src="` + char.art + `">`
+    if (char.art.length > 1) {
+        bAppend += `<div id='img'><div class='imgbutton' id='imgbuttonLeft'>&#8592;</div><div class='imgbutton' id='imgbuttonRight'>&#8594;</div><img id='characterImg' src='` + char.art[artN] + `'></div>`
+    } else {
+        bAppend += `<div id='img'><img src="` + char.art[0] + `"></div>`
+    }
     $('.mid').append(/*navbar + "</div>*/  bAppend)
 }
 
@@ -398,7 +417,7 @@ function parseToJson() {
         "id": id,
         "icon": $('#Genicon').val(),
         "icons": $('#Genicons').val() ? $('#Genicons').val().split(', ') : "",
-        "art": $('#Genart').val(),
+        "art": $('#Genart').val().split(','),
         "class": $('#Genclass').val().split(', '),
         "subclass": $('#Gensubclass').val().split(', '),
         "background": $('#Genbackground').val(),
@@ -508,4 +527,14 @@ function copyToClipboard(element) {
         // on error
     });
     document.execCommand("copy");
+}
+
+function adjust(x, n, char) {
+    if ((x + n) < 0) {
+        return char.length + x + n
+    } else if ((x + n) >= char.length) {
+        return char.length - (x + n)
+    } else {
+        return x + n
+    }
 }

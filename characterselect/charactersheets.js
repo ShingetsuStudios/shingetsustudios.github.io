@@ -1,5 +1,10 @@
 var selectedCharacters = []
 $(document).ready(function () {
+  onReady()
+})
+
+function onReady() {
+  
 
     selectedCharacters = ($('#ids').text().split(', '))
     //$('#test').html(JSON.stringify(character, null, 2))
@@ -33,8 +38,7 @@ $(document).ready(function () {
 
         }
     })
-})
-
+}
 
 function renderProfile(n) {
     $(".main").empty()
