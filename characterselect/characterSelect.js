@@ -162,7 +162,8 @@ function renderProfile(n) {
     <tr><td colspan="2">Race: `+ character[n].race + `</td></tr>
     <tr><td colspan="2">Alignment: `+ character[n].alignment + `</td></tr>
     <tr><td colspan="2">Age: `+ character[n].stats.age + `</td></tr>
-    <tr><td colspan="2">Height/Weight: `+ character[n].stats.height + `/ ` + character[n].stats.weight + `lbs</td></tr>
+    <tr><td colspan="2">Height:` + character[n].stats.height + `</td></tr>
+    <tr><td colspan="2">Weight: `+ character[n].stats.weight + `</td></tr>
     <tr><td colspan="2">Pronouns: `+ character[n].pronouns + `</td></tr>
     <tr><td colspan="2">Orientation: `+ character[n].orientation + `</td></tr>
     </tbody></table>

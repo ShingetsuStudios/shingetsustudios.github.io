@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 function onReady() {
   
-
+    
     selectedCharacters = ($('#ids').text().split(', '))
     //$('#test').html(JSON.stringify(character, null, 2))
 
@@ -91,6 +91,8 @@ function renderProfile(n) {
             navbar += "<a href='#" + key.replace(' ', '-') + "'>" + key + "</a><br>"
         }
     }
+    bAppend += `<hr><h3 id='Notes'><b>Notes</b></h3><p>` + character[n].Notes + `</p>`
+    
     bAppend += `<img src="` + character[n].art + `">`
     $('.mid').append(navbar + "</div><br>" + bAppend)
 }

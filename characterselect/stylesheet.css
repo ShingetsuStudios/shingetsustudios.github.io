@@ -1,3 +1,29 @@
+#img {
+  display: inline-block;
+  height: auto;
+  overflow: auto;
+       position: relative;
+}
+
+.imgbutton {
+  cursor: pointer;
+  display: block;
+  z-index: 3;
+  position: absolute;
+  font-size:45px;
+  height: 100%;
+}
+
+#imgbuttonRight {
+  right: 5px;
+}
+
+#imgbuttonLeft {
+
+  left: 5px;
+}
+
+
 .auTitle {
   background-color: #107013;
   color           : rgb(0, 0, 0);

@@ -836,7 +836,7 @@ var character = [
       "name": "Kyneric Agnarus of Dam",
       "firstName": "Kyneric",
       "id": 7,
-      "icon": "Blank.png",
+      "icon": "icons/kyneric.png",
       "icons": [
          ""
       ],
@@ -925,9 +925,7 @@ var character = [
       "firstName": "Leonidas",
       "id": 8,
       "icon": "Blank.png",
-      "icons": [
-         ""
-      ],
+      "icons": "",
       "art": [
          "art/Leonidas.png"
       ],
@@ -949,13 +947,14 @@ var character = [
       "alignment": "Chaotic Good",
       "stats": {
          "birthday": "",
-         "age": 40,
+         "age": "40",
          "height": "",
-         "weight": 0,
+         "weight": "0",
          "skin": "",
          "eye": "",
          "hair": ""
       },
+      "AU": {},
       "backstory": {
          "Quote": [
             "Why must we fight? Wouldn't it be more fun to relax and play a song or two? Come now, dance with me~",
@@ -986,21 +985,25 @@ var character = [
          ],
          "Goals": [
             {
-               "Minor": [],
-               "Major": []
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
             }
          ]
       },
       "Notes": [
-         ""
-      ],
-      "AU": {}
+         "one of his instrument combinations is a bass and a violin bow. cause it's beautiful and weird.",
+         "https://www.youtube.com/watch?v=e4McVxHYg24"
+      ]
    },
    {
       "name": "Amadi Kayenbah",
       "firstName": "Amadi",
       "id": 9,
-      "icon": "Blank.png",
+      "icon": "icons/amadi.png",
       "icons": [
          ""
       ],
@@ -1581,7 +1584,7 @@ var character = [
       "name": "Mensharus Servictus-Victorius Arodauntus of House Bagruzelum",
       "firstName": "Mensharus",
       "id": 16,
-      "icon": "Blank.png",
+      "icon": "icons/mensharus.png",
       "icons": [
          ""
       ],
@@ -1656,7 +1659,7 @@ var character = [
       "name": "Peeka",
       "firstName": "Peeka",
       "id": 17,
-      "icon": "Blank.png",
+      "icon": "icons/peeka.png",
       "icons": [
          ""
       ],
@@ -1848,7 +1851,7 @@ var character = [
       "name": "Banana",
       "firstName": "Banana",
       "id": 19,
-      "icon": "Blank.png",
+      "icon": "icons/banana.png",
       "icons": [
          ""
       ],
@@ -2909,9 +2912,9 @@ var character = [
       "alignment": "Chaotic Neutral",
       "stats": {
          "birthday": "",
-         "age": "5? visibly.",
+         "age": "5? visibly. ",
          "height": "",
-         "weight": 0,
+         "weight": "0",
          "skin": "Golden fur, brown speckles.",
          "eye": "Sparkling Orange",
          "hair": "Brown"
@@ -2932,14 +2935,16 @@ var character = [
             ""
          ],
          "General Abilities": [
-            "<b>Liquid Form.</b> Brooke is able to liquify and reshape his form into another person",
-            "<b>Mirrorkin Copy'cat'.</b> Brooke is able to mimic traits of people around him. He can steal spells that he's been effected by. He can copy traits of someone within 60 feet of him. Eventually, he can reflect spells cast on him, can mimic actions he's seen recently, and even create defenseive copies of himself."
+            "<b>Liquid Form.</b> Brooke is able to liquify and reshape his form into another person. Because someone had the idea of slime based changeling and I <b>love it</b>",
+            "<b>Blue Magic</b> Brooke, while adept at magic innately, cannot learn spells naturally. Only through being exposed to a spell intimately can he learn it. This disadvantage does give him one advantage over any other caster, he can learn <i>any</i> spells."
          ],
          "Bio": [
             "One day Brooke was found in the woods, hurt, unable to remember a thing. Just a small child. He was taken in, raised, and now is a seemingly well balanced child with a twinge of chaotic energy, as all children have. ",
-            "He has no idea he's a changling, or who he used to be.",
+            "He has no idea he's a changeling, or who he used to be.",
             "",
-            "All I know about who he used to be is that he attempted to escape getting caught by shifting into a child and slamming right into a branch in the forest and boom. No memories."
+            "All I know about who he used to be is that he attempted to escape getting caught by shifting into a child and slamming right into a branch in the forest and boom. No memories.",
+            "",
+            "Eventually he ends up wandering away from the little tribe that adopted him, too curious for his own good. He jumped from party to party~"
          ],
          "Important People": [
             {
@@ -3117,7 +3122,7 @@ var character = [
       "name": "Otso Kadubis Arkadios",
       "firstName": "Otso",
       "id": 34,
-      "icon": "Blank.png",
+      "icon": "icons/otso.png",
       "icons": [
          ""
       ],
@@ -3749,7 +3754,7 @@ var character = [
       "name": "Arytiss Maektrix",
       "firstName": "Arytiss",
       "id": 41,
-      "icon": "Blank.png",
+      "icon": "icons/Arytiss.png",
       "icons": "",
       "art": [
          "art/Arytiss.png"
@@ -3844,13 +3849,13 @@ var character = [
       ]
    },
    {
-      "name": "Punk Paladin",
-      "firstName": "Punkadin",
+      "name": "Valen",
+      "firstName": "Valen",
       "id": 42,
-      "icon": "Blank.png",
+      "icon": "icons/valen.png",
       "icons": "",
       "art": [
-         "art/Punkadin.jpg"
+         "art/Valen.jpg"
       ],
       "class": [
          "Paladin"
@@ -3995,8 +4000,8 @@ var character = [
       "AU": {}
    },
    {
-      "name": "Vampire Mouse",
-      "firstName": "Vamp",
+      "name": "Tobias Amdis Viechorek",
+      "firstName": "Tobias",
       "id": 44,
       "icon": "Blank.png",
       "icons": "",
@@ -4021,11 +4026,12 @@ var character = [
          "birthday": "",
          "age": "0",
          "height": "",
-         "weight": 0,
+         "weight": "0",
          "skin": "",
          "eye": "",
          "hair": ""
       },
+      "AU": {},
       "backstory": {
          "Quote": [
             "---",
@@ -4067,8 +4073,7 @@ var character = [
       },
       "Notes": [
          ""
-      ],
-      "AU": {}
+      ]
    },
    {
       "name": "Marmalade",
@@ -4385,8 +4390,8 @@ var character = [
       ]
    },
    {
-      "name": "NightStalker Familiar Master",
-      "firstName": "Nighstalker",
+      "name": "NightStalker Familiar Master (Nikolaj?)",
+      "firstName": "Nikolaj",
       "id": 49,
       "icon": "icons/snake.png",
       "icons": "",
@@ -4413,7 +4418,7 @@ var character = [
          "birthday": "",
          "age": "0",
          "height": "",
-         "weight": 0,
+         "weight": "0",
          "skin": "",
          "eye": "",
          "hair": ""
@@ -4443,6 +4448,241 @@ var character = [
             {
                "Mistress": [
                   "The person that elevated him from a simple feral animal, he thinks. Unthinkingly loyal to her."
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  "Test"
+               ],
+               "Major": [
+                  "testing"
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         "Grab sanctuary somehow for self protection. the weakest link is yourself.",
+         "Better spell selection next time, more buffs/debuffs, less attacks. some attacks is nice, but especially if sanctuary up.",
+         "Better balance of concentration vs non concentration spells"
+      ]
+   },
+   {
+      "name": "Tlek 'Der Brottagonist' Tlauti",
+      "firstName": "Tlek",
+      "id": 50,
+      "icon": "Blank.png",
+      "icons": "",
+      "art": [
+         "Blank.png"
+      ],
+      "class": [
+         "Sorcerer"
+      ],
+      "subclass": [
+         "Mold Magic"
+      ],
+      "background": "Urchin?",
+      "race": "Lizardfolk",
+      "role": [
+         "DPS"
+      ],
+      "orientation": "??",
+      "pronouns": "He/Him",
+      "alignment": "Chaotic Bread",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "",
+         "weight": "0",
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "<b>Slams a jug of goop on the table</b> Bred!",
+            "Tlek"
+         ],
+         "Physical Description": [
+            ""
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         "Must call themself \"Der Brottagonist\"? "
+      ]
+   },
+   {
+      "name": "Valaias Bal?",
+      "firstName": "Bal?",
+      "id": 51,
+      "icon": "Blank.png",
+      "icons": "",
+      "art": [
+         "Blank.png"
+      ],
+      "class": [
+         "Necromancer"
+      ],
+      "subclass": [
+         "Toymaker"
+      ],
+      "background": "",
+      "race": "Sheep",
+      "role": [
+         ""
+      ],
+      "orientation": "",
+      "pronouns": "He/They",
+      "alignment": "Evil",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "",
+         "weight": "0",
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            "Standing somewhere between 4'6'' and 5'2'', Bal is an albino Valais Blacknose Sheep. As such, they have pale pink skin, but dark, dense wool. His eyes are a pinkish red",
+            "",
+            "He keeps his wool relatively thick, only sheering when necessary for hygiene. This is because he's hiding scars, and a literal prosthetic arm, from view. He keeps his own wool for various uses, from keeping his wounds hidden to using excess in his puppeteering and plush crafts.",
+            "",
+            "His missing arm has been replaced with a life sized wooden doll arm that he controls with his magic. It's not perfect though, so he does prefer his left hand."
+         ],
+         "Personality": [
+            "They are a sadist, and exhibit psychopathic tendencies. Bal will delight in the act of being a weak little lamb, only to get away with horrible acts. As such, his truly evil acts are typically done on the 'deserving', as society would put it. ",
+            "",
+            "Their fake self is a classic cinnamon bun stereotype. They will try to look harmless, try to be cute and helpful, try to make the people around them trust them. All to show that he isn't the bad one here. That others are treating him unfairly. He pretends to be a sorcerer to explain away his cruel use of magic as accidental, and to hide his studies of necromancy and other dark arts. ",
+            "",
+            "Internally he takes gratification from causing pain. He's smart enough not to show this side willy nilly. The few times he's let it slip have been scaring."
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
+   },
+   {
+      "name": "Sorin",
+      "firstName": "Sorin",
+      "id": 52,
+      "icon": "icons/Sorin.png",
+      "icons": "",
+      "art": [
+         "art/Sorin.png"
+      ],
+      "class": [
+         "Tamer"
+      ],
+      "subclass": [
+         "Infuser"
+      ],
+      "background": "Outlander",
+      "race": "Flapfolk",
+      "role": [
+         ""
+      ],
+      "orientation": "",
+      "pronouns": "He/Him",
+      "alignment": "Chaotic",
+      "stats": {
+         "birthday": "",
+         "age": "0",
+         "height": "",
+         "weight": "",
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            ""
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "Luna!": [
+                  "Twin sister, the other half of the perfect chaos machine~ <3"
                ]
             }
          ],

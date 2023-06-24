@@ -71,6 +71,9 @@ $(document).ready(function () {
     $('#copyCode').on('click', function () {
         copyToClipboard(character)
     })
+    $('#downloadCode').on('click', function () {
+        downloadJSON()
+    })
     $('#modeChange').on('click', function () {
         if (mode == "build") {
             mode = "view"
@@ -237,6 +240,7 @@ function renderProfile(n) {
             navbar += "<a href='#" + key.replace(' ', '-') + "'>" + key + "</a><br>"
         }
     }
+    bAppend += `<hr><h3 id='Notes'><b>Notes</b></h3><p>` + character[n].Notes + `</p>`
     if (char.art.length > 1) {
         bAppend += `<div id='img'><div class='imgbutton' id='imgbuttonLeft'>&#8592;</div><div class='imgbutton' id='imgbuttonRight'>&#8594;</div><img id='characterImg' src='` + char.art[artN] + `'></div>`
     } else {
@@ -537,4 +541,43 @@ function adjust(x, n, char) {
     } else {
         return x + n
     }
+}
+
+function downloadJSON() {
+
+    var textFile = null,
+        makeTextFile = function (text) {
+            var data = new Blob([text], {
+                type: 'text/javascript'
+            });
+
+            // If we are replacing a previously generated file we need to
+            // manually revoke the object URL to avoid memory leaks.
+            if (textFile !== null) {
+                window.URL.revokeObjectURL(textFile);
+            }
+
+            textFile = window.URL.createObjectURL(data);
+
+            return textFile;
+        };
+
+    var create = document.getElementById('downloadCode')
+    //textbox = document.getElementById('textbox');
+
+    create.addEventListener('click', function () {
+        var link = document.createElement('a');
+        link.setAttribute('download', 'character.js');
+        link.href = makeTextFile("var character = " + JSON.stringify(character, null, 2));
+        document.body.appendChild(link);
+
+        // wait for the link to be added to the document
+        window.requestAnimationFrame(function () {
+            var event = new MouseEvent('click');
+            link.dispatchEvent(event);
+            document.body.removeChild(link);
+        });
+
+    }, false);
+
 }
