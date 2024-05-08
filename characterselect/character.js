@@ -1932,7 +1932,7 @@ var character = [
          ""
       ],
       "art": [
-         "Blank.png"
+         "art/Dionikos.jpg"
       ],
       "class": [
          "Monk"
@@ -2506,7 +2506,7 @@ var character = [
       "name": "Finnigan",
       "firstName": "Finn",
       "id": 26,
-      "icon": "Blank.png",
+      "icon": "icons/Finnigan.jpg",
       "icons": [
          ""
       ],
@@ -3751,8 +3751,8 @@ var character = [
       "AU": {}
    },
    {
-      "name": "Arytiss Maektrix",
-      "firstName": "Arytiss",
+      "name": "Artysis Maektrix",
+      "firstName": "Artysis ",
       "id": 41,
       "icon": "icons/Arytiss.png",
       "icons": "",
@@ -3763,7 +3763,7 @@ var character = [
          "Captain"
       ],
       "subclass": [
-         "Ram or Dragon?"
+         "Dragon"
       ],
       "background": "",
       "race": "Dragonborn (Chromatic)",
@@ -3776,11 +3776,11 @@ var character = [
       "alignment": "Neutral? A dash of good?",
       "stats": {
          "birthday": "",
-         "age": "0",
-         "height": "",
-         "weight": 0,
-         "skin": "Gold Scales",
-         "eye": "",
+         "age": "32",
+         "height": "6'10''",
+         "weight": "223",
+         "skin": "Gold and Red Scales",
+         "eye": "Grey Eyes",
          "hair": ""
       },
       "AU": {},
@@ -3790,56 +3790,79 @@ var character = [
             ""
          ],
          "Physical Description": [
-            "A golden dragonborn, he takes after his father's side visually, although he is actually chromatic and inheirets his mother's abilities."
+            "A golden dragonborn, he takes after his father's side visually, although he is actually chromatic and inheirets his mother's abilities.",
+            "",
+            "He is big, bulky. full V shape body with big wings and pronounced pecs. Golden scales with red secondary scales.",
+            "",
+            "He wields a long, crescent greatsword. It could almost be classified as a Zweihander. "
          ],
          "Personality": [
             "The Arytiss di Earenk, Champion of Tomorrow.",
             "",
-            "Secretely sleeps while hugging his tail, maybe even biting it. It's a young dragon thing that he's a little embarassed about but it also offers him comfort so he's probably not going to stop. Just something to give the big strong commander a little bit of softness. "
+            "Secretely sleeps while hugging his tail, maybe even biting it. It's a young dragon thing that he's a little embarassed about but it also offers him comfort so he's probably not going to stop. Just something to give the big strong commander a little bit of softness. ",
+            "",
+            "He's cool headed, mostly. He's not afraid to do what he believes is right. He'll take as much shit as Tak-al-Hors will dish out without ever snapping back. He'll support Kook-ki and Vip as much as he can. He very much agrees with his mother, but in a broader sense. A person in power exists for those below them.",
+            "",
+            "He sees the current worlds state with disdain. People were handed a world free of meddling. A world that should be at peace, and still it is squandered. He fights to protect those he can.",
+            "",
+            "While Jhankdi was the Shield, Artysis very much is the sword."
          ],
          "Homes": [
             ""
          ],
          "General Abilities": [
-            "<b></b> - "
+            "<b>Captain</b> - He's at his best when he's fighting alongside someone. ",
+            ""
          ],
          "Bio": [
-            ""
+            "Artysis grew up in his mother's mountain. Unlike most dragons, she has grown to value her kobolds more than the gold she held.",
+            "",
+            "She's sent her kobolds out to learn more and more of the world, to bring back their talents, and to start hoarding skills. ",
+            "",
+            "Treated as a prince of this thriving kobold and dragon town, Artysis had everything to lead him to grow up spoiled.",
+            "But thanks to the tales of his extended family, he grew up with a sense of honor and duty. ",
+            "",
+            "He spent most of his time training, trying to become the very best he could be. "
          ],
          "Important People": [
             {
                "Grand Uncle Jhankdi": [
-                  "He's grown up with stories of his ancestors, including Jhankdi. He looks at the world with.. disgust? that it's 'abandoned' Jhankdi's ideals of a better tomorrow."
+                  "He's grown up with stories of his ancestors, including Jhankdi. He looks at the world with.. almost disgust? that it's 'abandoned' Jhankdi's ideals of a better tomorrow.<br>\n\nHe rarely got to meet with his grand uncle. Only on important dates, like his coming of age ceremony. Jhankdi made his weapons and armor, but was sworn to only make what Artysis 'deserved' just starting out. Artysis wants to earn his own power, not be handed it based on his birth.\nMaybe Jhankdi respected that.. Maybe he respected that <i>too much</i>\n(aka them being magic items that grew with him in some way could be neat but not necessary. Maybe they're just incredibly receptive to enchantments. Expertly forged.)"
                ]
             },
             {
                "Grand Father Erfalyeem": [
-                  ""
+                  "His Paternal Grandfather. If he had the honor to meet him, it was late into Erfalyeem's life, and did not spend much time with him.<br>\n\nInstead, Artysis found his journals, detailing his history. Things Erfalyeem would never willingly share with his siblings, left for the golden half dragon to read over fervently. The secret growing pride in Jhankdi, the dealings Erfalyeem went through to help save the world.\nThe stories quickly became his obsession, inspiring him to do his best to uphold similar ideals. "
                ]
             },
             {
-               "Dragon Parent": [
-                  "One of his parents is a full on dragon, and he was mostly raised by them."
+               "Nirmahnepahli": [
+                  "(Nir-mah-nep-ah-li)\nA Red Dragoness. She treats her kobolds as if they were her hoard, investing in their development so that they can better theirselves. Nothing makes her happier than seeing one of her bolds improve themselves. Artysis growing up might tie though.<br>\n\nShe asked Ta-Kal-Hors to travel with her youngest of children. Artysis, being the only of her brood that was not full dragon, seemed so young to leave the nest. Having someone who she trusted by his side gave her the peace of mind to let him leave so early."
                ]
             },
             {
-               "Retainers": [
-                  "3 Kobolds that assist him in non combat things. Are kinda bumbling, but he will die for them."
+               "Ta-Kal-Hors": [
+                  "His \"Squire\", actually more his baby sitter. Ta-Kal is not exactly the happiest to be here, an actual Knight of Tomorrow that has been requested to keep this brat safe. <br>\nRoutinely gets into spats with Artysis. Artysis rarely, if ever, spits venom back.<br>\nArtysis trusts him with his life, and looks up to him, metaphorically. This is a kobold that fought in the Great Burning of Chad. Someone who has become part of the Knights of Tomorrow. Artysis hopes one day he will earn his respect.\n\n<br><br>\nTo be fair. if anyone is the squire, it's actually Artysis."
                ]
             },
             {
-               "Kobold Cohort": [
-                  "His 'squire', his right hand, and the one he trusts the most. Potentially follows a sect of Falaughnir."
+               "Kook-ki": [
+                  "Kook-ki is a tubby koobld that based on looks does not look the most intelligent. He's a trained chef, and will willingly follow Artysis into what ever hell he marches into. While he is not the most combative, he is someone that holds the four together. The band's glue, who feeds them incredibly tasty things.<br>\n\nWhen Artysis is at his weakest, Kook-ki usually already has a tray of something sweet already made up. "
+               ]
+            },
+            {
+               "Vip? (Subject to change)": [
+                  "The arcane 'expert' and loyal retainer of Artysis. They love to learn, are very shy and introverted, and are just a soft cute bean. They want to be of help to the young dragon boy they saw put in more effort than anyone else. They willingly joined Artysis, even if the dangers scared the daylights out of them.<br>\nThey'll follow him for as long as they can."
                ]
             }
          ],
          "Goals": [
             {
                "Minor": [
-                  ""
+                  "Earn the respect of the people he looks up to."
                ],
                "Major": [
-                  ""
+                  "Become strong enough to bring in the true tomorrow his Grand Uncle dreamed about, and to prevent the eventual "
                ]
             }
          ]
@@ -4003,7 +4026,7 @@ var character = [
       "name": "Tobias Amdis Viechorek",
       "firstName": "Tobias",
       "id": 44,
-      "icon": "Blank.png",
+      "icon": "icons/Tobias.png",
       "icons": "",
       "art": [
          "Blank.png"
@@ -4227,9 +4250,9 @@ var character = [
    },
    {
       "name": "All Data of Humanity Documented",
-      "firstName": "AD-HD",
+      "firstName": "A-D",
       "id": 47,
-      "icon": "icons/AD-HD.png",
+      "icon": "icons/ADHD.png",
       "icons": "",
       "art": [
          "Blank.png"
@@ -4254,7 +4277,7 @@ var character = [
          "birthday": "EONS AND EONS AGO",
          "age": "???",
          "height": "",
-         "weight": 0,
+         "weight": "0",
          "skin": "",
          "eye": "",
          "hair": ""
@@ -4393,10 +4416,10 @@ var character = [
       "name": "NightStalker Familiar Master (Nikolaj?)",
       "firstName": "Nikolaj",
       "id": 49,
-      "icon": "icons/snake.png",
+      "icon": "icons/Nikolaj.png",
       "icons": "",
       "art": [
-         "icons/snake.png"
+         "icons/Nikolaj.png"
       ],
       "class": [
          "Sorcerer/Witch"
@@ -4544,13 +4567,13 @@ var character = [
       ]
    },
    {
-      "name": "Valaias Bal?",
-      "firstName": "Bal?",
+      "name": "Valaias Bal",
+      "firstName": "Bal",
       "id": 51,
-      "icon": "Blank.png",
+      "icon": "icons/Bal.png",
       "icons": "",
       "art": [
-         "Blank.png"
+         "art/Bal.jpg"
       ],
       "class": [
          "Necromancer"
@@ -4690,6 +4713,105 @@ var character = [
             {
                "Minor": [
                   ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
+   },
+   {
+      "name": "Skyler \"CoolSealMango07\" Davis",
+      "firstName": "Skyler",
+      "id": 53,
+      "icon": "icons/Skyler.png",
+      "icons": "",
+      "art": [
+         "art/skyler.png"
+      ],
+      "class": [
+         "Magus"
+      ],
+      "subclass": [
+         ""
+      ],
+      "background": "Reincarnated Sick Child?",
+      "race": "?? Seal??",
+      "role": [
+         "dps skirmisher"
+      ],
+      "orientation": "??",
+      "pronouns": "He/Him",
+      "alignment": "Good?",
+      "stats": {
+         "birthday": "September 16 2005",
+         "age": "16",
+         "height": "",
+         "weight": "",
+         "skin": "",
+         "eye": "",
+         "hair": ""
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "I know this isn't a game.. but come on! I can walk! By myself! I haven't been able to do this in years!! It's it awesome??",
+            "Skyler"
+         ],
+         "Physical Description": [
+            "Formerly a sickly, pale, dirty blond boy, Skyler is now a rather tall, strong looking, jocky anthropomorphic blue seal-like creature with purple hair. He wears a letterman jacket with a white undershirt, something he always dreamed of getting. His baseball cap is backwards, with his bangs poking out of it. He has purple freckles under his eyes.",
+            "",
+            "He wears his breastplate under his jacket, with his other bits of armor overtop his jacket."
+         ],
+         "Personality": [
+            "He has a general air of innocence around him, simple things seeming to excite him in ways. Someone who had most of their childhood stolen from them, who was on his deathbed.. given a chance at a new life. ",
+            "He's a sweetie, genuinely caring about anyone and everyone. Excitable. Energetic.",
+            "Just in awe with the world"
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b>Arcane Armory</b> - Using one of the relics of his previous life, a now magically modified Iphone, he can bond with and store specific weapons and armor that he can quickly done and doff with a press of a button.",
+            "<b>Spellsight</b> - Using the camera on his Iphone (and eventually just by focusing?) he can examine an object or creature to basic magical information about the target.",
+            "<b>Spellstrike</b> - By inputting a spell into his weapon of choice, he can unleash it within a strike."
+         ],
+         "Bio": [
+            "Skyler \"CoolSealMango05\" Davis",
+            "",
+            "Born in 2007, Skyler was just a normal kid. Eager to go outside and play. A real sports star in the making.",
+            "",
+            "That all changed when he was in third grade. Hit with horrible illness after horrible illness, he spent most of his life after that year in and out of the hospital. Gone were the days of running around outside, getting dirty, playing sports. Now, video games were all he really had for social interactions. Shooters, MMO's, he gave anything with multiplayer a fair shake.",
+            "",
+            "He was hopeful. He wouldn't let his shit hand get him down.",
+            "",
+            "Until one of his extended family accidentally gave him COVID as a thanksgiving present.",
+            "",
+            "Laying in his hospital room, slowly drowning above water.. He thought that this was the end.",
+            "",
+            "Until someone visited him and offered him a once in a life time chance. Go be a hero.",
+            "Leave this world, never to return. Have a healthy body.",
+            "And try to save the world.",
+            "",
+            "He accepted without really considering anything. Of course he would.",
+            "",
+            "Taking on the form that resembled one of the namesakes of his gamertag, he's ready to go off and explore."
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  "Enjoy life??"
                ],
                "Major": [
                   ""
