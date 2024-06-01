@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      let total = 74;
+
+      let asi = {
+        str: 6,
+        dex: 6,
+        con: 6,
+        int: 6,
+        wis: 6,
+        cha: 6
+      };
+      $(document).ready(function () {
+        $(".asi").on("input", function () {
+          asi[$(this).attr("id")] = Number($(this).val());
+          let t = 0;
+          for (let k in asi) {
+            t += asi[k];
+          }
+          $("#output").html(t);
+        });
+      });
+    </script>
+    <style>
+      input {
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Str</th>
+          <th>Dex</th>
+          <th>Con</th>
+          <th>Int</th>
+          <th>Wis</th>
+          <th>Cha</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input
+              type="number"
+              value="6"
+              min="0"
+              max="18"
+              id="str"
+              class="asi" />
+          </td>
+          <td>
+            <input
+              type="number"
+              value="6"
+              min="0"
+              max="18"
+              id="dex"
+              class="asi" />
+          </td>
+          <td>
+            <input
+              type="number"
+              value="6"
+              min="0"
+              max="18"
+              id="con"
+              class="asi" />
+          </td>
+          <td>
+            <input
+              type="number"
+              value="6"
+              min="0"
+              max="18"
+              id="int"
+              class="asi" />
+          </td>
+          <td>
+            <input
+              type="number"
+              value="6"
+              min="0"
+              max="18"
+              id="wis"
+              class="asi" />
+          </td>
+          <td>
+            <input
+              type="number"
+              value="6"
+              min="0"
+              max="18"
+              id="cha"
+              class="asi" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="6" style="text-align: center">
+            Total: <span id="output">36</span> / 74
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
