@@ -6468,7 +6468,7 @@ function downloadSaves() {
         "click",
         function () {
             var link = document.createElement("a");
-            link.setAttribute("download", "save.js");
+            link.setAttribute("download", "TCGPocketTracker-save.js");
             link.href = makeTextFile(
                 "let save = " + JSON.stringify(save, null, 2)
             );
