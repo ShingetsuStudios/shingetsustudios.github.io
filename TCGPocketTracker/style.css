@@ -1,0 +1,304 @@
+:root {
+    --A1-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_A1_en_US.webp);
+    --A1a-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_A1a_en_US.webp);
+    --A2-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_A2_en_US.webp);
+    --PROMO-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_PROMO-A_en_US.webp);
+}
+
+body {
+    background-color: #555555;
+    color: white;
+}
+
+.headerContainer {
+    position: relative;
+}
+
+.header {
+
+    text-align: center;
+}
+
+.card,
+.filterBox {
+    position: relative;
+}
+
+.card {
+    padding: 5px;
+}
+
+.cardArt {
+    width: 150px;
+}
+
+.cardArt:hover {
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(240, 255, 156, 0.9);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(240, 255, 156, 0.9);
+    box-shadow: 0px 0px 35px 0px rgba(240, 255, 156, 0.9);
+}
+
+.cardFullArt {
+    width: 512px;
+}
+
+.moreThan2 {
+    color: #68ee68 !important
+}
+
+.cardNone {
+    filter: grayscale(70%);
+    opacity: 0.5;
+}
+
+.cardCount {
+    background: #335273;
+    color: white;
+    width: 64px;
+    height: 23px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    align-content: center;
+    font-weight: bold;
+
+    border-radius: 0px 75px 0px 25px;
+}
+
+.collectionSummary>tbody>tr>td,
+.collectionChance>tbody>tr>td {
+    padding: 5px;
+    text-align: center;
+}
+
+.collectionSummaryResult {
+
+    font-weight: bold;
+}
+
+.collection,
+#filterBar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.pack-image__preview {
+    aspect-ratio: 20/37;
+}
+
+
+.filterBox[type="checkbox"] {
+    display: none;
+}
+
+.filterBox+label {
+    display: block;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+.importButton {
+
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+.A1 {
+    aspect-ratio: 256/113;
+    background: var(--A1-icon);
+}
+
+.A1a {
+    aspect-ratio: 256/113;
+    background: var(--A1a-icon)
+}
+
+.A2 {
+    aspect-ratio: 256/113;
+    background: var(--A2-icon)
+}
+
+.PROMO {
+    aspect-ratio: 256/113;
+    background: var(--PROMO-icon)
+}
+
+span.A1,
+span.A2,
+span.A1a,
+span.PROMO {
+    font-size: 45px;
+}
+
+#A1+label {
+    aspect-ratio: 256/113;
+    background: var(--A1-icon);
+}
+
+#A1a+label {
+    aspect-ratio: 256/113;
+    background: var(--A1a-icon)
+}
+
+#A2+label {
+    aspect-ratio: 256/113;
+    background: var(--A2-icon)
+}
+
+#PROMO+label {
+    aspect-ratio: 256/113;
+    background: var(--PROMO-icon)
+}
+
+.filterBox[type="checkbox"]:checked+label {
+    transform: scale(1.1);
+}
+
+.packStats {
+    position: inline;
+}
+
+.cardButton {
+    display: none;
+    position: absolute;
+    width: 15px;
+    top: 85%;
+    height: 15px;
+    padding: 5px;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.cardAdd {
+    left: 55%;
+    background: green;
+}
+
+.cardRemove {
+    left: 73%;
+    background: red;
+}
+
+.card:hover .cardAdd,
+.card:hover .cardRemove {
+    display: block;
+    cursor: pointer;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+#modal-content {
+    background-color: #555555;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #535353;
+    width: 80%;
+}
+
+/* The Close Button */
+.close,
+#modal-right,
+#modal-left {
+    font-weight: bold;
+}
+
+#modal-right,
+#modal-left {
+    color: #ccc;
+    position: fixed;
+    top: 50%;
+    background: #474747;
+    border-radius: 12px;
+    font-size: 55px;
+    width: 55px;
+    text-align: center;
+}
+
+#modal-right {
+    left: 90%
+}
+
+#modal-left {
+    right: 90%
+}
+
+.close {
+    position: fixed;
+    top: 10%;
+    left: 88%;
+    font-size: 55px;
+    width: 55px;
+    text-align: center;
+    color: #900;
+    background-color: #ccc;
+}
+
+.close:hover,
+.close:focus,
+#modal-right:hover,
+#modal-left:hover,
+#modal-right:focus,
+#modal-left:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modal-content-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#modal-content-left {
+    float: left;
+    margin: 10px;
+}
+
+#modal-content-right {
+    float: left;
+    margin: 10px;
+}
+
+#modal-content-right>table {
+    width: 512px;
+}
+
+.pullChance>tbody>tr>td {
+    width: 55px;
+    text-align: center;
+}
