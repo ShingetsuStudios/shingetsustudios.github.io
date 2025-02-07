@@ -6676,8 +6676,6 @@ function updateCollections() {
             let energy = cardSet[key].set[index].eUsed[r]
             if (enUsed) {
                 if ($(this).parent().is(":visible")) {
-                    console.log(energyUseFilt)
-                    console.log(energy)
                     if (energyUseFilt[energy]) {
                         $(this).parent().show()
                     } else {
