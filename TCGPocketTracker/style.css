@@ -99,7 +99,12 @@ body {
     cursor: pointer;
 }
 
-
+.filterBox[type="checkbox"]:checked+label {
+    filter: grayscale(0%);
+}
+.filterBox[type="checkbox"]+label {
+    filter: grayscale(100%);
+}
 
 
 .importButton {
@@ -195,7 +200,12 @@ span.PROMO {
     cursor: pointer;
 }
 
-
+.energyButton {
+    width: 15px;
+}
+.energyButtonLabel {
+    height: 15px !important
+}
 
 /* The Modal (background) */
 .modal {

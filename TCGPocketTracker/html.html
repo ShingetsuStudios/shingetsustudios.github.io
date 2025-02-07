@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
-    <script src="save.js" type="text/javascript"></script>
+    <script src="TCGPocketTracker-save.js" type="text/javascript"></script>
     <script src="javascript.js" type="text/javascript"></script>
     <title>Pokemon TCG Pocket Tracker</title>
 </head>
@@ -13,16 +13,20 @@
     <div id="topBar">
         <button type="button" onclick="copySave()">Copy Save to Clipboard</button>
         <button type="button" id="downloadCode" onclick="downloadSave()">Download Save</button>
-        <input type="file" id="importSave"/>
+        <input type="file" id="importSave" />
+        <input type="text" id="filterSearch" placeholder="Search">
+        <br>
         <button type="button" onclick="toggleUnowned()">Hide Unowned</button>
         <button type="button" onclick="toggleOwned()">Hide Owned</button>
         <button type="button" onclick="toggleTradeable()">Hide Untradable</button>
         <button type="button" onclick="toggleUnTradeable()">Hide Tradable</button>
+        <br>
+        <div id="energyfilt"></div>
         <div id="filterBar"></div>
     </div>
 
     <div id="cardData" class="modal">
-        
+
         <div id="modal-content">
             <p>Some text in the Modal..</p>
         </div>

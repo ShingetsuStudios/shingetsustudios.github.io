@@ -50,7 +50,7 @@ let cardSet = {
                 "id": 5,
                 "type": "grass",
                 "eUsed": [
-                    "grass"
+                    "colorless"
                 ]
             },
             {
@@ -60,7 +60,7 @@ let cardSet = {
                 "id": 6,
                 "type": "grass",
                 "eUsed": [
-                    "grass"
+                    "colorless"
                 ]
             },
             {
@@ -70,7 +70,7 @@ let cardSet = {
                 "id": 7,
                 "type": "grass",
                 "eUsed": [
-                    "colorless"
+                    "grass"
                 ]
             },
             {
@@ -80,7 +80,7 @@ let cardSet = {
                 "id": 8,
                 "type": "grass",
                 "eUsed": [
-                    "colorless"
+                    "grass"
                 ]
             },
             {
@@ -6277,7 +6277,31 @@ let css = {
     },
     "All": '#fdfdfd'
 }
-
+/*
+let energySRC = {
+    "colorless": "https://static.dotgg.gg/pokepocket/icons/colorless.png",
+    "darkness": "https://static.dotgg.gg/pokepocket/icons/darkness.png",
+    "dragon": "https://static.dotgg.gg/pokepocket/icons/dragon.png",
+    "fighting": "https://static.dotgg.gg/pokepocket/icons/fighting.png",
+    "grass": "https://static.dotgg.gg/pokepocket/icons/grass.png",
+    "lightning": "https://static.dotgg.gg/pokepocket/icons/lightning.png",
+    "metal": "https://static.dotgg.gg/pokepocket/icons/metal.png",
+    "psychic": "https://static.dotgg.gg/pokepocket/icons/psychic.png",
+    "water": "https://static.dotgg.gg/pokepocket/icons/water.png",
+    "fire": "https://static.dotgg.gg/pokepocket/icons/fire.png"
+}*/
+let energySRC = {
+    "colorless": "img/energy/colorless.png",
+    "darkness": "img/energy/darkness.png",
+    "dragon": "img/energy/dragon.png",
+    "fighting": "img/energy/fighting.png",
+    "grass": "img/energy/grass.png",
+    "lightning": "img/energy/lightning.png",
+    "metal": "img/energy/metal.png",
+    "psychic": "img/energy/psychic.png",
+    "water": "img/energy/water.png",
+    "fire": "img/energy/fire.png"
+}
 let filter = {
     "A1": true,
     "A1a": true,
@@ -6285,6 +6309,30 @@ let filter = {
     "A2a": true,
     "A3": true,
     "PROMO": true
+}
+let energyFilt = {
+    "colorless": true,
+    "darkness": true,
+    "dragon": true,
+    "fighting": true,
+    "grass": true,
+    "lightning": true,
+    "metal": true,
+    "psychic": true,
+    "water": true,
+    "fire": true,
+}
+let energyUseFilt = {
+    "colorless": true,
+    "darkness": true,
+    "dragon": true,
+    "fighting": true,
+    "grass": true,
+    "lightning": true,
+    "metal": true,
+    "psychic": true,
+    "water": true,
+    "fire": true,
 }
 
 let rarities = {
@@ -6337,6 +6385,8 @@ for (k in cardSet) {
     }
 }
 
+
+
 $(document).ready(function () {
     calculateRarities()
     renderCollections()
@@ -6349,6 +6399,21 @@ $(document).ready(function () {
             $('#filterBar').append('<input type="checkbox" id="' + i + '" class="filterBox" ' + checked + '><label for="' + i + '"><label>')
         }
     }
+
+    let energyOutput = "<table>"
+    let r1 = "<tr><th>Filter by Type:</th>"
+    let r2 = "<tr><th>Filter by Energy:</th>"
+
+    for (e in energySRC) {
+        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-" + e + "' checked><label class='energyButtonLabel' for='typeFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><td>"
+        r2 += "<td><input type='checkbox' class='filterBox energyFilter' id='energyFilter-" + e + "' checked><label class='energyButtonLabel' for='energyFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><td>"
+    }
+    r1 += '</tr>'
+    r2 += '</tr>'
+    energyOutput += r1 + r2 + "</table>"
+
+    $('#energyfilt').append(energyOutput)
+
     $('#filterBar').on('click', '.filterBox', function () {
         $('.filterBox:checkbox').each(function (i) {
             if ($(this).is(':checked')) {
@@ -6435,6 +6500,36 @@ $(document).ready(function () {
             updateCollections()
         }
     };
+    $('#filterSearch').on('input', function () {
+        let input = $('#filterSearch').val().toLowerCase()
+
+        $('.card').each(function () {
+            let classList = $(this).attr("class").split(/\s+/)
+            //console.log(classList)
+            let filter = classList.filter(l => l.includes('Filter-'))[0].replace('Filter-', '')
+            if (filter.toLowerCase().indexOf(input) > 0 || input === '') {
+                $(this).show()
+            } else {
+                $(this).hide()
+            }
+        })
+    })
+    $('#energyfilt').on('click', '.typeFilter', function () {
+        if (energyFilt[$(this).attr('id').replace('typeFilter-', '')] === false) {
+            energyFilt[$(this).attr('id').replace('typeFilter-', '')] = true
+        } else {
+            energyFilt[$(this).attr('id').replace('typeFilter-', '')] = false
+        }
+        updateCollections()
+    })
+    $('#energyfilt').on('click', '.energyFilter', function () {
+        if (energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] === false) {
+            energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] = true
+        } else {
+            energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] = false
+        }
+        updateCollections()
+    })
 })
 
 function getKeyByValue(object, value) { return Object.keys(object).filter(key => object[key] === value); }
@@ -6483,15 +6578,13 @@ function downloadSaves() {
         },
         false
     );
+
 }
-
-
 function titleCase(str) {
     return str.toLowerCase().replace(/(?:^|\s)\w/g, function (match) {
         return match.toUpperCase();
     });
 }
-
 function regenCss() {
     //helper function. Add new packs to the css object and log it for editing.
     for (k in cardSet) {
@@ -6503,9 +6596,7 @@ function regenCss() {
         }
     }
     console.log(JSON.stringify(css, null, 2))
-
 }
-
 function renderCollections() {
     $("#container").html("")
     for (k in cardSet) {
@@ -6522,12 +6613,13 @@ function renderCollections() {
         let statTable = renderCollectionTable(k)
 
 
-        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"> <div class="' + k + '" style="height: 100px; display:inline-block;"> </div><br> ' + cardTotal + '/' + cardSet[k].set.length + '</div> <div class="packStats">' + statTable + '</div> </div><div class="collection">'
+        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"> <div class="' + k + '" style="height: 100px; display:inline-block;"> </div></div> <div class="packStats">' + statTable + '</div> </div><div class="collection">'
 
         if (cardSet[k].set.length === 0) { render = false }
         for (i = 0; i < cardSet[k].set.length; i++) {
             let setNum = (i + 1).toString().padStart(3, 0)
             let cardCount = save[k].save[i]
+            let cardName = cardSet[k].set[i].name
             let cardExtraClasses = ""
 
             if (cardCount === 0) {
@@ -6535,7 +6627,7 @@ function renderCollections() {
             }
 
             cardExtraClasses += k + '-' + cardSet[k].set[i].pack
-
+            cardExtraClasses += " Filter-" + setNum + "-" + cardName
 
 
             output += "<div class='card " + cardExtraClasses + "'><img class='cardArt " + k + "-" + setNum + "' id='" + k + "-" + setNum + "' src='https://static.dotgg.gg/pokepocket/card/" + k + "-" + setNum + ".webp'><div class='cardCount'>" + cardCount + "</div><div class='cardAdd cardButton'>+</div><div class='cardRemove cardButton'>-</div></div>"
@@ -6554,8 +6646,6 @@ function renderCollections() {
     })
 }
 function updateCollections() {
-
-
     for (f in filter) {
         if (filter[f] === false) {
             $('#' + f + 'Header').hide()
@@ -6574,12 +6664,37 @@ function updateCollections() {
             $(this).parent().removeClass("cardNone")
         } else if (Number($(this).text()) <= 0 && !$(this).parent().attr('class').includes("cardNone")) {
             $(this).parent().addClass("cardNone")
-
         }
+
+        if (energyFilt[cardSet[key].set[index].type] === false) {
+            $(this).parent().hide()
+        } else {
+            $(this).parent().show()
+        }
+        let enUsed = true
+        for (r in cardSet[key].set[index].eUsed) {
+            let energy = cardSet[key].set[index].eUsed[r]
+            if (enUsed) {
+                if ($(this).parent().is(":visible")) {
+                    console.log(energyUseFilt)
+                    console.log(energy)
+                    if (energyUseFilt[energy]) {
+                        $(this).parent().show()
+                    } else {
+                        $(this).parent().hide()
+                        enUsed = false
+                    }
+                }
+            }
+        }
+
+
     })
     $('.card > .cardCount').each(function () {
         if (Number($(this).text()) > 2) {
             $(this).addClass('moreThan2')
+        } else if ($(this).attr('class').includes('moreThan2')) {
+            $(this).removeClass('moreThan2')
         }
     })
     calculateRarities()
@@ -6820,7 +6935,6 @@ function calculateRarities() {
     }
 
 }
-
 function renderModal(x) {
     let cardName = titleCase(cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].name).replace(' ex', ' EX')
     let cardPack = cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].pack
@@ -6848,11 +6962,10 @@ function renderModal(x) {
 
     }
 
-    $('#modal-content').html('<div id="modal-content-container"><div id="modal-content-left"><img class=cardFullArt src="https://static.dotgg.gg/pokepocket/card/' + x + '.webp"></div><div id="modal-content-right"><table><tbody><tr><th>Name:</th><td><span id="cardID">' + x + '</span> : ' + cardName + '</td></tr><tr><th>Set:</th><td>' + x.split('-')[0] + '</td></tr><tr><th>Source:</th><td>' + cardPack + '</td></tr><tr><th>Type</th><td>' + type + '</td></tr>' + ctp + '<tr><th>Total Owned</th><td><span id="modalTotal">' + totalOwned + '</span></td></tr></tbody></table></div></div></div>')
+    $('#modal-content').html('<div id="modal-content-container"><div id="modal-content-left"><img class=cardFullArt src="https://static.dotgg.gg/pokepocket/card/' + x + '.webp"></div><div id="modal-content-right"><table><tbody><tr><th>Name:</th><td><span id="cardID">' + x + '</span> : ' + cardName + '</td></tr><tr><th>Set:</th><td>' + x.split('-')[0] + '</td></tr><tr><th>Source:</th><td>' + cardPack + '</td></tr><tr><th>Type</th><td><img src="' + energySRC[type] + '" style="width: 25px;">' + type + '</td></tr>' + ctp + '<tr><th>Total Owned</th><td><span id="modalTotal">' + totalOwned + '</span></td></tr></tbody></table></div></div></div>')
 
 
 }
-
 function toggleUnowned() {
     $('.cardNone').toggle()
 }
