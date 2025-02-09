@@ -6310,6 +6310,7 @@ let filter = {
     "A3": true,
     "PROMO": true
 }
+let doNotFilter = ['tool', 'supporter', 'item']
 let energyFilt = {}
 let energyUseFilt = {}
 for (k in energySRC) {
@@ -6379,14 +6380,20 @@ $(document).ready(function () {
         }
     }
 
+
     let energyOutput = "<table>"
     let r1 = "<tr><th>Filter by Type:</th>"
     let r2 = "<tr><th>Filter by Energy:</th>"
 
     for (e in energySRC) {
-        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-" + e + "' checked><label class='energyButtonLabel' for='typeFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div><td>"
-        r2 += "<td><input type='checkbox' class='filterBox energyFilter' id='energyFilter-" + e + "' checked><label class='energyButtonLabel' for='energyFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div><td>"
+        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-" + e + "' checked><label class='energyButtonLabel' for='typeFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div></label><td>"
+        r2 += "<td><input type='checkbox' class='filterBox energyFilter' id='energyFilter-" + e + "' checked><label class='energyButtonLabel' for='energyFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div></label><td>"
     }
+    for (e in doNotFilter) {
+        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-"+doNotFilter[e]+"' checked><label for='typeFilter-"+doNotFilter[e]+"' class='typeFilterItem'>" + doNotFilter[e] + "</label>"
+        energyFilt[doNotFilter[e]] = true
+    }
+
     r1 += '</tr>'
     r2 += '</tr>'
     energyOutput += r1 + r2 + "</table>"
@@ -6678,9 +6685,8 @@ function updateCollections() {
             $(this).hide()
             hidden = true
         }
-        //energy filtering somehow broke shit. Gotta figure out how to fix it later.
-        let doNotFilter = ['tool', 'supporter', 'item']
-        if (!doNotFilter.includes(cardSet[key].set[index].type)) {
+        
+        //if () {
             if (energyFilt[cardSet[key].set[index].type] === undefined) {
                 console.log(cardSet[key].set[index].name + " : " + cardSet[key].set[index].type)
             }
@@ -6693,7 +6699,7 @@ function updateCollections() {
                     hidden = false
                 }
             }
-            if (!hidden) {
+            if (!hidden && !doNotFilter.includes(cardSet[key].set[index].type)) {
                 let enUsed = true
                 for (r in cardSet[key].set[index].eUsed) {
                     let energy = cardSet[key].set[index].eUsed[r]
@@ -6710,7 +6716,7 @@ function updateCollections() {
                     }
                 }
             }
-        }
+       // }
 
     })
 }
