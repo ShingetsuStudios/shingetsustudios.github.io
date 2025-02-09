@@ -12,6 +12,21 @@ body {
 
 .headerContainer {
     position: relative;
+    height: 100px;
+}
+
+.headerIMG {
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+}
+
+.headerContainer-left {
+    position: absolute;
+    bottom: 0;
 }
 
 .header {
@@ -102,8 +117,14 @@ body {
 .filterBox[type="checkbox"]:checked+label {
     filter: grayscale(0%);
 }
+
 .filterBox[type="checkbox"]+label {
     filter: grayscale(100%);
+}
+
+.typeFilter[type="checkbox"]:checked+label>.energyButtonBackground,
+.energyFilter[type="checkbox"]:checked+label>.energyButtonBackground {
+    background: white;
 }
 
 
@@ -203,6 +224,20 @@ span.PROMO {
 .energyButton {
     width: 15px;
 }
+
+.energyButtonBackground {
+    width: 17;
+    height: 17;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -1;
+    left: -1;
+    z-index: -1;
+}
+
 .energyButtonLabel {
     height: 15px !important
 }

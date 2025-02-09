@@ -1638,9 +1638,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢",
                 "id": 164,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1648,9 +1648,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢♢",
                 "id": 165,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1658,9 +1658,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "♢",
                 "id": 166,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1668,9 +1668,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "♢♢",
                 "id": 167,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1678,9 +1678,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "♢♢♢",
                 "id": 168,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1688,9 +1688,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "♢",
                 "id": 169,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1698,9 +1698,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "♢♢",
                 "id": 170,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1708,9 +1708,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "♢♢♢",
                 "id": 171,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1718,7 +1718,7 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "♢",
                 "id": 172,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
                     "colorless"
                 ]
@@ -1728,7 +1728,7 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "♢♢",
                 "id": 173,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
                     "colorless"
                 ]
@@ -1738,9 +1738,9 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "♢",
                 "id": 174,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1748,9 +1748,9 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "♢♢♢",
                 "id": 175,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1758,9 +1758,9 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "♢",
                 "id": 176,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1768,9 +1768,9 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "♢♢♢",
                 "id": 177,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -1778,9 +1778,9 @@ let cardSet = {
                 "pack": "Charizard",
                 "rare": "♢",
                 "id": 178,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -1788,9 +1788,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢",
                 "id": 179,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -1798,9 +1798,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢♢",
                 "id": 180,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -1808,9 +1808,9 @@ let cardSet = {
                 "pack": "Charizard",
                 "rare": "♢",
                 "id": 181,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -1818,9 +1818,9 @@ let cardSet = {
                 "pack": "Charizard",
                 "rare": "♢♢♢",
                 "id": 182,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -2401,9 +2401,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "☆",
                 "id": 240,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -2411,9 +2411,9 @@ let cardSet = {
                 "pack": "Pikachu",
                 "rare": "☆",
                 "id": 241,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -2421,7 +2421,7 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "☆",
                 "id": 242,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
                     "colorless"
                 ]
@@ -2431,9 +2431,9 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "☆",
                 "id": 243,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -2612,9 +2612,9 @@ let cardSet = {
                 "pack": "Mewtwo",
                 "rare": "☆☆",
                 "id": 261,
-                "type": "pyschic",
+                "type": "psychic",
                 "eUsed": [
-                    "pyschic"
+                    "psychic"
                 ]
             },
             {
@@ -3359,9 +3359,9 @@ let cardSet = {
                 "pack": "Mew",
                 "rare": "♢",
                 "id": 49,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -3369,9 +3369,9 @@ let cardSet = {
                 "pack": "Mew",
                 "rare": "♢♢",
                 "id": 50,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -3379,9 +3379,9 @@ let cardSet = {
                 "pack": "Mew",
                 "rare": "♢",
                 "id": 51,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -3389,9 +3389,9 @@ let cardSet = {
                 "pack": "Mew",
                 "rare": "♢",
                 "id": 52,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -3399,9 +3399,9 @@ let cardSet = {
                 "pack": "Mew",
                 "rare": "♢",
                 "id": 53,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -3409,9 +3409,9 @@ let cardSet = {
                 "pack": "Mew",
                 "rare": "♢",
                 "id": 54,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -3419,9 +3419,9 @@ let cardSet = {
                 "pack": "Mew",
                 "rare": "♢♢",
                 "id": 55,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4539,9 +4539,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢",
                 "id": 80,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4549,9 +4549,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢♢",
                 "id": 81,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4559,9 +4559,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢♢♢",
                 "id": 82,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4569,9 +4569,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 83,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4579,9 +4579,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢",
                 "id": 84,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4589,9 +4589,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 85,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4599,7 +4599,7 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢",
                 "id": 86,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
                     "colorless"
                 ]
@@ -4609,9 +4609,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢♢",
                 "id": 87,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4619,9 +4619,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢",
                 "id": 88,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4629,9 +4629,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢♢",
                 "id": 89,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4639,9 +4639,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 90,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4649,9 +4649,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 91,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4659,9 +4659,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢♢",
                 "id": 92,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4669,9 +4669,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢",
                 "id": 93,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4679,9 +4679,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢♢",
                 "id": 94,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4689,9 +4689,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢♢♢",
                 "id": 95,
-                "type": "fighter",
+                "type": "fighting",
                 "eUsed": [
-                    "fighter"
+                    "fighting"
                 ]
             },
             {
@@ -4699,9 +4699,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 96,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4709,9 +4709,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢",
                 "id": 97,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4719,9 +4719,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢",
                 "id": 98,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4729,9 +4729,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢♢♢♢",
                 "id": 99,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4739,9 +4739,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢",
                 "id": 100,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4749,9 +4749,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢♢",
                 "id": 101,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4759,9 +4759,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 102,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4769,9 +4769,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢",
                 "id": 103,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4779,7 +4779,7 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢♢",
                 "id": 104,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
                     "colorless"
                 ]
@@ -4789,9 +4789,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢",
                 "id": 105,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4799,9 +4799,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢♢",
                 "id": 106,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4809,9 +4809,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 107,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4819,9 +4819,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢",
                 "id": 108,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4829,9 +4829,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢♢",
                 "id": 109,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4839,9 +4839,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢♢♢",
                 "id": 110,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -4849,19 +4849,19 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢♢",
                 "id": 111,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
-                "name": "Registeel",
+                "name": "Regimetal",
                 "pack": "Dialga",
                 "rare": "♢♢",
                 "id": 112,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4869,9 +4869,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢♢",
                 "id": 113,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4879,9 +4879,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢♢♢",
                 "id": 114,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4889,9 +4889,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "♢",
                 "id": 115,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4899,9 +4899,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢",
                 "id": 116,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4909,9 +4909,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢",
                 "id": 117,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4919,9 +4919,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♢♢",
                 "id": 118,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4929,9 +4929,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢♢♢",
                 "id": 119,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -4939,9 +4939,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "♢♢♢",
                 "id": 120,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -5461,7 +5461,7 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "☆",
                 "id": 172,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
                     "colorless"
                 ]
@@ -5471,9 +5471,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "☆",
                 "id": 173,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -5481,9 +5481,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "☆",
                 "id": 174,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -5602,9 +5602,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "☆☆",
                 "id": 186,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -5612,9 +5612,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "☆☆",
                 "id": 187,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -5622,9 +5622,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "☆☆",
                 "id": 188,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -5752,9 +5752,9 @@ let cardSet = {
                 "pack": "Palkia",
                 "rare": "☆☆",
                 "id": 201,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -5762,9 +5762,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "☆☆",
                 "id": 202,
-                "type": "dark",
+                "type": "darkness",
                 "eUsed": [
-                    "dark"
+                    "darkness"
                 ]
             },
             {
@@ -5792,9 +5792,9 @@ let cardSet = {
                 "pack": "Dialga",
                 "rare": "☆☆☆",
                 "id": 205,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -5812,9 +5812,9 @@ let cardSet = {
                 "pack": "All",
                 "rare": "♛",
                 "id": 207,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             }
         ],
@@ -5978,9 +5978,9 @@ let cardSet = {
                 "pack": "Promo Pack",
                 "rare": "Promo",
                 "id": 15,
-                "type": "eletric",
+                "type": "electric",
                 "eUsed": [
-                    "eletric"
+                    "electric"
                 ]
             },
             {
@@ -6218,9 +6218,9 @@ let cardSet = {
                 "pack": "Promo Pack",
                 "rare": "Promo",
                 "id": 39,
-                "type": "steel",
+                "type": "metal",
                 "eUsed": [
-                    "steel"
+                    "metal"
                 ]
             },
             {
@@ -6291,16 +6291,16 @@ let energySRC = {
     "fire": "https://static.dotgg.gg/pokepocket/icons/fire.png"
 }*/
 let energySRC = {
-    "colorless": "img/energy/colorless.png",
-    "darkness": "img/energy/darkness.png",
-    "dragon": "img/energy/dragon.png",
-    "fighting": "img/energy/fighting.png",
     "grass": "img/energy/grass.png",
-    "lightning": "img/energy/lightning.png",
-    "metal": "img/energy/metal.png",
-    "psychic": "img/energy/psychic.png",
+    "fire": "img/energy/fire.png",
     "water": "img/energy/water.png",
-    "fire": "img/energy/fire.png"
+    "electric": "img/energy/electric.png",
+    "psychic": "img/energy/psychic.png",
+    "fighting": "img/energy/fighting.png",
+    "darkness": "img/energy/darkness.png",
+    "metal": "img/energy/metal.png",
+    "dragon": "img/energy/dragon.png",
+    "colorless": "img/energy/colorless.png"
 }
 let filter = {
     "A1": true,
@@ -6310,29 +6310,11 @@ let filter = {
     "A3": true,
     "PROMO": true
 }
-let energyFilt = {
-    "colorless": true,
-    "darkness": true,
-    "dragon": true,
-    "fighting": true,
-    "grass": true,
-    "lightning": true,
-    "metal": true,
-    "psychic": true,
-    "water": true,
-    "fire": true,
-}
-let energyUseFilt = {
-    "colorless": true,
-    "darkness": true,
-    "dragon": true,
-    "fighting": true,
-    "grass": true,
-    "lightning": true,
-    "metal": true,
-    "psychic": true,
-    "water": true,
-    "fire": true,
+let energyFilt = {}
+let energyUseFilt = {}
+for (k in energySRC) {
+    energyFilt[k] = true
+    energyUseFilt[k] = true
 }
 
 let rarities = {
@@ -6351,9 +6333,6 @@ let rates = {}
 Number.prototype.round = function (places) {
     return +(Math.round(this + "e+" + places) + "e-" + places);
 }
-
-
-
 let blankSave = {}
 for (k in cardSet) {
     if (save[k] === undefined) {
@@ -6405,8 +6384,8 @@ $(document).ready(function () {
     let r2 = "<tr><th>Filter by Energy:</th>"
 
     for (e in energySRC) {
-        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-" + e + "' checked><label class='energyButtonLabel' for='typeFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><td>"
-        r2 += "<td><input type='checkbox' class='filterBox energyFilter' id='energyFilter-" + e + "' checked><label class='energyButtonLabel' for='energyFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><td>"
+        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-" + e + "' checked><label class='energyButtonLabel' for='typeFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div><td>"
+        r2 += "<td><input type='checkbox' class='filterBox energyFilter' id='energyFilter-" + e + "' checked><label class='energyButtonLabel' for='energyFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div><td>"
     }
     r1 += '</tr>'
     r2 += '</tr>'
@@ -6501,18 +6480,7 @@ $(document).ready(function () {
         }
     };
     $('#filterSearch').on('input', function () {
-        let input = $('#filterSearch').val().toLowerCase()
-
-        $('.card').each(function () {
-            let classList = $(this).attr("class").split(/\s+/)
-            //console.log(classList)
-            let filter = classList.filter(l => l.includes('Filter-'))[0].replace('Filter-', '')
-            if (filter.toLowerCase().indexOf(input) > 0 || input === '') {
-                $(this).show()
-            } else {
-                $(this).hide()
-            }
-        })
+        updateCollections()
     })
     $('#energyfilt').on('click', '.typeFilter', function () {
         if (energyFilt[$(this).attr('id').replace('typeFilter-', '')] === false) {
@@ -6529,6 +6497,9 @@ $(document).ready(function () {
             energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] = false
         }
         updateCollections()
+    })
+    $('#container').on('click', '.CollectionHide', function () {
+        $('.collectionSummary').toggle()
     })
 })
 
@@ -6613,7 +6584,7 @@ function renderCollections() {
         let statTable = renderCollectionTable(k)
 
 
-        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"> <div class="' + k + '" style="height: 100px; display:inline-block;"> </div></div> <div class="packStats">' + statTable + '</div> </div><div class="collection">'
+        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"><div class="headerContainer-left"> <button id="' + k + '-CollectionHide" class="CollectionHide">Show Collection<br> Summary</button> </div> <div class="' + k + ' headerIMG" > </div></div> <div class="packStats">' + statTable + '</div> </div><div class="collection">'
 
         if (cardSet[k].set.length === 0) { render = false }
         for (i = 0; i < cardSet[k].set.length; i++) {
@@ -6666,26 +6637,6 @@ function updateCollections() {
             $(this).parent().addClass("cardNone")
         }
 
-        if (energyFilt[cardSet[key].set[index].type] === false) {
-            $(this).parent().hide()
-        } else {
-            $(this).parent().show()
-        }
-        let enUsed = true
-        for (r in cardSet[key].set[index].eUsed) {
-            let energy = cardSet[key].set[index].eUsed[r]
-            if (enUsed) {
-                if ($(this).parent().is(":visible")) {
-                    if (energyUseFilt[energy]) {
-                        $(this).parent().show()
-                    } else {
-                        $(this).parent().hide()
-                        enUsed = false
-                    }
-                }
-            }
-        }
-
 
     })
     $('.card > .cardCount').each(function () {
@@ -6708,6 +6659,59 @@ function updateCollections() {
         let statTable = renderCollectionTable(k)
 
         $(this).html(statTable)
+    })
+
+    let input = $('#filterSearch').val().toLowerCase()
+    $('.card').each(function () {
+        let cardKey = $(this).children('img').attr('id')
+        let key = cardKey.split('-')[0]
+        let index = Number(cardKey.split('-')[1]) - 1
+        let hidden = false
+
+        let classList = $(this).attr("class").split(/\s+/)
+        //console.log(classList)
+        let filter = classList.filter(l => l.includes('Filter-'))[0].replace('Filter-', '')
+        if (filter.toLowerCase().indexOf(input) > 0 || input === '') {
+            $(this).show()
+            hidden = false
+        } else {
+            $(this).hide()
+            hidden = true
+        }
+        //energy filtering somehow broke shit. Gotta figure out how to fix it later.
+        let doNotFilter = ['tool', 'supporter', 'item']
+        if (!doNotFilter.includes(cardSet[key].set[index].type)) {
+            if (energyFilt[cardSet[key].set[index].type] === undefined) {
+                console.log(cardSet[key].set[index].name + " : " + cardSet[key].set[index].type)
+            }
+            if (!hidden) {
+                if (energyFilt[cardSet[key].set[index].type] === false) {
+                    $(this).hide()
+                    hidden = true
+                } else {
+                    $(this).show()
+                    hidden = false
+                }
+            }
+            if (!hidden) {
+                let enUsed = true
+                for (r in cardSet[key].set[index].eUsed) {
+                    let energy = cardSet[key].set[index].eUsed[r]
+                    if (enUsed) {
+                        if (energyUseFilt[energy]) {
+                            $(this).show()
+                            hidden = false
+                        } else {
+                            $(this).hide()
+                            enUsed = false
+                            hidden = true
+                        }
+
+                    }
+                }
+            }
+        }
+
     })
 }
 function renderCollectionTable(k) {
@@ -6965,19 +6969,33 @@ function renderModal(x) {
 
 }
 function toggleUnowned() {
-    $('.cardNone').toggle()
+    if ($('#toggleUnowned').text() === "Hide Unowned") {
+        $('.cardNone').hide()
+        $('#toggleUnowned').text("Show Unowned")
+    } else {
+        $('.cardNone').show()
+        $('#toggleUnowned').text("Hide Unowned")
+    }
 }
 function toggleOwned() {
+    if ($('#toggleOwned').text() === "Hide Owned") {
+        $('.card:not(.cardNone)').show()
+        $('#toggleOwned').text("Show Owned")
+    } else {
+        $('.card:not(.cardNone)').hide()
+        $('#toggleOwned').text("Hide Owned")
+    }
     $('.card').toggle()
     $('.cardNone').toggle()
 }
 
 function toggleTradeable() {
-    $('.card > .cardCount').each(function () {
-        if (Number($(this).text()) <= 2) {
-            $(this).parent().toggle()
-        }
-    })
+    if ($('#hideUnTradable'))
+        $('.card > .cardCount').each(function () {
+            if (Number($(this).text()) <= 2) {
+                $(this).parent().toggle()
+            }
+        })
 }
 
 function toggleUnTradeable() {
