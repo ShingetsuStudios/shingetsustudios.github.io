@@ -6310,7 +6310,7 @@ let filter = {
     "A3": true,
     "PROMO": true
 }
-let doNotFilter = ['tool', 'supporter', 'item']
+let doNotFilter = ['item', 'supporter', 'tool']
 let energyFilt = {}
 let energyUseFilt = {}
 for (k in energySRC) {
@@ -6318,16 +6318,20 @@ for (k in energySRC) {
     energyUseFilt[k] = true
 }
 
+let rarityFilt = {}
 let rarities = {
-    '☆': [0, 0, 0, 2.572, 10.288],
-    '☆☆': [0, 0, 0, 0.500, 2.000],
-    '☆☆☆': [0, 0, 0, 0.222, 0.888],
-    '♛': [0, 0, 0, 0.040, 0.160],
     '♢': [100, 100, 100, 0, 0],
     '♢♢': [0, 0, 0, 90, 60],
     '♢♢♢': [0, 0, 0, 5, 20],
     '♢♢♢♢': [0, 0, 0, 1.666, 6.664],
+    '☆': [0, 0, 0, 2.572, 10.288],
+    '☆☆': [0, 0, 0, 0.500, 2.000],
+    '☆☆☆': [0, 0, 0, 0.222, 0.888],
+    '♛': [0, 0, 0, 0.040, 0.160],
     'Promo': [0, 0, 0, 0, 0]
+}
+for (k in rarities) {
+    rarityFilt[k] = true
 }
 let pt = {}
 let rates = {}
@@ -6382,21 +6386,25 @@ $(document).ready(function () {
 
 
     let energyOutput = "<table>"
-    let r1 = "<tr><th>Filter by Type:</th>"
-    let r2 = "<tr><th>Filter by Energy:</th>"
-
+    let r1 = "<tr><th>Filter by Type:</th><td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-All' checked><label for='typeFilter-All' class='typeFilterItem unselectable'>All</label></td>"
+    let r2 = "<tr><th>Filter by Energy:</th><td><input type='checkbox' class='filterBox energyFilter' id='energyFilter-All' checked><label for='energyFilter-All' class='typeFilterItem unselectable'>All</label></td>"
+    let r3 = "<table><tr><th>Filter by Rarity:</th><td><input type='checkbox' class='filterBox rarityFilter' id='rarityFilter-All' checked><label for='rarityFilter-All' class='typeFilterItem unselectable'>All</label></td>"
     for (e in energySRC) {
         r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-" + e + "' checked><label class='energyButtonLabel' for='typeFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div></label><td>"
         r2 += "<td><input type='checkbox' class='filterBox energyFilter' id='energyFilter-" + e + "' checked><label class='energyButtonLabel' for='energyFilter-" + e + "'><img class='energyButton' src= '" + energySRC[e] + "'><div class='energyButtonBackground'></div></label><td>"
     }
     for (e in doNotFilter) {
-        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-"+doNotFilter[e]+"' checked><label for='typeFilter-"+doNotFilter[e]+"' class='typeFilterItem'>" + doNotFilter[e] + "</label>"
+        r1 += "<td><input type='checkbox' class='filterBox typeFilter' id='typeFilter-" + doNotFilter[e] + "' checked><label for='typeFilter-" + doNotFilter[e] + "' class='typeFilterItem unselectable'>" + doNotFilter[e] + "</label>"
         energyFilt[doNotFilter[e]] = true
+    }
+    for (e in rarities) {
+        r3 += "<td><input type='checkbox' class='filterBox rarityFilter' id='rarityFilter-" + e + "' checked><label for='rarityFilter-" + e + "' class='typeFilterItem unselectable'>" + e + "</label>"
     }
 
     r1 += '</tr>'
     r2 += '</tr>'
-    energyOutput += r1 + r2 + "</table>"
+    r3 += '</tr>'
+    energyOutput += r1 + r2 + "</table>" + r3 + "</table>"
 
     $('#energyfilt').append(energyOutput)
 
@@ -6490,7 +6498,23 @@ $(document).ready(function () {
         updateCollections()
     })
     $('#energyfilt').on('click', '.typeFilter', function () {
-        if (energyFilt[$(this).attr('id').replace('typeFilter-', '')] === false) {
+        if ($(this).attr('id').includes('-All')) {
+            if ($(this).is(":checked")) {
+                $('.typeFilter').each(function () {
+                    $(this).prop('checked', true)
+                })
+                for (e in energyFilt) {
+                    energyFilt[e] = true
+                }
+            } else {
+                $('.typeFilter').each(function () {
+                    $(this).prop('checked', false)
+                })
+                for (e in energyFilt) {
+                    energyFilt[e] = false
+                }
+            }
+        } else if (energyFilt[$(this).attr('id').replace('typeFilter-', '')] === false) {
             energyFilt[$(this).attr('id').replace('typeFilter-', '')] = true
         } else {
             energyFilt[$(this).attr('id').replace('typeFilter-', '')] = false
@@ -6498,15 +6522,59 @@ $(document).ready(function () {
         updateCollections()
     })
     $('#energyfilt').on('click', '.energyFilter', function () {
-        if (energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] === false) {
+        if ($(this).attr('id').includes('-All')) {
+            if ($(this).is(":checked")) {
+                $('.energyFilter').each(function () {
+                    $(this).prop('checked', true)
+                })
+                for (e in energyUseFilt) {
+                    energyUseFilt[e] = true
+                }
+            } else {
+                $('.energyFilter').each(function () {
+                    $(this).prop('checked', false)
+                })
+                for (e in energyUseFilt) {
+                    energyUseFilt[e] = false
+                }
+            }
+        } else if (energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] === false) {
             energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] = true
         } else {
             energyUseFilt[$(this).attr('id').replace('energyFilter-', '')] = false
         }
         updateCollections()
     })
+    $('#energyfilt').on('click', '.rarityFilter', function () {
+        if ($(this).attr('id').includes('-All')) {
+            if ($(this).is(":checked")) {
+                $('.rarityFilter').each(function () {
+                    $(this).prop('checked', true)
+                })
+                for (e in rarityFilt) {
+                    rarityFilt[e] = true
+                }
+            } else {
+                $('.rarityFilter').each(function () {
+                    $(this).prop('checked', false)
+                })
+                for (e in rarityFilt) {
+                    rarityFilt[e] = false
+                }
+            }
+        } else if (rarityFilt[$(this).attr('id').replace('rarityFilter-', '')] === false) {
+            rarityFilt[$(this).attr('id').replace('rarityFilter-', '')] = true
+        } else {
+            rarityFilt[$(this).attr('id').replace('rarityFilter-', '')] = false
+        }
+        updateCollections()
+    })
     $('#container').on('click', '.CollectionHide', function () {
-        $('.collectionSummary').toggle()
+        if ($('.packStats').css('display') === 'flex') {
+            $('.packStats').css('display', 'none')
+        } else {
+            $('.packStats').css('display', 'flex')
+        }
     })
 })
 
@@ -6591,7 +6659,7 @@ function renderCollections() {
         let statTable = renderCollectionTable(k)
 
 
-        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"><div class="headerContainer-left"> <button id="' + k + '-CollectionHide" class="CollectionHide">Show Collection<br> Summary</button> </div> <div class="' + k + ' headerIMG" > </div></div> <div class="packStats">' + statTable + '</div> </div><div class="collection">'
+        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"><div class="headerContainer-left"> <button id="' + k + '-CollectionHide" class="CollectionHide">Show Collection<br> Summary</button> </div> <div class="' + k + ' headerIMG" > </div></div> </div><div class="packStats" id="packStats-' + k + '">' + statTable + '</div><div class="collection">'
 
         if (cardSet[k].set.length === 0) { render = false }
         for (i = 0; i < cardSet[k].set.length; i++) {
@@ -6654,18 +6722,16 @@ function updateCollections() {
         }
     })
     calculateRarities()
-    $('.collectionSummary').each(function () {
-        let k = $(this).attr('id').replace('collectionSummary', '')
-        let cardTotal = 0
+    $('.packStats').each(function () {
+        let k = $(this).attr('id').split('-')[1]
+        /*let cardTotal = 0
         save[k].save.forEach(i => {
             if (i > 0) {
                 cardTotal++
             }
-        })
+        })*/
 
-        let statTable = renderCollectionTable(k)
-
-        $(this).html(statTable)
+        $(this).html(renderCollectionTable(k))
     })
 
     let input = $('#filterSearch').val().toLowerCase()
@@ -6685,53 +6751,61 @@ function updateCollections() {
             $(this).hide()
             hidden = true
         }
-        
-        //if () {
-            if (energyFilt[cardSet[key].set[index].type] === undefined) {
-                console.log(cardSet[key].set[index].name + " : " + cardSet[key].set[index].type)
-            }
-            if (!hidden) {
-                if (energyFilt[cardSet[key].set[index].type] === false) {
-                    $(this).hide()
-                    hidden = true
-                } else {
-                    $(this).show()
-                    hidden = false
-                }
-            }
-            if (!hidden && !doNotFilter.includes(cardSet[key].set[index].type)) {
-                let enUsed = true
-                for (r in cardSet[key].set[index].eUsed) {
-                    let energy = cardSet[key].set[index].eUsed[r]
-                    if (enUsed) {
-                        if (energyUseFilt[energy]) {
-                            $(this).show()
-                            hidden = false
-                        } else {
-                            $(this).hide()
-                            enUsed = false
-                            hidden = true
-                        }
 
+        if (energyFilt[cardSet[key].set[index].type] === undefined) {
+            console.log(cardSet[key].set[index].name + " : " + cardSet[key].set[index].type)
+        }
+        if (!hidden) {
+            if (energyFilt[cardSet[key].set[index].type] === false) {
+                $(this).hide()
+                hidden = true
+            } else {
+                $(this).show()
+                hidden = false
+            }
+        }
+        if (!hidden && !doNotFilter.includes(cardSet[key].set[index].type)) {
+            let enUsed = true
+            for (r in cardSet[key].set[index].eUsed) {
+                let energy = cardSet[key].set[index].eUsed[r]
+                if (enUsed) {
+                    if (energyUseFilt[energy]) {
+                        $(this).show()
+                        hidden = false
+                    } else {
+                        $(this).hide()
+                        enUsed = false
+                        hidden = true
                     }
+
                 }
             }
-       // }
+        }
+        if (!hidden) {
+            if (rarityFilt[cardSet[key].set[index].rare]) {
+                $(this).show()
+                hidden = false
+            } else {
+                $(this).hide()
+                hidden = true
+            }
+        }
 
     })
 }
 function renderCollectionTable(k) {
-    cardTotal = 0
-    statTable = ''
-    chanceTable = ''
-
+    let cardTotal = 0
+    let statTable = ''
+    let chanceTable = ''
+    let newCardChanceEach = '<table class="collectionSummaryEX"' + `id='collectionSummaryEach-` + k + `' >`
+    let newCardChance = '<table class="collectionSummaryEX"' + `id='collectionSummaryChance-` + k + `' >`
     save[k].save.forEach(i => {
         if (i > 0) {
             cardTotal++
         }
     })
 
-    statTable = `<table class='collectionSummary' id='collectionSummary` + k + `' title='Cards that are in all backs are included in every packs total.'><thead>  
+    statTable = `<table class='collectionSummary' id='collectionSummary-` + k + `' title='Cards that are in all packs are included in every packs total.'><thead>  
         <tr> <th colspan="4">Collection Summary</th>  </tr></thead>
     <tbody>  
         <tr> <td></td> <td>% Owned</td> <td>% Missing<br></td> <td>Fraction</td> </tr>  
@@ -6766,10 +6840,10 @@ function renderCollectionTable(k) {
     let cssOut = 'background-image: linear-gradient(to right,' + gradient.join(', ') + '); color: black !important;'
 
     if (k != 'PROMO') {
-        statTable += `<tr> <td>Pack with most<br>missing cards</td> <td class='collectionSummaryResult' style='` + cssOut + `' colspan="3">` + packPercArr.join(' and ').replaceAll(k + '-', '') + `</td></tr>`
+        newCardChanceEach += `<tr> <td>Pack with most<br>missing cards</td> <td class='collectionSummaryResult' style='` + cssOut + `' colspan="3">` + packPercArr.join(' and ').replaceAll(k + '-', '') + `</td></tr>`
 
         //chanceTable = `<table class='collectionChance' id='collectionChance` + k + `'><thead>
-        statTable += `
+        newCardChanceEach += `
             <tr> <th colspan="4">Chance to get a new Card</th> </tr> </thead>
         <tbody>
             <tr> <td></td> <td>1st-3rd</td> <td>4th</td> <td>5th</td> </tr>`
@@ -6781,13 +6855,13 @@ function renderCollectionTable(k) {
             if (!cardSet[k].packs[p].includes("Mission")) {
                 let packName = cardSet[k].packs[p].split('-')[1]
                 chanceTotal[cardSet[k].packs[p].split("-")[1]] = 1
-                statTable += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split("-")[1]] + '; color: black !important"><td>' + packName + '</td>'
+                newCardChanceEach += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split("-")[1]] + '; color: black !important"><td>' + packName + '</td>'
                 for (l in pt[k][packName].chancePerCard) {
                     if (l > 1) {
-                        statTable += '<td>' + pt[k][packName].chancePerCard[l].round(3).toFixed(3) + '%</td>'
+                        newCardChanceEach += '<td>' + pt[k][packName].chancePerCard[l].round(3).toFixed(3) + '%</td>'
                     }
                 }
-                statTable += '</tr>'
+                newCardChanceEach += '</tr>'
 
                 for (t in pt[k][packName].chancePerCard) {
                     chanceTotal[cardSet[k].packs[p].split("-")[1]] *= (1 - pt[k][packName].chancePerCard[t] / 100)
@@ -6797,7 +6871,8 @@ function renderCollectionTable(k) {
                 packChnc[cardSet[k].packs[p]] = chanceTotal[cardSet[k].packs[p].split("-")[1]]
             }
         }
-        statTable += "<tr> <th colspan='4'>Chance to get at least 1 new card across all 5 cards</th> </tr>"
+        newCardChanceEach += "</table>"
+        newCardChance += "<tr> <th colspan='4'>Chance to get at least 1 new card across all 5 cards</th> </tr>"
         let packChncArr = getKeyByValue(packChnc, Math.max(...Object.values(packChnc)))
 
         let gradientC = []
@@ -6816,7 +6891,11 @@ function renderCollectionTable(k) {
 
             if (!cardSet[k].packs[p].includes("Mission")) {
                 let packName = cardSet[k].packs[p].split('-')[1]
-                statTable += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split("-")[1]] + '; color: black !important"><td>' + packName + '</td><td>' + chanceTotal[packName].round(3).toFixed(3) + '%</td>'/* + `<td class='collectionSummaryResult' style='` + cssOutC + `' colspan="2">` + chanceReport[p] + '</td>*/ + '</tr>'
+                newCardChance += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split("-")[1]] + '; color: black !important"><td>' + packName + '</td><td>' + chanceTotal[packName].round(3).toFixed(3) + '%</td>'
+                if (cardSet[k].packs[p].length > 1) {
+                    newCardChance += `<td class='collectionSummaryResult' style='` + cssOutC + `' colspan="2">` + chanceReport[p] + '</td>'
+                }
+                newCardChance += '</tr>'
             }
 
         }
@@ -6824,7 +6903,7 @@ function renderCollectionTable(k) {
         chanceTable += `</tbody></table>`
     }
 
-    statTable += `</tbody></table>`
+    statTable += `</tbody></table>` + newCardChanceEach + newCardChance + "</table>"
 
     return statTable
 }
@@ -6953,7 +7032,6 @@ function renderModal(x) {
     }
     let totalOwned = save[x.split('-')[0]].save[Number(x.split('-')[1] - 1)]
     let type = cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].type
-    let cardRates = rates[cardPack][cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].rare]
 
     let ctp = ''
     if (x.split('-')[0] === "PROMO") {
@@ -6961,11 +7039,21 @@ function renderModal(x) {
         for (p in cardSet[x.split('-')[0]].packs) {
             cardPack = cardSet[x.split('-')[0]].packs[p].split('-')[1]
             cardRates = rates[cardPack][cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].rare]
-            ctp += '<tr> <th>Chance to Pull<br>' + cardPack + '</th> <td> <table class="pullChance"><tr><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr><tr><td>' + cardRates.join('%</td><td>') + '%</tr></table></td> </tr>'
+
+            let ratesOut = ""
+            for (r in cardRates) {
+                ratesOut += "<td>" + cardRates[r].round(2) + '%</td>'
+            }
+            ctp += '<tr> <th>Chance to Pull<br>' + cardPack + '</th> <td> <table class="pullChance"><tr><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr><tr>' + /*cardRates.join('%</td><td>')*/ ratesOut + '</tr></table></td> </tr>'
         }
 
     } else {
-        ctp += '<tr> <th>Chance to Pull</th> <td> <table class="pullChance"><tr><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr><tr><td>' + cardRates.join('%</td><td>') + '%</tr></table></td> </tr>'
+        let cardRates = rates[cardPack][cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].rare]
+        let ratesOut = ""
+        for (r in cardRates) {
+            ratesOut += "<td>" + cardRates[r].round(2) + '%</td>'
+        }
+        ctp += '<tr> <th>Chance to Pull</th> <td> <table class="pullChance"><tr><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr><tr>' + /*cardRates.join('%</td><td>')*/ ratesOut + '</tr></table></td> </tr>'
 
 
     }
@@ -6994,7 +7082,6 @@ function toggleOwned() {
     $('.card').toggle()
     $('.cardNone').toggle()
 }
-
 function toggleTradeable() {
     if ($('#hideUnTradable'))
         $('.card > .cardCount').each(function () {
@@ -7003,7 +7090,6 @@ function toggleTradeable() {
             }
         })
 }
-
 function toggleUnTradeable() {
     $('.card > .cardCount').each(function () {
         if (Number($(this).text()) > 2) {
@@ -7011,7 +7097,6 @@ function toggleUnTradeable() {
         }
     })
 }
-
 function addArray(arr, d) {
     let output = []
     for (a in arr) {
@@ -7019,7 +7104,6 @@ function addArray(arr, d) {
     }
     return output
 }
-
 function divideArray(arr, d) {
     let output = []
     for (a in arr) {
@@ -7027,7 +7111,6 @@ function divideArray(arr, d) {
     }
     return output
 }
-
 function multiplyArray(arr, m) {
     let output = []
     for (a in arr) {
@@ -7035,7 +7118,6 @@ function multiplyArray(arr, m) {
     }
     return output
 }
-
 function NaNtoArray(arr) {
     for (a in arr) {
         if (isNaN(arr[a])) {
