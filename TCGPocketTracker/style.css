@@ -79,9 +79,6 @@ body {
 
     border-radius: 0px 75px 0px 25px;
 }
-.collectionSummary, .collectionSummaryEX {
-    display:table;
-}
 
 .collectionSummary>tbody>tr>td,
 .collectionChance>tbody>tr>td,
