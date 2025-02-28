@@ -5823,7 +5823,968 @@ let cardSet = {
 
     },
     "A2a": {
-        "set": [],
+        "set": [
+            {
+              "name": "Heracross",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 1,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Burmy",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 2,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Mothim",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 3,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Combee",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 4,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Vespiquen",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 5,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Cherubi",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 6,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Cherrim",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 7,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Cherrim",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 8,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Carnivine",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 9,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Leafeon ex",
+              "pack": "Arceus",
+              "rare": "♢♢♢♢",
+              "id": 10,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Houndour",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 11,
+              "type": "fire",
+              "eUsed": [
+                "fire"
+              ]
+            },
+            {
+              "name": "Houndoom",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 12,
+              "type": "fire",
+              "eUsed": [
+                "fire"
+              ]
+            },
+            {
+              "name": "Heatran",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 13,
+              "type": "fire",
+              "eUsed": [
+                "fire"
+              ]
+            },
+            {
+              "name": "Marill",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 14,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Azumarill",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 15,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Barboach",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 16,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Whiscash",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 17,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Snorunt",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 18,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Froslass",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 19,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Snover",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 20,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Abomasnow",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 21,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Glaceon ex",
+              "pack": "Arceus",
+              "rare": "♢♢♢♢",
+              "id": 22,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Palkia",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 23,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Phione",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 24,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Pikachu",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 25,
+              "type": "electric",
+              "eUsed": [
+                "electric"
+              ]
+            },
+            {
+              "name": "Raichu",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 26,
+              "type": "electric",
+              "eUsed": [
+                "electric"
+              ]
+            },
+            {
+              "name": "Electrike",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 27,
+              "type": "electric",
+              "eUsed": [
+                "electric"
+              ]
+            },
+            {
+              "name": "Manectric",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 28,
+              "type": "electric",
+              "eUsed": [
+                "electric"
+              ]
+            },
+            {
+              "name": "Clefairy",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 29,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Clefable",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 30,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Gastly",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 31,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Haunter",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 32,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Gengar",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 33,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Unown",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 34,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Rotom",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 35,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Sudowoodo",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 36,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Phanpy",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 37,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Donphan",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 38,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Larvitar",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 39,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Pupitar",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 40,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Tyranitar",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 41,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Nosepass",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 42,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Meditite",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 43,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Medicham",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 44,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Gible",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 45,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Gabite",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 46,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Garchomp ex",
+              "pack": "Arceus",
+              "rare": "♢♢♢♢",
+              "id": 47,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Zubat",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 48,
+              "type": "darkness",
+              "eUsed": [
+                "darkness"
+              ]
+            },
+            {
+              "name": "Golbat",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 49,
+              "type": "darkness",
+              "eUsed": [
+                "darkness"
+              ]
+            },
+            {
+              "name": "Crobat",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 50,
+              "type": "darkness",
+              "eUsed": [
+                "darkness"
+              ]
+            },
+            {
+              "name": "Croagunk",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 51,
+              "type": "darkness",
+              "eUsed": [
+                "darkness"
+              ]
+            },
+            {
+              "name": "Toxicroak",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 52,
+              "type": "darkness",
+              "eUsed": [
+                "darkness"
+              ]
+            },
+            {
+              "name": "Magnemite",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 53,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Magneton",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 54,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Magnezone",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 55,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Mawile",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 56,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Probopass ex",
+              "pack": "Arceus",
+              "rare": "♢♢♢♢",
+              "id": 57,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Bronzor",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 58,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Bronzong",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 59,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Dialga",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 60,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Giratina",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 61,
+              "type": "dragon",
+              "eUsed": [
+                "dragon"
+              ]
+            },
+            {
+              "name": "Eevee",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 62,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Snorlax",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 63,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Hoothoot",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 64,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Noctowl",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 65,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Starly",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 66,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Staravia",
+              "pack": "Arceus",
+              "rare": "♢",
+              "id": 67,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Staraptor",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 68,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Shaymin",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 69,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Arceus",
+              "pack": "Arceus",
+              "rare": "♢♢♢",
+              "id": 70,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Arceus ex",
+              "pack": "Arceus",
+              "rare": "♢♢♢♢",
+              "id": 71,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Irida",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 72,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Celestic Town Elder",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 73,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Barry",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 74,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Adaman",
+              "pack": "Arceus",
+              "rare": "♢♢",
+              "id": 75,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Houndoom",
+              "pack": "Arceus",
+              "rare": "☆",
+              "id": 76,
+              "type": "fire",
+              "eUsed": [
+                "fire"
+              ]
+            },
+            {
+              "name": "Marill",
+              "pack": "Arceus",
+              "rare": "☆",
+              "id": 77,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Unown",
+              "pack": "Arceus",
+              "rare": "☆",
+              "id": 78,
+              "type": "psychic",
+              "eUsed": [
+                "psychic"
+              ]
+            },
+            {
+              "name": "Sudowoodo",
+              "pack": "Arceus",
+              "rare": "☆",
+              "id": 79,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Magnemite",
+              "pack": "Arceus",
+              "rare": "☆",
+              "id": 80,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Shaymin",
+              "pack": "Arceus",
+              "rare": "☆",
+              "id": 81,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Leafeon ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 82,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Glaceon ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 83,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Garchomp ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 84,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Probopass ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 85,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Arceus ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 86,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Irida",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 87,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Celestic Town Elder",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 88,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Barry",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 89,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Adaman",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 90,
+              "type": "supporter",
+              "eUsed": [
+                "supporter"
+              ]
+            },
+            {
+              "name": "Leafeon ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 91,
+              "type": "grass",
+              "eUsed": [
+                "grass"
+              ]
+            },
+            {
+              "name": "Glaceon ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 92,
+              "type": "water",
+              "eUsed": [
+                "water"
+              ]
+            },
+            {
+              "name": "Garchomp ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 93,
+              "type": "fighting",
+              "eUsed": [
+                "fighting"
+              ]
+            },
+            {
+              "name": "Probopass ex",
+              "pack": "Arceus",
+              "rare": "☆☆",
+              "id": 94,
+              "type": "metal",
+              "eUsed": [
+                "metal"
+              ]
+            },
+            {
+              "name": "Arceus ex",
+              "pack": "Arceus",
+              "rare": "☆☆☆",
+              "id": 95,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            },
+            {
+              "name": "Arceus ex",
+              "pack": "Arceus",
+              "rare": "♛",
+              "id": 96,
+              "type": "colorless",
+              "eUsed": [
+                "colorless"
+              ]
+            }
+          ],
         "packs": []
     },
     "A3": {
@@ -6266,6 +7227,9 @@ let css = {
         "Palkia": '#f790ee'
     },
     "A2a": {
+        "Arceus": '#fff96e'
+    },
+    "A3": {
 
     },
     "PROMO": {
@@ -6405,6 +7369,16 @@ $(document).ready(function () {
     r2 += '</tr>'
     r3 += '</tr>'
     energyOutput += r1 + r2 + "</table>" + r3 + "</table>"
+
+    $('.filterBox:checkbox').each(function (i) {
+        if ($(this).is(':checked')) {
+            filter[$(this).attr('id')] = true
+        } else {
+            filter[$(this).attr('id')] = false
+        }
+
+    })
+
 
     $('#energyfilt').append(energyOutput)
 
@@ -7057,8 +8031,11 @@ function renderModal(x) {
 
 
     }
-
-    $('#modal-content').html('<div id="modal-content-container"><div id="modal-content-left"><img class=cardFullArt src="https://static.dotgg.gg/pokepocket/card/' + x + '.webp"></div><div id="modal-content-right"><table><tbody><tr><th>Name:</th><td><span id="cardID">' + x + '</span> : ' + cardName + '</td></tr><tr><th>Set:</th><td>' + x.split('-')[0] + '</td></tr><tr><th>Source:</th><td>' + cardPack + '</td></tr><tr><th>Type</th><td><img src="' + energySRC[type] + '" style="width: 25px;">' + type + '</td></tr>' + ctp + '<tr><th>Total Owned</th><td><span id="modalTotal">' + totalOwned + '</span></td></tr></tbody></table></div></div></div>')
+    let energyImg = ""
+    if (energySRC[type] != undefined) {
+        energyImg = '<img src="' + energySRC[type] + '" style="width: 25px;">'
+    }
+    $('#modal-content').html('<div id="modal-content-container"><div id="modal-content-left"><img class=cardFullArt src="https://static.dotgg.gg/pokepocket/card/' + x + '.webp"></div><div id="modal-content-right"><table><tbody><tr><th>Name:</th><td><span id="cardID">' + x + '</span> : ' + cardName + '</td></tr><tr><th>Set:</th><td>' + x.split('-')[0] + '</td></tr><tr><th>Source:</th><td>' + cardPack + '</td></tr><tr><th>Type</th><td>' + energyImg + type + '</td></tr>' + ctp + '<tr><th>Total Owned</th><td><span id="modalTotal">' + totalOwned + '</span></td></tr></tbody></table></div></div></div>')
 
 
 }
