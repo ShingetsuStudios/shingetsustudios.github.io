@@ -4,7 +4,7 @@
     --A2-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_A2_en_US.webp);
     --A2a-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_A2a_en_US.webp);
     --A3-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_A3_en_US.webp);
-    --PROMO-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_PROMO-A_en_US.webp);
+    --PROMO-A-icon: center center/contain no-repeat url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_PROMO-A_en_US.webp);
 }
 
 body {
@@ -199,9 +199,9 @@ body {
     background: var(--A3-icon);
 }
 
-.PROMO {
+.PROMO-A {
     aspect-ratio: 256/113;
-    background: var(--PROMO-icon)
+    background: var(--PROMO-A-icon)
 }
 
 span.A1,
@@ -209,7 +209,7 @@ span.A2,
 span.A3,
 span.A2a,
 span.A1a,
-span.PROMO {
+span.PROMO-A {
     font-size: 45px;
 }
 
@@ -238,9 +238,9 @@ span.PROMO {
     background: var(--A3-icon)
 }
 
-#PROMO+label {
+#PROMO-A+label {
     aspect-ratio: 256/113;
-    background: var(--PROMO-icon)
+    background: var(--PROMO-A-icon)
 }
 
 .filterBox[type="checkbox"]:checked+label {

@@ -5825,974 +5825,975 @@ let cardSet = {
     "A2a": {
         "set": [
             {
-              "name": "Heracross",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 1,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Burmy",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 2,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Mothim",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 3,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Combee",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 4,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Vespiquen",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 5,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Cherubi",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 6,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Cherrim",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 7,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Cherrim",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 8,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Carnivine",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 9,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Leafeon ex",
-              "pack": "Arceus",
-              "rare": "♢♢♢♢",
-              "id": 10,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Houndour",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 11,
-              "type": "fire",
-              "eUsed": [
-                "fire"
-              ]
-            },
-            {
-              "name": "Houndoom",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 12,
-              "type": "fire",
-              "eUsed": [
-                "fire"
-              ]
-            },
-            {
-              "name": "Heatran",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 13,
-              "type": "fire",
-              "eUsed": [
-                "fire"
-              ]
-            },
-            {
-              "name": "Marill",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 14,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Azumarill",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 15,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Barboach",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 16,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Whiscash",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 17,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Snorunt",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 18,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Froslass",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 19,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Snover",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 20,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Abomasnow",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 21,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Glaceon ex",
-              "pack": "Arceus",
-              "rare": "♢♢♢♢",
-              "id": 22,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Palkia",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 23,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Phione",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 24,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Pikachu",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 25,
-              "type": "electric",
-              "eUsed": [
-                "electric"
-              ]
-            },
-            {
-              "name": "Raichu",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 26,
-              "type": "electric",
-              "eUsed": [
-                "electric"
-              ]
-            },
-            {
-              "name": "Electrike",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 27,
-              "type": "electric",
-              "eUsed": [
-                "electric"
-              ]
-            },
-            {
-              "name": "Manectric",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 28,
-              "type": "electric",
-              "eUsed": [
-                "electric"
-              ]
-            },
-            {
-              "name": "Clefairy",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 29,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Clefable",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 30,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Gastly",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 31,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Haunter",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 32,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Gengar",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 33,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Unown",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 34,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Rotom",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 35,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Sudowoodo",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 36,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Phanpy",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 37,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Donphan",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 38,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Larvitar",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 39,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Pupitar",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 40,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Tyranitar",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 41,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Nosepass",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 42,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Meditite",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 43,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Medicham",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 44,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Gible",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 45,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Gabite",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 46,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Garchomp ex",
-              "pack": "Arceus",
-              "rare": "♢♢♢♢",
-              "id": 47,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Zubat",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 48,
-              "type": "darkness",
-              "eUsed": [
-                "darkness"
-              ]
-            },
-            {
-              "name": "Golbat",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 49,
-              "type": "darkness",
-              "eUsed": [
-                "darkness"
-              ]
-            },
-            {
-              "name": "Crobat",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 50,
-              "type": "darkness",
-              "eUsed": [
-                "darkness"
-              ]
-            },
-            {
-              "name": "Croagunk",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 51,
-              "type": "darkness",
-              "eUsed": [
-                "darkness"
-              ]
-            },
-            {
-              "name": "Toxicroak",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 52,
-              "type": "darkness",
-              "eUsed": [
-                "darkness"
-              ]
-            },
-            {
-              "name": "Magnemite",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 53,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Magneton",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 54,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Magnezone",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 55,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Mawile",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 56,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Probopass ex",
-              "pack": "Arceus",
-              "rare": "♢♢♢♢",
-              "id": 57,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Bronzor",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 58,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Bronzong",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 59,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Dialga",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 60,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Giratina",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 61,
-              "type": "dragon",
-              "eUsed": [
-                "dragon"
-              ]
-            },
-            {
-              "name": "Eevee",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 62,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Snorlax",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 63,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Hoothoot",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 64,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Noctowl",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 65,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Starly",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 66,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Staravia",
-              "pack": "Arceus",
-              "rare": "♢",
-              "id": 67,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Staraptor",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 68,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Shaymin",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 69,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Arceus",
-              "pack": "Arceus",
-              "rare": "♢♢♢",
-              "id": 70,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Arceus ex",
-              "pack": "Arceus",
-              "rare": "♢♢♢♢",
-              "id": 71,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Irida",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 72,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Celestic Town Elder",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 73,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Barry",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 74,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Adaman",
-              "pack": "Arceus",
-              "rare": "♢♢",
-              "id": 75,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Houndoom",
-              "pack": "Arceus",
-              "rare": "☆",
-              "id": 76,
-              "type": "fire",
-              "eUsed": [
-                "fire"
-              ]
-            },
-            {
-              "name": "Marill",
-              "pack": "Arceus",
-              "rare": "☆",
-              "id": 77,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Unown",
-              "pack": "Arceus",
-              "rare": "☆",
-              "id": 78,
-              "type": "psychic",
-              "eUsed": [
-                "psychic"
-              ]
-            },
-            {
-              "name": "Sudowoodo",
-              "pack": "Arceus",
-              "rare": "☆",
-              "id": 79,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Magnemite",
-              "pack": "Arceus",
-              "rare": "☆",
-              "id": 80,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Shaymin",
-              "pack": "Arceus",
-              "rare": "☆",
-              "id": 81,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Leafeon ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 82,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Glaceon ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 83,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Garchomp ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 84,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Probopass ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 85,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Arceus ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 86,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Irida",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 87,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Celestic Town Elder",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 88,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Barry",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 89,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Adaman",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 90,
-              "type": "supporter",
-              "eUsed": [
-                "supporter"
-              ]
-            },
-            {
-              "name": "Leafeon ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 91,
-              "type": "grass",
-              "eUsed": [
-                "grass"
-              ]
-            },
-            {
-              "name": "Glaceon ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 92,
-              "type": "water",
-              "eUsed": [
-                "water"
-              ]
-            },
-            {
-              "name": "Garchomp ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 93,
-              "type": "fighting",
-              "eUsed": [
-                "fighting"
-              ]
-            },
-            {
-              "name": "Probopass ex",
-              "pack": "Arceus",
-              "rare": "☆☆",
-              "id": 94,
-              "type": "metal",
-              "eUsed": [
-                "metal"
-              ]
-            },
-            {
-              "name": "Arceus ex",
-              "pack": "Arceus",
-              "rare": "☆☆☆",
-              "id": 95,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
-            },
-            {
-              "name": "Arceus ex",
-              "pack": "Arceus",
-              "rare": "♛",
-              "id": 96,
-              "type": "colorless",
-              "eUsed": [
-                "colorless"
-              ]
+                "name": "Heracross",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 1,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Burmy",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 2,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Mothim",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 3,
+                "type": "grass",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Combee",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 4,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Vespiquen",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 5,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Cherubi",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 6,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Cherrim",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 7,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Cherrim",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 8,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Carnivine",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 9,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Leafeon ex",
+                "pack": "Arceus",
+                "rare": "♢♢♢♢",
+                "id": 10,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Houndour",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 11,
+                "type": "fire",
+                "eUsed": [
+                    "fire"
+                ]
+            },
+            {
+                "name": "Houndoom",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 12,
+                "type": "fire",
+                "eUsed": [
+                    "fire"
+                ]
+            },
+            {
+                "name": "Heatran",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 13,
+                "type": "fire",
+                "eUsed": [
+                    "fire"
+                ]
+            },
+            {
+                "name": "Marill",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 14,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Azumarill",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 15,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Barboach",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 16,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Whiscash",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 17,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Snorunt",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 18,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Froslass",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 19,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Snover",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 20,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Abomasnow",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 21,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Glaceon ex",
+                "pack": "Arceus",
+                "rare": "♢♢♢♢",
+                "id": 22,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Palkia",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 23,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Phione",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 24,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Pikachu",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 25,
+                "type": "electric",
+                "eUsed": [
+                    "electric"
+                ]
+            },
+            {
+                "name": "Raichu",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 26,
+                "type": "electric",
+                "eUsed": [
+                    "electric"
+                ]
+            },
+            {
+                "name": "Electrike",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 27,
+                "type": "electric",
+                "eUsed": [
+                    "electric"
+                ]
+            },
+            {
+                "name": "Manectric",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 28,
+                "type": "electric",
+                "eUsed": [
+                    "electric"
+                ]
+            },
+            {
+                "name": "Clefairy",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 29,
+                "type": "psychic",
+                "eUsed": [
+                    "psychic"
+                ]
+            },
+            {
+                "name": "Clefable",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 30,
+                "type": "psychic",
+                "eUsed": [
+                    "psychic"
+                ]
+            },
+            {
+                "name": "Gastly",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 31,
+                "type": "psychic",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Haunter",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 32,
+                "type": "psychic",
+                "eUsed": [
+                    "psychic"
+                ]
+            },
+            {
+                "name": "Gengar",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 33,
+                "type": "psychic",
+                "eUsed": [
+                    "psychic"
+                ]
+            },
+            {
+                "name": "Unown",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 34,
+                "type": "psychic",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Rotom",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 35,
+                "type": "psychic",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Sudowoodo",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 36,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Phanpy",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 37,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Donphan",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 38,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Larvitar",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 39,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Pupitar",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 40,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Tyranitar",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 41,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Nosepass",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 42,
+                "type": "fighting",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Meditite",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 43,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Medicham",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 44,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Gible",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 45,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Gabite",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 46,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Garchomp ex",
+                "pack": "Arceus",
+                "rare": "♢♢♢♢",
+                "id": 47,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Zubat",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 48,
+                "type": "darkness",
+                "eUsed": [
+                    "darkness"
+                ]
+            },
+            {
+                "name": "Golbat",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 49,
+                "type": "darkness",
+                "eUsed": [
+                    "darkness"
+                ]
+            },
+            {
+                "name": "Crobat",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 50,
+                "type": "darkness",
+                "eUsed": [
+                    "darkness"
+                ]
+            },
+            {
+                "name": "Croagunk",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 51,
+                "type": "darkness",
+                "eUsed": [
+                    "darkness"
+                ]
+            },
+            {
+                "name": "Toxicroak",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 52,
+                "type": "darkness",
+                "eUsed": [
+                    "darkness"
+                ]
+            },
+            {
+                "name": "Magnemite",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 53,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Magneton",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 54,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Magnezone",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 55,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Mawile",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 56,
+                "type": "metal",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Probopass ex",
+                "pack": "Arceus",
+                "rare": "♢♢♢♢",
+                "id": 57,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Bronzor",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 58,
+                "type": "metal",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Bronzong",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 59,
+                "type": "metal",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Dialga",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 60,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Giratina",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 61,
+                "type": "dragon",
+                "eUsed": [
+                    "psychic",
+                    "grass"
+                ]
+            },
+            {
+                "name": "Eevee",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 62,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Snorlax",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 63,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Hoothoot",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 64,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Noctowl",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 65,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Starly",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 66,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Staravia",
+                "pack": "Arceus",
+                "rare": "♢",
+                "id": 67,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Staraptor",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 68,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Shaymin",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 69,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Arceus",
+                "pack": "Arceus",
+                "rare": "♢♢♢",
+                "id": 70,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Arceus ex",
+                "pack": "Arceus",
+                "rare": "♢♢♢♢",
+                "id": 71,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Irida",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 72,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Celestic Town Elder",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 73,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Barry",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 74,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Adaman",
+                "pack": "Arceus",
+                "rare": "♢♢",
+                "id": 75,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Houndoom",
+                "pack": "Arceus",
+                "rare": "☆",
+                "id": 76,
+                "type": "fire",
+                "eUsed": [
+                    "fire"
+                ]
+            },
+            {
+                "name": "Marill",
+                "pack": "Arceus",
+                "rare": "☆",
+                "id": 77,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Unown",
+                "pack": "Arceus",
+                "rare": "☆",
+                "id": 78,
+                "type": "psychic",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Sudowoodo",
+                "pack": "Arceus",
+                "rare": "☆",
+                "id": 79,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Magnemite",
+                "pack": "Arceus",
+                "rare": "☆",
+                "id": 80,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Shaymin",
+                "pack": "Arceus",
+                "rare": "☆",
+                "id": 81,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Leafeon ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 82,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Glaceon ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 83,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Garchomp ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 84,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Probopass ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 85,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Arceus ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 86,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Irida",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 87,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Celestic Town Elder",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 88,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Barry",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 89,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Adaman",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 90,
+                "type": "supporter",
+                "eUsed": [
+                    "supporter"
+                ]
+            },
+            {
+                "name": "Leafeon ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 91,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Glaceon ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 92,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Garchomp ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 93,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Probopass ex",
+                "pack": "Arceus",
+                "rare": "☆☆",
+                "id": 94,
+                "type": "metal",
+                "eUsed": [
+                    "metal"
+                ]
+            },
+            {
+                "name": "Arceus ex",
+                "pack": "Arceus",
+                "rare": "☆☆☆",
+                "id": 95,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Arceus ex",
+                "pack": "Arceus",
+                "rare": "♛",
+                "id": 96,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
             }
-          ],
+        ],
         "packs": []
     },
     "A3": {
         "set": [],
         "packs": []
     },
-    "PROMO": {
-        "name": "Promo",
+    "PROMO-A": {
+        "name": "Promo-A",
         "set": [
             {
                 "name": "Potion",
@@ -7203,6 +7204,86 @@ let cardSet = {
                 "eUsed": [
                     "psychic"
                 ]
+            },
+            {
+                "name": "Darkrai EX",
+                "pack": "Mission",
+                "rare": "Promo",
+                "id": 42,
+                "type": "darkness",
+                "eUsed": [
+                    "darkness"
+                ]
+            },
+            {
+                "name": "Cherrim",
+                "pack": "Promo Pack",
+                "rare": "Promo",
+                "id": 43,
+                "type": "grass",
+                "eUsed": [
+                    "grass"
+                ]
+            },
+            {
+                "name": "Raichu",
+                "pack": "Promo Pack",
+                "rare": "Promo",
+                "id": 44,
+                "type": "electric",
+                "eUsed": [
+                    "electric"
+                ]
+            },
+            {
+                "name": "Nosepass",
+                "pack": "Promo Pack",
+                "rare": "Promo",
+                "id": 45,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Gible",
+                "pack": "Promo Pack",
+                "rare": "Promo",
+                "id": 46,
+                "type": "fighting",
+                "eUsed": [
+                    "fighting"
+                ]
+            },
+            {
+                "name": "Staraptor",
+                "pack": "Promo Pack",
+                "rare": "Promo",
+                "id": 47,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
+            },
+            {
+                "name": "Manaphy",
+                "pack": "Wonder Pick",
+                "rare": "Promo",
+                "id": 48,
+                "type": "water",
+                "eUsed": [
+                    "water"
+                ]
+            },
+            {
+                "name": "Snorlax",
+                "pack": "Wonder Pick",
+                "rare": "Promo",
+                "id": 49,
+                "type": "colorless",
+                "eUsed": [
+                    "colorless"
+                ]
             }
         ],
         "packs": []
@@ -7232,7 +7313,7 @@ let css = {
     "A3": {
 
     },
-    "PROMO": {
+    "PROMO-A": {
         "Shop": '#c6d7f5',
         "Mission": '#d9d9d9',
         "Promo Pack": '#b4a7d6',
@@ -7272,7 +7353,7 @@ let filter = {
     "A2": true,
     "A2a": true,
     "A3": true,
-    "PROMO": true
+    "PROMO-A": true
 }
 let doNotFilter = ['item', 'supporter', 'tool']
 let energyFilt = {}
@@ -7303,6 +7384,19 @@ Number.prototype.round = function (places) {
     return +(Math.round(this + "e+" + places) + "e-" + places);
 }
 let blankSave = {}
+
+blankSave.saveDate = Date.now()
+if (save.saveDate === undefined) {
+    save.saveDate = Date.now()
+}
+if (save.PROMO) {
+    save['PROMO-A'] = save.PROMO
+    delete save.PROMO
+}
+if (save.saveDate < JSON.parse(localStorage.save).saveDate) {
+    save = JSON.parse(localStorage.save)
+}
+
 for (k in cardSet) {
     if (save[k] === undefined) {
         save[k] = { "save": [] }
@@ -7327,8 +7421,8 @@ for (k in cardSet) {
 
 
     for (i in cardSet[k].set) {
-        if (!cardSet[k].packs.includes(k + '-' + cardSet[k].set[i].pack) && !cardSet[k].set[i].pack.includes("All")) {
-            cardSet[k].packs.push(k + '-' + cardSet[k].set[i].pack)
+        if (!cardSet[k].packs.includes(k + '_' + cardSet[k].set[i].pack) && !cardSet[k].set[i].pack.includes("All")) {
+            cardSet[k].packs.push(k + '_' + cardSet[k].set[i].pack)
         }
     }
 }
@@ -7397,8 +7491,8 @@ $(document).ready(function () {
 
     $('#container').on('click', '.cardButton', function () {
         let cardKey = $(this).siblings("img").attr('id')
-        let key = cardKey.split('-')[0]
-        let index = Number(cardKey.split('-')[1]) - 1
+        let key = cardKey.split('_')[0]
+        let index = Number(cardKey.split('_')[1]) - 1
         if ($(this).attr('class').includes("cardAdd")) {
             save[key].save[index]++
         } else if ($(this).attr('class').includes("cardRemove")) {
@@ -7422,32 +7516,32 @@ $(document).ready(function () {
         }
     });
     $('#modal-right').on('click', function () {
-        let key = $('#cardID').text().split('-')[0]
-        let index = Number($('#cardID').text().split('-')[1])
+        let key = $('#cardID').text().split('_')[0]
+        let index = Number($('#cardID').text().split('_')[1])
 
         if (cardSet[key].set[index] != undefined) {
             renderModal(key + "-" + Number(index + 1).toString().padStart(3, 0))
         }
     })
     $('#modal-left').on('click', function () {
-        let key = $('#cardID').text().split('-')[0]
-        let index = Number($('#cardID').text().split('-')[1])
+        let key = $('#cardID').text().split('_')[0]
+        let index = Number($('#cardID').text().split('_')[1])
 
         if (index - 1 > 0) {
             renderModal(key + "-" + Number(index - 1).toString().padStart(3, 0))
         }
     })
     $('#modal-content').on('click', '#addTotal', function () {
-        let key = $('#cardID').text().split('-')[0]
-        let index = Number($('#cardID').text().split('-')[1]) - 1
+        let key = $('#cardID').text().split('_')[0]
+        let index = Number($('#cardID').text().split('_')[1]) - 1
 
         save[key].save[index] += 1
         updateCollections()
         $('#modalTotal').text(save[key].save[index])
     })
     $('#modal-content').on('click', '#removeTotal', function () {
-        let key = $('#cardID').text().split('-')[0]
-        let index = Number($('#cardID').text().split('-')[1]) - 1
+        let key = $('#cardID').text().split('_')[0]
+        let index = Number($('#cardID').text().split('_')[1]) - 1
         if (save[key].save[index] > 0) {
             save[key].save[index] -= 1
         }
@@ -7462,9 +7556,30 @@ $(document).ready(function () {
         FR.readAsText(file);
         FR.onload = function (data) {
             save = JSON.parse(data.target.result.split(' = ')[1]);
-            $("#out").html(JSON.stringify(save));
+            //$("#out").html(JSON.stringify(save));
             alert("Importing save!")
             console.log(save)
+
+
+            for (k in cardSet) {
+                if (save[k] === undefined) {
+                    save[k] = { "save": [] }
+                }
+                if (cardSet[k].set.length > save[k].save.length) {
+                    for (i = 0; i < cardSet[k].set.length; i++) {
+                        if (save[k].save[i] === undefined) {
+                            save[k].save[i] = 0
+                        }
+                    }
+                }
+
+            }
+
+            if (save.PROMO) {
+                save['PROMO-A'] = save.PROMO
+                delete save.PROMO
+            }
+
             updateCollections()
         }
     };
@@ -7555,10 +7670,13 @@ $(document).ready(function () {
 function getKeyByValue(object, value) { return Object.keys(object).filter(key => object[key] === value); }
 
 function copySave() {
+    save.saveDate = Date.now()
+    localStorage.save = JSON.stringify(save)
     navigator.clipboard.writeText("let save = " + JSON.stringify(save, null, 2))
 
 }
 function downloadSaves() {
+    save.saveDate = Date.now()
     var textFile = null,
         makeTextFile = function (text) {
             var data = new Blob([text], {
@@ -7611,7 +7729,7 @@ function regenCss() {
         if (css[k] === undefined) {
             css[k] = {}
             for (p in cardSet[k].packs) {
-                css[k][cardSet[k].packs[p].split('-')[1]] = ''
+                css[k][cardSet[k].packs[p].split('_')[1]] = ''
             }
         }
     }
@@ -7627,7 +7745,6 @@ function renderCollections() {
                 cardTotal++
             }
         })
-
 
 
         let statTable = renderCollectionTable(k)
@@ -7650,7 +7767,7 @@ function renderCollections() {
             cardExtraClasses += " Filter-" + setNum + "-" + cardName
 
 
-            output += "<div class='card " + cardExtraClasses + "'><img class='cardArt " + k + "-" + setNum + "' id='" + k + "-" + setNum + "' src='https://static.dotgg.gg/pokepocket/card/" + k + "-" + setNum + ".webp'><div class='cardCount'>" + cardCount + "</div><div class='cardAdd cardButton'>+</div><div class='cardRemove cardButton'>-</div></div>"
+            output += "<div class='card " + cardExtraClasses + "'><img class='cardArt " + k + "-" + setNum + "' id='" + k + "_" + setNum + "' src='https://static.dotgg.gg/pokepocket/card/" + k + "-" + setNum + ".webp'><div class='cardCount'>" + cardCount + "</div><div class='cardAdd cardButton'>+</div><div class='cardRemove cardButton'>-</div></div>"
         }
         output += "</div></div>"
         if (render) {
@@ -7676,8 +7793,8 @@ function updateCollections() {
 
     $('.cardCount').each(function () {
         let cardKey = $(this).siblings("img").attr('id')
-        let key = cardKey.split('-')[0]
-        let index = Number(cardKey.split('-')[1]) - 1
+        let key = cardKey.split('_')[0]
+        let index = Number(cardKey.split('_')[1]) - 1
 
         $(this).text(save[key].save[index])
         if (Number($(this).text()) > 0 && $(this).parent().attr('class').includes("cardNone")) {
@@ -7697,7 +7814,7 @@ function updateCollections() {
     })
     calculateRarities()
     $('.packStats').each(function () {
-        let k = $(this).attr('id').split('-')[1]
+        let k = $(this).attr('id').split('_')[1]
         /*let cardTotal = 0
         save[k].save.forEach(i => {
             if (i > 0) {
@@ -7711,8 +7828,8 @@ function updateCollections() {
     let input = $('#filterSearch').val().toLowerCase()
     $('.card').each(function () {
         let cardKey = $(this).children('img').attr('id')
-        let key = cardKey.split('-')[0]
-        let index = Number(cardKey.split('-')[1]) - 1
+        let key = cardKey.split('_')[0]
+        let index = Number(cardKey.split('_')[1]) - 1
         let hidden = false
 
         let classList = $(this).attr("class").split(/\s+/)
@@ -7766,125 +7883,131 @@ function updateCollections() {
         }
 
     })
+    if (save.saveDate < Date.now()) {
+        localStorage.save = JSON.stringify(save)
+    }
 }
 function renderCollectionTable(k) {
-    let cardTotal = 0
-    let statTable = ''
-    let chanceTable = ''
-    let newCardChanceEach = '<table class="collectionSummaryEX"' + `id='collectionSummaryEach-` + k + `' >`
-    let newCardChance = '<table class="collectionSummaryEX"' + `id='collectionSummaryChance-` + k + `' >`
-    save[k].save.forEach(i => {
-        if (i > 0) {
-            cardTotal++
-        }
-    })
 
-    statTable = `<table class='collectionSummary' id='collectionSummary-` + k + `' title='Cards that are in all packs are included in every packs total.'><thead>  
+    if (k != undefined) {
+
+        let cardTotal = 0
+        let statTable = ''
+        let chanceTable = ''
+        let newCardChanceEach = '<table class="collectionSummaryEX"' + `id='collectionSummaryEach-` + k + `' >`
+        let newCardChance = '<table class="collectionSummaryEX"' + `id='collectionSummaryChance-` + k + `' >`
+        save[k].save.forEach(i => {
+            if (i > 0) {
+                cardTotal++
+            }
+        })
+        statTable = `<table class='collectionSummary' id='collectionSummary-` + k + `' title='Cards that are in all packs are included in every packs total.'><thead>  
         <tr> <th colspan="4">Collection Summary</th>  </tr></thead>
     <tbody>  
         <tr> <td></td> <td>% Owned</td> <td>% Missing<br></td> <td>Fraction</td> </tr>  
         <tr> <td>Total</td> <td>`+ ((cardTotal / cardSet[k].set.length) * 100).round(3) + `%</td> <td>` + (100 - (cardTotal / cardSet[k].set.length) * 100).round(3) + `%</td> <td>` + cardTotal + '/' + cardSet[k].set.length + `</td> </tr>`
-    let packPerc = {}
-    for (p in cardSet[k].packs) {
-        let packTotal = pt[k][cardSet[k].packs[p].split('-')[1]].total
-        let packOwned = pt[k][cardSet[k].packs[p].split('-')[1]].owned
-        statTable += `<tr style='background-color:` + css[k][cardSet[k].packs[p].split('-')[1]] + `; color: black !important'> <td>` + cardSet[k].packs[p].split('-')[1] + `</td> <td>` + (packOwned / packTotal * 100).round(3) + `%</td> <td>` + (100 - (packOwned / packTotal * 100)).round(3) + `%</td> <td>` + packOwned + '/' + packTotal + `</td> </tr>`
-        packPerc[cardSet[k].packs[p]] = (packOwned / packTotal)
-    }
-    if (cardSet[k].packs.length > 1 && k != 'PROMO') {
-        if (pt[k].All === undefined) {
-            console.log(k + " All is undefined")
+        let packPerc = {}
+        for (p in cardSet[k].packs) {
+            let packTotal = pt[k][cardSet[k].packs[p].split('_')[1]].total
+            let packOwned = pt[k][cardSet[k].packs[p].split('_')[1]].owned
+            statTable += `<tr style='background-color:` + css[k][cardSet[k].packs[p].split('_')[1]] + `; color: black !important'> <td>` + cardSet[k].packs[p].split('_')[1] + `</td> <td>` + (packOwned / packTotal * 100).round(3) + `%</td> <td>` + (100 - (packOwned / packTotal * 100)).round(3) + `%</td> <td>` + packOwned + '/' + packTotal + `</td> </tr>`
+            packPerc[cardSet[k].packs[p]] = (packOwned / packTotal)
+        }
+        if (cardSet[k].packs.length > 1 && !k.includes('PROMO')) {
+            if (pt[k].All === undefined) {
+                console.log(k + " All is undefined")
+            } else {
+                let packTotal = pt[k].All.total
+                let packOwned = pt[k].All.owned
+                statTable += `<tr style='background-color:` + css.All + `; color: black !important'> <td>All</td> <td>` + (packOwned / packTotal * 100).round(3) + `%</td> <td>` + (100 - (packOwned / packTotal * 100)).round(3) + `%</td> <td>` + packOwned + '/' + packTotal + `</td> </tr>`
+            }
+        }
+        let packPercArr = getKeyByValue(packPerc, Math.min(...Object.values(packPerc)))
+
+        let gradient = []
+        if (packPercArr.length === 1) {
+            gradient.push(css[k][packPercArr[0].split('_')[1]])
+            gradient.push(css[k][packPercArr[0].split('_')[1]])
         } else {
-            let packTotal = pt[k].All.total
-            let packOwned = pt[k].All.owned
-            statTable += `<tr style='background-color:` + css.All + `; color: black !important'> <td>All</td> <td>` + (packOwned / packTotal * 100).round(3) + `%</td> <td>` + (100 - (packOwned / packTotal * 100)).round(3) + `%</td> <td>` + packOwned + '/' + packTotal + `</td> </tr>`
+            for (c in packPercArr) {
+                gradient.push(css[k][packPercArr[c].split('_')[1]])
+            }
         }
-    }
-    let packPercArr = getKeyByValue(packPerc, Math.min(...Object.values(packPerc)))
+        let cssOut = 'background-image: linear-gradient(to right,' + gradient.join(', ') + '); color: black !important;'
 
-    let gradient = []
-    if (packPercArr.length === 1) {
-        gradient.push(css[k][packPercArr[0].split('-')[1]])
-        gradient.push(css[k][packPercArr[0].split('-')[1]])
-    } else {
-        for (c in packPercArr) {
-            gradient.push(css[k][packPercArr[c].split('-')[1]])
-        }
-    }
-    let cssOut = 'background-image: linear-gradient(to right,' + gradient.join(', ') + '); color: black !important;'
+        if (!k.includes('PROMO')) {
+            newCardChanceEach += `<tr> <td>Pack with most<br>missing cards</td> <td class='collectionSummaryResult' style='` + cssOut + `' colspan="3">` + packPercArr.join(' and ').replaceAll(k + '_', '') + `</td></tr>`
 
-    if (k != 'PROMO') {
-        newCardChanceEach += `<tr> <td>Pack with most<br>missing cards</td> <td class='collectionSummaryResult' style='` + cssOut + `' colspan="3">` + packPercArr.join(' and ').replaceAll(k + '-', '') + `</td></tr>`
-
-        //chanceTable = `<table class='collectionChance' id='collectionChance` + k + `'><thead>
-        newCardChanceEach += `
+            //chanceTable = `<table class='collectionChance' id='collectionChance` + k + `'><thead>
+            newCardChanceEach += `
             <tr> <th colspan="4">Chance to get a new Card</th> </tr> </thead>
         <tbody>
             <tr> <td></td> <td>1st-3rd</td> <td>4th</td> <td>5th</td> </tr>`
 
-        let chanceTotal = {}
+            let chanceTotal = {}
 
-        let packChnc = {}
-        for (p in cardSet[k].packs) {
-            if (!cardSet[k].packs[p].includes("Mission")) {
-                let packName = cardSet[k].packs[p].split('-')[1]
-                chanceTotal[cardSet[k].packs[p].split("-")[1]] = 1
-                newCardChanceEach += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split("-")[1]] + '; color: black !important"><td>' + packName + '</td>'
-                for (l in pt[k][packName].chancePerCard) {
-                    if (l > 1) {
-                        newCardChanceEach += '<td>' + pt[k][packName].chancePerCard[l].round(3).toFixed(3) + '%</td>'
+            let packChnc = {}
+            for (p in cardSet[k].packs) {
+                if (!cardSet[k].packs[p].includes("Mission")) {
+                    let packName = cardSet[k].packs[p].split('_')[1]
+                    chanceTotal[cardSet[k].packs[p].split('_')[1]] = 1
+                    newCardChanceEach += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split('_')[1]] + '; color: black !important"><td>' + packName + '</td>'
+                    for (l in pt[k][packName].chancePerCard) {
+                        if (l > 1) {
+                            newCardChanceEach += '<td>' + pt[k][packName].chancePerCard[l].round(3).toFixed(3) + '%</td>'
+                        }
                     }
+                    newCardChanceEach += '</tr>'
+
+                    for (t in pt[k][packName].chancePerCard) {
+                        chanceTotal[cardSet[k].packs[p].split('_')[1]] *= (1 - pt[k][packName].chancePerCard[t] / 100)
+
+                    }
+                    chanceTotal[cardSet[k].packs[p].split('_')[1]] = (1 - chanceTotal[cardSet[k].packs[p].split('_')[1]]) * 100
+                    packChnc[cardSet[k].packs[p]] = chanceTotal[cardSet[k].packs[p].split('_')[1]]
                 }
-                newCardChanceEach += '</tr>'
+            }
+            newCardChanceEach += "</table>"
+            newCardChance += "<tr> <th colspan='4'>Chance to get at least 1 new card across all 5 cards</th> </tr>"
+            let packChncArr = getKeyByValue(packChnc, Math.max(...Object.values(packChnc)))
 
-                for (t in pt[k][packName].chancePerCard) {
-                    chanceTotal[cardSet[k].packs[p].split("-")[1]] *= (1 - pt[k][packName].chancePerCard[t] / 100)
-
+            let gradientC = []
+            if (packChncArr.length === 1) {
+                gradientC.push(css[k][packChncArr[0].split('_')[1]])
+                gradientC.push(css[k][packChncArr[0].split('_')[1]])
+            } else {
+                for (c in packChncArr) {
+                    gradientC.push(css[k][packChncArr[c].split('_')[1]])
                 }
-                chanceTotal[cardSet[k].packs[p].split("-")[1]] = (1 - chanceTotal[cardSet[k].packs[p].split("-")[1]]) * 100
-                packChnc[cardSet[k].packs[p]] = chanceTotal[cardSet[k].packs[p].split("-")[1]]
             }
-        }
-        newCardChanceEach += "</table>"
-        newCardChance += "<tr> <th colspan='4'>Chance to get at least 1 new card across all 5 cards</th> </tr>"
-        let packChncArr = getKeyByValue(packChnc, Math.max(...Object.values(packChnc)))
+            let cssOutC = 'background-image: linear-gradient(to right,' + gradientC.join(', ') + '); color: black !important;'
 
-        let gradientC = []
-        if (packChncArr.length === 1) {
-            gradientC.push(css[k][packChncArr[0].split('-')[1]])
-            gradientC.push(css[k][packChncArr[0].split('-')[1]])
-        } else {
-            for (c in packChncArr) {
-                gradientC.push(css[k][packChncArr[c].split('-')[1]])
-            }
-        }
-        let cssOutC = 'background-image: linear-gradient(to right,' + gradientC.join(', ') + '); color: black !important;'
+            let chanceReport = ["", `` + packChncArr.join(' and ').replaceAll(k + '_', ''), '', '', '', '', '', '', '', '']
+            for (p in cardSet[k].packs) {
 
-        let chanceReport = ["", `` + packChncArr.join(' and ').replaceAll(k + '-', ''), '', '', '', '', '', '', '', '']
-        for (p in cardSet[k].packs) {
-
-            if (!cardSet[k].packs[p].includes("Mission")) {
-                let packName = cardSet[k].packs[p].split('-')[1]
-                newCardChance += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split("-")[1]] + '; color: black !important"><td>' + packName + '</td><td>' + chanceTotal[packName].round(3).toFixed(3) + '%</td>'
-                if (cardSet[k].packs[p].length > 1) {
-                    newCardChance += `<td class='collectionSummaryResult' style='` + cssOutC + `' colspan="2">` + chanceReport[p] + '</td>'
+                if (!cardSet[k].packs[p].includes("Mission")) {
+                    let packName = cardSet[k].packs[p].split('_')[1]
+                    newCardChance += '<tr style="background-color:' + css[k][cardSet[k].packs[p].split('_')[1]] + '; color: black !important"><td>' + packName + '</td><td>' + chanceTotal[packName].round(3).toFixed(3) + '%</td>'
+                    if (cardSet[k].packs[p].length > 1) {
+                        newCardChance += `<td class='collectionSummaryResult' style='` + cssOutC + `' colspan="2">` + chanceReport[p] + '</td>'
+                    }
+                    newCardChance += '</tr>'
                 }
-                newCardChance += '</tr>'
+
             }
 
+            chanceTable += `</tbody></table>`
         }
 
-        chanceTable += `</tbody></table>`
+        statTable += `</tbody></table>` + newCardChanceEach + newCardChance + "</table>"
+
+        return statTable
     }
-
-    statTable += `</tbody></table>` + newCardChanceEach + newCardChance + "</table>"
-
-    return statTable
 }
 function calculateRarities() {
     for (k in cardSet) {
         for (p = 0; p < cardSet[k].packs.length; p++) {
-            let packKey = cardSet[k].packs[p].split('-')[1]
+            let packKey = cardSet[k].packs[p].split('_')[1]
             pt[k][packKey] = {
                 total: 0,
                 owned: 0,
@@ -7900,7 +8023,7 @@ function calculateRarities() {
                     'Promo': 0
                 }
             }
-            if ((cardSet[k].packs.length > 1) && k != 'PROMO') {
+            if ((cardSet[k].packs.length > 1) && !k.includes('PROMO')) {
                 packKey = 'All'
                 pt[k][packKey] = {
                     total: 0,
@@ -7948,8 +8071,8 @@ function calculateRarities() {
 
     for (k in cardSet) {
         for (p in cardSet[k].packs) {
-            if (k != 'PROMO') {
-                let packName = cardSet[k].packs[p].split('-')[1]
+            if (!k.includes('PROMO')) {
+                let packName = cardSet[k].packs[p].split('_')[1]
                 let packT = pt[k][packName]
                 rates[packName] = {}
 
@@ -7971,8 +8094,8 @@ function calculateRarities() {
     for (k in cardSet) {
         for (p in cardSet[k].packs) {
 
-            let pk = cardSet[k].packs[p].split('-')[1]
-            if (k != 'PROMO') {
+            let pk = cardSet[k].packs[p].split('_')[1]
+            if (!k.includes('PROMO')) {
                 let chancePerCard = [0, 0, 0, 0, 0]
                 for (i = 0; i < cardSet[k].set.length; i++) {
                     let card = cardSet[k].set[i]
@@ -7997,22 +8120,22 @@ function calculateRarities() {
 
 }
 function renderModal(x) {
-    let cardName = titleCase(cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].name).replace(' ex', ' EX')
-    let cardPack = cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].pack
+    let cardName = titleCase(cardSet[x.split('_')[0]].set[Number(x.split('_')[1] - 1)].name).replace(' ex', ' EX')
+    let cardPack = cardSet[x.split('_')[0]].set[Number(x.split('_')[1] - 1)].pack
     let allCheck = false
     if (cardPack === "All") {
-        cardPack = cardSet[x.split('-')[0]].packs[0].split('-')[1]
+        cardPack = cardSet[x.split('_')[0]].packs[0].split('_')[1]
         allCheck = true
     }
-    let totalOwned = save[x.split('-')[0]].save[Number(x.split('-')[1] - 1)]
-    let type = cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].type
+    let totalOwned = save[x.split('_')[0]].save[Number(x.split('_')[1] - 1)]
+    let type = cardSet[x.split('_')[0]].set[Number(x.split('_')[1] - 1)].type
 
     let ctp = ''
-    if (x.split('-')[0] === "PROMO") {
+    if (x.split('_')[0].includes('PROMO')) {
     } else if (allCheck) {
-        for (p in cardSet[x.split('-')[0]].packs) {
-            cardPack = cardSet[x.split('-')[0]].packs[p].split('-')[1]
-            cardRates = rates[cardPack][cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].rare]
+        for (p in cardSet[x.split('_')[0]].packs) {
+            cardPack = cardSet[x.split('_')[0]].packs[p].split('_')[1]
+            cardRates = rates[cardPack][cardSet[x.split('_')[0]].set[Number(x.split('_')[1] - 1)].rare]
 
             let ratesOut = ""
             for (r in cardRates) {
@@ -8022,7 +8145,7 @@ function renderModal(x) {
         }
 
     } else {
-        let cardRates = rates[cardPack][cardSet[x.split('-')[0]].set[Number(x.split('-')[1] - 1)].rare]
+        let cardRates = rates[cardPack][cardSet[x.split('_')[0]].set[Number(x.split('_')[1] - 1)].rare]
         let ratesOut = ""
         for (r in cardRates) {
             ratesOut += "<td>" + cardRates[r].round(2) + '%</td>'
@@ -8035,7 +8158,7 @@ function renderModal(x) {
     if (energySRC[type] != undefined) {
         energyImg = '<img src="' + energySRC[type] + '" style="width: 25px;">'
     }
-    $('#modal-content').html('<div id="modal-content-container"><div id="modal-content-left"><img class=cardFullArt src="https://static.dotgg.gg/pokepocket/card/' + x + '.webp"></div><div id="modal-content-right"><table><tbody><tr><th>Name:</th><td><span id="cardID">' + x + '</span> : ' + cardName + '</td></tr><tr><th>Set:</th><td>' + x.split('-')[0] + '</td></tr><tr><th>Source:</th><td>' + cardPack + '</td></tr><tr><th>Type</th><td>' + energyImg + type + '</td></tr>' + ctp + '<tr><th>Total Owned</th><td><span id="modalTotal">' + totalOwned + '</span></td></tr></tbody></table></div></div></div>')
+    $('#modal-content').html('<div id="modal-content-container"><div id="modal-content-left"><img class=cardFullArt src="https://static.dotgg.gg/pokepocket/card/' + x.replace("_", '-') + '.webp"></div><div id="modal-content-right"><table><tbody><tr><th>Name:</th><td><span id="cardID">' + x + '</span> : ' + cardName + '</td></tr><tr><th>Set:</th><td>' + x.split('_')[0] + '</td></tr><tr><th>Source:</th><td>' + cardPack + '</td></tr><tr><th>Type</th><td>' + energyImg + type + '</td></tr>' + ctp + '<tr><th>Total Owned</th><td><span id="modalTotal">' + totalOwned + '</span></td></tr></tbody></table></div></div></div>')
 
 
 }
