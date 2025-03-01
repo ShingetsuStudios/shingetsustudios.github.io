@@ -7426,6 +7426,9 @@ if (save.PROMO) {
     save['PROMO-A'] = save.PROMO
     delete save.PROMO
 }
+if (!localStorage.save){
+    localStorage.save = JSON.stringify(save)
+} 
 if (save.saveDate < JSON.parse(localStorage.save).saveDate) {
     save = JSON.parse(localStorage.save)
 } else {
