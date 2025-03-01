@@ -7395,6 +7395,8 @@ if (save.PROMO) {
 }
 if (save.saveDate < JSON.parse(localStorage.save).saveDate) {
     save = JSON.parse(localStorage.save)
+} else {
+    localStorage.save = JSON.stringify(save)
 }
 
 for (k in cardSet) {
