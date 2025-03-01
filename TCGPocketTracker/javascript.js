@@ -7362,7 +7362,9 @@ for (k in energySRC) {
     energyFilt[k] = true
     energyUseFilt[k] = true
 }
-
+if (save === undefined) {
+    save = {}
+}
 let rarityFilt = {}
 let rarities = {
     '♢': [100, 100, 100, 0, 0],
@@ -7385,19 +7387,6 @@ Number.prototype.round = function (places) {
 }
 let blankSave = {}
 
-blankSave.saveDate = Date.now()
-if (save.saveDate === undefined) {
-    save.saveDate = Date.now()
-}
-if (save.PROMO) {
-    save['PROMO-A'] = save.PROMO
-    delete save.PROMO
-}
-if (save.saveDate < JSON.parse(localStorage.save).saveDate) {
-    save = JSON.parse(localStorage.save)
-} else {
-    localStorage.save = JSON.stringify(save)
-}
 
 for (k in cardSet) {
     if (save[k] === undefined) {
@@ -7427,6 +7416,20 @@ for (k in cardSet) {
             cardSet[k].packs.push(k + '_' + cardSet[k].set[i].pack)
         }
     }
+}
+
+blankSave.saveDate = Date.now()
+if (save.saveDate === undefined) {
+    save.saveDate = Date.now()
+}
+if (save.PROMO) {
+    save['PROMO-A'] = save.PROMO
+    delete save.PROMO
+}
+if (save.saveDate < JSON.parse(localStorage.save).saveDate) {
+    save = JSON.parse(localStorage.save)
+} else {
+    localStorage.save = JSON.stringify(save)
 }
 
 
