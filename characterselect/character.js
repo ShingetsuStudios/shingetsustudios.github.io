@@ -4495,10 +4495,10 @@ var character = [
       "name": "Tlek 'Der Brottagonist' Tlauti",
       "firstName": "Tlek",
       "id": 50,
-      "icon": "Blank.png",
+      "icon": "icons/tlek.png",
       "icons": "",
       "art": [
-         "Blank.png"
+         "art/tlek.jpg"
       ],
       "class": [
          "Sorcerer"
@@ -4725,13 +4725,13 @@ var character = [
       ]
    },
    {
-      "name": "Skyler \"CoolSealMango07\" Davis",
-      "firstName": "Skyler",
+      "name": "Skylar",
+      "firstName": "Skylar",
       "id": 53,
-      "icon": "icons/Skyler.png",
+      "icon": "icons/Skylar.png",
       "icons": "",
       "art": [
-         "art/skyler.png"
+         "art/skyler.jpg"
       ],
       "class": [
          "Magus"
@@ -4748,7 +4748,7 @@ var character = [
       "pronouns": "He/Him",
       "alignment": "Good?",
       "stats": {
-         "birthday": "September 16 2005",
+         "birthday": "September 16 2007",
          "age": "16",
          "height": "",
          "weight": "",
@@ -4764,8 +4764,7 @@ var character = [
          ],
          "Physical Description": [
             "Formerly a sickly, pale, dirty blond boy, Skyler is now a rather tall, strong looking, jocky anthropomorphic blue seal-like creature with purple hair. He wears a letterman jacket with a white undershirt, something he always dreamed of getting. His baseball cap is backwards, with his bangs poking out of it. He has purple freckles under his eyes.",
-            "",
-            "He wears his breastplate under his jacket, with his other bits of armor overtop his jacket."
+            ""
          ],
          "Personality": [
             "He has a general air of innocence around him, simple things seeming to excite him in ways. Someone who had most of their childhood stolen from them, who was on his deathbed.. given a chance at a new life. ",
@@ -4781,7 +4780,7 @@ var character = [
             "<b>Spellstrike</b> - By inputting a spell into his weapon of choice, he can unleash it within a strike."
          ],
          "Bio": [
-            "Skyler \"CoolSealMango05\" Davis",
+            "Skyler \"CoolSealMango07\" Davis",
             "",
             "Born in 2007, Skyler was just a normal kid. Eager to go outside and play. A real sports star in the making.",
             "",
