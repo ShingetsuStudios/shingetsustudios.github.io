@@ -5819,10 +5819,9 @@ let cardSet = {
             }
         ],
         "packs": []
-
-
     },
     "A2a": {
+        "name": "Triumphant Light",
         "set": [
             {
                 "name": "Heracross",
@@ -6788,6 +6787,898 @@ let cardSet = {
         ],
         "packs": []
     },
+    "A2b": {
+        "name": "Shining Revelry",
+        "set": [{
+            eUsed: [],
+            id: 0,
+            name: "Weedle",
+            pack: "Shining",
+            rare: "♢",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 1,
+            name: "Kakuna",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 2,
+            name: "Beedrill ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 3,
+            name: "Pinsir",
+            pack: "Shining",
+            rare: "♢",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 4,
+            name: "Sprigatito",
+            pack: "Shining",
+            rare: "♢",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 5,
+            name: "Floragato",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 6,
+            name: "Meowscarada",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 7,
+            name: "Charmander",
+            pack: "Shining",
+            rare: "♢",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 8,
+            name: "Charmeleon",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 9,
+            name: "Charizard ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 10,
+            name: "Magmar",
+            pack: "Shining",
+            rare: "♢",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 11,
+            name: "Magmortar",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 12,
+            name: "Paldean Tauros",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 13,
+            name: "Tentacool",
+            pack: "Shining",
+            rare: "♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 14,
+            name: "Tentacruel",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 15,
+            name: "Buizel",
+            pack: "Shining",
+            rare: "♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 16,
+            name: "Floatzel",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 17,
+            name: "Wiglett",
+            pack: "Shining",
+            rare: "♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 18,
+            name: "Wugtrio ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 19,
+            name: "Dondozo",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 20,
+            name: "Tatsugiri",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 21,
+            name: "Pikachu ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 22,
+            name: "Voltorb",
+            pack: "Shining",
+            rare: "♢",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 23,
+            name: "Electrode",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 24,
+            name: "Pachirisu",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 25,
+            name: "Pawmi",
+            pack: "Shining",
+            rare: "♢",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 26,
+            name: "Pawmo",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 27,
+            name: "Pawmot",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 28,
+            name: "Abra",
+            pack: "Shining",
+            rare: "♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 29,
+            name: "Kadabra",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 30,
+            name: "Alakazam",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 31,
+            name: "Mr. Mime",
+            pack: "Shining",
+            rare: "♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 32,
+            name: "Drifloon",
+            pack: "Shining",
+            rare: "♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 33,
+            name: "Drifblim",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 34,
+            name: "Giratina ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 35,
+            name: "Gimmighoul",
+            pack: "Shining",
+            rare: "♢",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 36,
+            name: "Machop",
+            pack: "Shining",
+            rare: "♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 37,
+            name: "Machoke",
+            pack: "Shining",
+            rare: "♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 38,
+            name: "Machamp",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 39,
+            name: "Hitmonlee",
+            pack: "Shining",
+            rare: "♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 40,
+            name: "Hitmonchan",
+            pack: "Shining",
+            rare: "♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 41,
+            name: "Riolu",
+            pack: "Shining",
+            rare: "♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 42,
+            name: "Lucario ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 43,
+            name: "Flamigo",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 44,
+            name: "Ekans",
+            pack: "Shining",
+            rare: "♢",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 45,
+            name: "Arbok",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 46,
+            name: "Paldean Wooper",
+            pack: "Shining",
+            rare: "♢",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 47,
+            name: "Paldean Clodsire ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 48,
+            name: "Spiritomb",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 49,
+            name: "Shroodle",
+            pack: "Shining",
+            rare: "♢",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 50,
+            name: "Grafaiai",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 51,
+            name: "Tinkatink",
+            pack: "Shining",
+            rare: "♢",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 52,
+            name: "Tinkatuff",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 53,
+            name: "Tinkaton ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 54,
+            name: "Varoom",
+            pack: "Shining",
+            rare: "♢",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 55,
+            name: "Revavroom",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 56,
+            name: "Gholdengo",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 57,
+            name: "Rattata",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 58,
+            name: "Raticate",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 59,
+            name: "Jigglypuff",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 60,
+            name: "Wigglytuff",
+            pack: "Shining",
+            rare: "♢♢♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 61,
+            name: "Lickitung",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 62,
+            name: "Lickilicky",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 63,
+            name: "Bidoof",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 64,
+            name: "Bibarel ex",
+            pack: "Shining",
+            rare: "♢♢♢♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 65,
+            name: "Buneary",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 66,
+            name: "Lopunny",
+            pack: "Shining",
+            rare: "♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 67,
+            name: "Cyclizar",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 68,
+            name: "Iono",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 69,
+            name: "Pokemon Center Lady",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 70,
+            name: "Red",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 71,
+            name: "Team Rocket Grunt",
+            pack: "Shining",
+            rare: "♢♢",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 72,
+            name: "Meowscarada",
+            pack: "Shining",
+            rare: "☆",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 73,
+            name: "Buizel",
+            pack: "Shining",
+            rare: "☆",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 74,
+            name: "Tatsugiri",
+            pack: "Shining",
+            rare: "☆",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 75,
+            name: "Grafaiai",
+            pack: "Shining",
+            rare: "☆",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 76,
+            name: "Gholdengo",
+            pack: "Shining",
+            rare: "☆",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 77,
+            name: "Wigglytuff",
+            pack: "Shining",
+            rare: "☆",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 78,
+            name: "Beedrill ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 79,
+            name: "Charizard ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 80,
+            name: "Wugtrio ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 81,
+            name: "Pikachu ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 82,
+            name: "Giratina ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 83,
+            name: "Lucario ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 84,
+            name: "Paldean Clodsire ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 85,
+            name: "Tinkaton ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 86,
+            name: "Bibarel ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 87,
+            name: "Iono",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 88,
+            name: "Pokemon Center Lady",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 89,
+            name: "Red",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 90,
+            name: "Team Rocket Grunt",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "supporter"
+        },
+        {
+            eUsed: [],
+            id: 91,
+            name: "Pikachu ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 92,
+            name: "Paldean Clodsire ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "darkness"
+        },
+        {
+            eUsed: [],
+            id: 93,
+            name: "Tinkaton ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 94,
+            name: "Bibarel ex",
+            pack: "Shining",
+            rare: "☆☆",
+            type: "colorless"
+        },
+        {
+            eUsed: [],
+            id: 95,
+            name: "Giratina ex",
+            pack: "Shining",
+            rare: "☆☆☆",
+            type: "psychic"
+        },
+        {
+            eUsed: [],
+            id: 96,
+            name: "Weedle",
+            pack: "Shining",
+            rare: "✷",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 97,
+            name: "Kakuna",
+            pack: "Shining",
+            rare: "✷",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 98,
+            name: "Charmander",
+            pack: "Shining",
+            rare: "✷",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 99,
+            name: "Charmeleon",
+            pack: "Shining",
+            rare: "✷",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 100,
+            name: "Wiglett",
+            pack: "Shining",
+            rare: "✷",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 101,
+            name: "Dondozo",
+            pack: "Shining",
+            rare: "✷",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 102,
+            name: "Pachirisu",
+            pack: "Shining",
+            rare: "✷",
+            type: "electric"
+        },
+        {
+            eUsed: [],
+            id: 103,
+            name: "Riolu",
+            pack: "Shining",
+            rare: "✷",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 104,
+            name: "Varoom",
+            pack: "Shining",
+            rare: "✷",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 105,
+            name: "Revaroom",
+            pack: "Shining",
+            rare: "✷",
+            type: "metal"
+        },
+        {
+            eUsed: [],
+            id: 106,
+            name: "Beedrill ex",
+            pack: "Shining",
+            rare: "✷✷",
+            type: "grass"
+        },
+        {
+            eUsed: [],
+            id: 107,
+            name: "Charizard ex",
+            pack: "Shining",
+            rare: "✷✷",
+            type: "fire"
+        },
+        {
+            eUsed: [],
+            id: 108,
+            name: "Wugtrio ex",
+            pack: "Shining",
+            rare: "✷✷",
+            type: "water"
+        },
+        {
+            eUsed: [],
+            id: 109,
+            name: "Lucario ex",
+            pack: "Shining",
+            rare: "✷✷",
+            type: "fighting"
+        },
+        {
+            eUsed: [],
+            id: 110,
+            name: "Poke Ball",
+            pack: "Shining",
+            rare: "♛",
+            type: "item"
+        }],
+        "packs": []
+    },
     "A3": {
         "set": [],
         "packs": []
@@ -7284,11 +8175,96 @@ let cardSet = {
                 "eUsed": [
                     "colorless"
                 ]
+            },
+
+            {
+                "name": "Mewtwo ex",
+                "pack": "Mission",
+                "rare": "✷",
+                "id": 50,
+                "type": "psychic",
+                "eUsed": [
+                    "psychic"
+                ]
+            },
+            {
+                "name": "Cyclizar",
+                "pack": "Mission",
+                "rare": "✷",
+                "id": 51,
+                "type": "colorless",
+                "eUsed": ["colorless"]
+            },
+            {
+                "name": "Sprigatito",
+                "pack": "Mission",
+                "rare": "☆",
+                "id": 52,
+                "type": "grass",
+                "eUsed": ["grass"]
+            },
+            {
+                "name": "Floatzel",
+                "pack": "Promo Pack",
+                "rare": "♢",
+                "id": 53,
+                "type": "water",
+                "eUsed": ["water"]
+            },
+            {
+                "name": "Pawmot",
+                "pack": "Promo Pack",
+                "rare": "☆",
+                "id": 54,
+                "type": "electric",
+                "eUsed": ["electric"]
+            },
+            {
+                "name": "Machamp",
+                "pack": "Promo Pack",
+                "rare": "♢♢♢",
+                "id": 55,
+                "type": "fighting",
+                "eUsed": ["fighting"]
+            },
+            {
+                "name": "Ekans",
+                "pack": "Promo Pack",
+                "rare": "♢",
+                "id": 56,
+                "type": "darkness",
+                "eUsed": ["darkness"]
+            },
+            {
+                "name": "Bidoof",
+                "pack": "Promo Pack",
+                "rare": "♢",
+                "id": 57,
+                "type": "colorless",
+                "eUsed": ["colorless"]
+            },
+            {
+                "name": "Pachirisu",
+                "pack": "Wonder Pick",
+                "rare": "♢♢♢♢",
+                "id": 58,
+                "type": "electric",
+                "eUsed": ["electric"]
+            },
+            {
+                "name": "Riolu",
+                "pack": "Wonder Pick",
+                "rare": "♢♢♢",
+                "id": 59,
+                "type": "fighting",
+                "eUsed": ["fighting"]
             }
+
         ],
         "packs": []
     },
     "BLANK": {
+        "name": "Blank",
         "set": [],
         "packs": []
     },
@@ -7309,6 +8285,9 @@ let css = {
     },
     "A2a": {
         "Arceus": '#fff96e'
+    }, 
+    "A2b": {
+        "Shining": "#9bf444"
     },
     "A3": {
 
@@ -7352,6 +8331,7 @@ let filter = {
     "A1a": true,
     "A2": true,
     "A2a": true,
+    "A2b": true,
     "A3": true,
     "PROMO-A": true
 }
@@ -7375,7 +8355,9 @@ let rarities = {
     '☆☆': [0, 0, 0, 0.500, 2.000],
     '☆☆☆': [0, 0, 0, 0.222, 0.888],
     '♛': [0, 0, 0, 0.040, 0.160],
-    'Promo': [0, 0, 0, 0, 0]
+    'Promo': [0, 0, 0, 0, 0],
+    "✷": [0, 0, 0, 0, 0],
+    "✷✷": [0, 0, 0, 0, 0]
 }
 for (k in rarities) {
     rarityFilt[k] = true
@@ -7426,9 +8408,9 @@ if (save.PROMO) {
     save['PROMO-A'] = save.PROMO
     delete save.PROMO
 }
-if (!localStorage.save){
+if (!localStorage.save) {
     localStorage.save = JSON.stringify(save)
-} 
+}
 if (save.saveDate < JSON.parse(localStorage.save).saveDate) {
     save = JSON.parse(localStorage.save)
 } else {
@@ -7673,7 +8655,77 @@ $(document).ready(function () {
             $('.packStats').css('display', 'flex')
         }
     })
+    $("#downloadCSV").on("click", function () {
+        console.log('click')
+        downloadJSON();
+    });
 })
+
+function downloadJSON() {
+
+    let downloadSet = []
+    for (k in cardSet) {
+        for (p in cardSet[k].set) {
+            downloadSet.push({
+                "Normal": save[k].save[p],
+                "Foil": 0,
+                "Name": cardSet[k].set[p].name,
+                "Set": k,
+                "Number": Number(p) + 1
+            })
+        }
+
+    }
+
+    let downloadText = Object.keys(downloadSet[0]).join(',') + '\n'
+    for (l in downloadSet) {
+        downloadText += Object.values(downloadSet[l]).join(',') + '\n'
+    }
+
+
+
+    var textFile = null,
+        makeTextFile = function (text) {
+            var data = new Blob([text], {
+                type: "text/javascript"
+            });
+
+            // If we are replacing a previously generated file we need to
+            // manually revoke the object URL to avoid memory leaks.
+            if (textFile !== null) {
+                window.URL.revokeObjectURL(textFile);
+            }
+
+            textFile = window.URL.createObjectURL(data);
+
+            return textFile;
+        };
+
+    var create = document.getElementById("downloadCSV");
+    //textbox = document.getElementById('textbox');
+
+    create.addEventListener(
+        "click",
+        function () {
+            var link = document.createElement("a");
+            link.setAttribute("download", "collection.csv");
+            link.href = makeTextFile(
+                //"var character = " + JSON.stringify(character, null, 2)
+                downloadText
+            );
+            document.body.appendChild(link);
+
+            // wait for the link to be added to the document
+            window.requestAnimationFrame(function () {
+                var event = new MouseEvent("click");
+                link.dispatchEvent(event);
+                document.body.removeChild(link);
+            });
+        },
+        false
+    );
+}
+
 
 function getKeyByValue(object, value) { return Object.keys(object).filter(key => object[key] === value); }
 
@@ -7758,7 +8810,7 @@ function renderCollections() {
         let statTable = renderCollectionTable(k)
 
 
-        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"><div class="headerContainer-left"> <button id="' + k + '-CollectionHide" class="CollectionHide">Show Collection<br> Summary</button> </div> <div class="' + k + ' headerIMG" > </div></div> </div><div class="packStats" id="packStats-' + k + '">' + statTable + '</div><div class="collection">'
+        let output = '<div id="' + k + 'Header"><div class="header"><div class="headerContainer"><div class="headerContainer-left"> <button id="' + k + '-CollectionHide" class="CollectionHide">Show Collection<br> Summary</button> </div> <div class="' + k + ' headerIMG" > </div></div> </div><div class="packStats" id="packStats_' + k + '">' + statTable + '</div><div class="collection">'
 
         if (cardSet[k].set.length === 0) { render = false }
         for (i = 0; i < cardSet[k].set.length; i++) {
@@ -7774,8 +8826,11 @@ function renderCollections() {
             cardExtraClasses += k + '-' + cardSet[k].set[i].pack
             cardExtraClasses += " Filter-" + setNum + "-" + cardName
 
-
-            output += "<div class='card " + cardExtraClasses + "'><img class='cardArt " + k + "-" + setNum + "' id='" + k + "_" + setNum + "' src='https://static.dotgg.gg/pokepocket/card/" + k + "-" + setNum + ".webp'><div class='cardCount'>" + cardCount + "</div><div class='cardAdd cardButton'>+</div><div class='cardRemove cardButton'>-</div></div>"
+            let promoCheck = k
+            if (k.includes("PROMO-A")) {
+                promoCheck = "PROMO"
+            }
+            output += "<div class='card " + cardExtraClasses + "'><img class='cardArt " + k + "-" + setNum + "' id='" + k + "_" + setNum + "' src='https://static.dotgg.gg/pokepocket/card/" + promoCheck + "-" + setNum + ".webp'><div class='cardCount'>" + cardCount + "</div><div class='cardAdd cardButton'>+</div><div class='cardRemove cardButton'>-</div></div>"
         }
         output += "</div></div>"
         if (render) {
@@ -7829,7 +8884,6 @@ function updateCollections() {
                 cardTotal++
             }
         })*/
-
         $(this).html(renderCollectionTable(k))
     })
 
@@ -8110,6 +9164,9 @@ function calculateRarities() {
                     let cardSave = save[k].save[i]
                     if (cardSave === 0 && (card.pack === pk || card.pack === 'All')) {
                         for (l in /*rates[pk][card.rare]*/ chancePerCard) {
+                            if (rates[pk][card.rare] === undefined) {
+                                console.log(card.rare)
+                            }
                             chancePerCard[l] += rates[pk][card.rare][l]
                         }
                         for (l in chancePerCard) {
@@ -8231,8 +9288,8 @@ function NaNtoArray(arr) {
         if (isNaN(arr[a])) {
             arr[a] = 0
         }
-        return arr
     }
+    return arr
 }
 
 
