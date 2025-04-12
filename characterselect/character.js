@@ -4728,9 +4728,9 @@ var character = [
       "name": "Skylar",
       "firstName": "Skylar",
       "id": 53,
-      "icon": "icons/Skylar.png",
+      "icon": "icons/skylar.png",
       "icons": [
-         "icons/Skylar.png",
+         "icons/skylar.png",
          "icons/skylarred.png"
       ],
       "art": [
