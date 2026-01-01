@@ -4824,5 +4824,80 @@ var character = [
       "Notes": [
          ""
       ]
+   },
+   {
+      "name": "Dambi Yeon-Wol",
+      "firstName": "Yeon-Wol",
+      "id": 54,
+      "icon": "icons/YeonWol.png",
+      "icons": "",
+      "art": [
+         "art/heonwol.png"
+      ],
+      "class": [
+         "Rogue (Ninja)"
+      ],
+      "subclass": [
+         "thief"
+      ],
+      "background": "Close ties (Foundling)",
+      "race": "Kitsune (Kamaitachi)",
+      "role": [
+         "DPS"
+      ],
+      "orientation": "",
+      "pronouns": "He/Him",
+      "alignment": "Nuetral",
+      "stats": {
+         "birthday": "",
+         "age": "18",
+         "height": "",
+         "weight": 0,
+         "skin": "White Fur",
+         "eye": "Yellow",
+         "hair": "Dark Black"
+      },
+      "AU": {},
+      "backstory": {
+         "Quote": [
+            "---",
+            ""
+         ],
+         "Physical Description": [
+            ""
+         ],
+         "Personality": [
+            ""
+         ],
+         "Homes": [
+            ""
+         ],
+         "General Abilities": [
+            "<b></b> - "
+         ],
+         "Bio": [
+            ""
+         ],
+         "Important People": [
+            {
+               "": [
+                  ""
+               ]
+            }
+         ],
+         "Goals": [
+            {
+               "Minor": [
+                  ""
+               ],
+               "Major": [
+                  ""
+               ]
+            }
+         ]
+      },
+      "Notes": [
+         ""
+      ]
    }
 ]
