@@ -4752,9 +4752,9 @@ var character = [
       "alignment": "Good?",
       "stats": {
          "birthday": "September 16 2007",
-         "age": "16",
-         "height": "",
-         "weight": "",
+         "age": "17",
+         "height": "6'3''",
+         "weight": "250",
          "skin": "",
          "eye": "",
          "hair": ""
